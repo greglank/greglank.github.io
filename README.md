@@ -7,7 +7,7 @@ Python, Java
 scikit-learn, Keras/TensorFlow
 ### Relational Databases
 MySQL, SQLite
-Statistical and Numerical Analysis
+### Statistical and Numerical Analysis
 NumPy, SPSS, MATLAB, Octave
 * Publication highlight: Lankenau, Greg. 2018. “Fostering Connectedness to Nature in Higher Education.” Environmental Education Research 24 (2): 230–44. doi:10.1080/13504622.2016.1225674 [link]
 ### Data Analysis
