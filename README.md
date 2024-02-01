@@ -42,7 +42,11 @@ Peer-reviweed study that uses quantitative statistical analysis to demonstrate t
 ## Technical Skills
 ### Programming
 Python, Java  
-* Projects: Poker Hand History Parser and Database | Poker AI and Machine Learning Insights | NCAA March Madness Pool Optimizer
+  
+Projects:
+* Poker Hand History Parser and Database
+* Poker AI and Machine Learning Insights
+* NCAA March Madness Pool Optimizer
   
 ### Machine Learning and Neural Networks
 scikit-learn, Keras/TensorFlow  
