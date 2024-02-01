@@ -5,12 +5,12 @@ About Me
 ### Poker Hand History Parser and Database
 Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database  
   
-<img src="./Parser.png" alt="Python script" width="200" height="200">
+<img src="./parser.png" alt="Python script" width="200" height="200">
 
 ### Poker Visualization
 Tableau workbook that visualizes poker player strategies and statistics for better decision-making [[link]](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)  
 
-<img src="./Tableau-Running.png" alt="Tableau screenshot" width="200" height="200">
+<img src="./tableau-running.png" alt="Tableau screenshot" width="200" height="200">
 
 ### Poker AI and Machine Learning Insights
 Coming Soon
