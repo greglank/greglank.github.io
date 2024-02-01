@@ -1,4 +1,4 @@
-# grendel3.github.io
+# Greg Lankenau: Not Your Ordinary Data Scientist
 Data science portfolio
 ## Technical Skills
 ### Programming
