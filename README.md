@@ -8,7 +8,7 @@ Python script that cleans and parses poker hand histories from PokerNow and load
 <img src="images/poker.png" alt="Poker screenshot" width="200" height="200">
 
 ### Poker Visualization
-Tableau workbook that leverages SQLite queries to visualize poker player strategies and statistics for better decision-making [[link]](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)  
+Tableau workbook that leverages SQL database queries to visualize poker player strategies and statistics [[link]](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)  
 
 <img src="images/tableau-running.png" alt="Tableau screenshot" width="200" height="200">
 
