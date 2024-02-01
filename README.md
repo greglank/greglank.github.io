@@ -1,4 +1,5 @@
-# Greg Lankenau: Not Your Ordinary Data Scientist
+# Greg Lankenau  
+# Not Your Ordinary Data Scientist
 Data science portfolio
 ## Technical Skills
 ### Programming
