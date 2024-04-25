@@ -1,4 +1,5 @@
 ---
+theme: jekyll-theme-minimal
 layout: page
 title: Poker Hand History Parser and Database
 ---
