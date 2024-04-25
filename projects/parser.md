@@ -1,3 +1,7 @@
+layout: page
+title: "Poker Hand History Parser and Database"
+permalink: /pages/
+
 # Poker Hand History Parser and Database
 Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis
 
