@@ -1,11 +1,35 @@
-*October 25, 2023*
+# COVID-19: What You Can Do
 
-*Updated with current sources on April 4, 2024*
+*Sources updated on April 4, 2024*
 
-*Background: In October 2023, I attended a concert in Las Vegas (U2 at
-the Sphere -- amazing!). A number of my poker-playing friends wanted to
-hear about the experience, so I wrote an email to my poker group talking
-about the concert and my poker-playing adventures.*
+## Overview
+
+This is a lightly-edited adaptation of an email I wrote to my poker group on October 25, 2023. I am including it in my data science portfolio because I think it does a nice job encapsulating
+- How data can inform good decision-making in all aspects of life
+- How I write and communicate (yes, I include headers and formatted links in my emails!)
+- Who I am and what I value
+
+I am not an expert on COVID-19, but I do try to make decisions based on the best available evidence. If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more accessible, and/or more effectively communicated) than what I have, please let me know and I will update this page!
+
+### TL;DR Links
+
+This email is long and I have included a gaggle of links. Links are important for supporting my claims with evidence and for providing you with resources about any topic that you would like to dig into a bit more, but if you don't know where to start, here is a short list of what I consider to be the best resources. All of these are accessible for a general audience; for more rigorous scientific studies and meta analyses, check out the rest of the email. :)
+
+- **Current prevalence of COVID-19 in the U.S.:** The People's CDC and their weekly [COVID-19 Weather Report](https://peoplescdc.org/weatherreports/)
+- **Overview of Long COVID effects:** The summary from Johns Hopkins Medicine: [Long COVID: Long-Term Effects of COVID-19](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/covid-long-haulers-long-term-effects-of-covid19)
+- **Long-term effects of COVID-19 on the brain:** Ziyad Al-Aly's article in The Conversation: [Mounting research shows that COVID-19 leaves its mark on the brain, including with significant drops in IQ scores](https://theconversation.com/mounting-research-shows-that-covid-19-leaves-its-mark-on-the-brain-including-with-significant-drops-in-iq-scores-224216)
+- **Reframing COVID-19 as a matter of public health** (instead of as an individual "choice"): Ed Yong's article in The Atlantic: [The Fundamental Question of the Pandemic is Shifting](https://www.theatlantic.com/health/archive/2021/06/individualism-still-spoiling-pandemic-response/619133/)
+- **Layers of protection:** The People's CDC and their [Layers of Protection](https://peoplescdc.org/2022/09/12/layers-of-protection/) page
+- **How masking works, why it's important, and where to find high-quality masks:** The People's CDC and their [Masking page](https://peoplescdc.org/2022/09/12/masking/)
+    -- Default gold standard: [3M Aura N95](https://www.amazon.com/gp/product/B095FJ36H2)
+    -- Convenient alternative: [Generic KF94](https://www.amazon.com/Packs-PUREMATE-Individual-Wrapped-Pattern/dp/B09HV14Q1R)
+- **Choosing an air filter for COVID-19:** Guide from the National Institute of Environmental Health Sciences: [Selection and Use of Portable Air Cleaners](https://tools.niehs.nih.gov/wetp/public/hasl_get_blob.cfm?ID=13021)
+    -- Easy version: A HEPA filter like the [Levoit Core 200S](https://www.amazon.com/gp/product/B08FJ678YK) (or larger)
+    -- Cheapo version: Build a [Corsi-Rosenthal box](https://cleanaircrew.org/box-fan-filters/)
+
+## Background
+
+In October 2023, I attended a concert in Las Vegas (U2 at the Sphere -- amazing!). A number of my poker-playing friends wanted to hear about the experience, so I wrote an email to my poker group talking about the concert and my poker-playing adventures.
 
 *Most of my poker group lives in Boston. They have been trying to
 convince me to visit them for a long time, but I have cited the COVID-19
@@ -395,62 +419,3 @@ happen in the summer of 2024!
 
 ## Appendix: Best Resources
 
-You may have noticed that this email includes tons of links. In part,
-that's because I am modeling the single most important thing I can teach
-my students: claims should always be based on the best available
-evidence!
-
-Beyond that, I wanted to provide you with resources for any topic that
-you wanted to dig into a bit more. But I may have provided so many
-resources that you don't know where to start, so here is a short list of
-what I consider to be the best resources. All of these are accessible
-for a general audience; for more rigorous scientific studies and meta
-analyses, check out the rest of the email. :)
-
-**\
-**
-
-**Short list of best resources**
-
--   **Current prevalence of COVID-19 in the U.S.:** The People's CDC and
-    their weekly [COVID-19 Weather
-    Report](https://peoplescdc.org/weatherreports/)
-
--   **Overview of Long COVID effects:** The summary from Johns Hopkins
-    Medicine: [Long COVID: Long-Term Effects of
-    COVID-19](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/covid-long-haulers-long-term-effects-of-covid19)
-
--   **Long-term effects of COVID-19 on the brain:** Ziyad Al-Aly's
-    article in The Conversation: [Mounting research shows that COVID-19
-    leaves its mark on the brain, including with significant drops in IQ
-    scores](https://theconversation.com/mounting-research-shows-that-covid-19-leaves-its-mark-on-the-brain-including-with-significant-drops-in-iq-scores-224216)
-
--   **Reframing COVID-19 as a matter of public health** (instead of as
-    an individual "choice"): Ed Yong's article in The Atlantic: [The
-    Fundamental Question of the Pandemic is
-    Shifting](https://www.theatlantic.com/health/archive/2021/06/individualism-still-spoiling-pandemic-response/619133/)
-
--   **Layers of protection:** The People's CDC and their [Layers of
-    Protection](https://peoplescdc.org/2022/09/12/layers-of-protection/)
-    page
-
--   **How masking works, why it's important, and where to find
-    high-quality masks:** The People's CDC and their [Masking
-    page](https://peoplescdc.org/2022/09/12/masking/)
-
-    -   Default gold standard: [3M Aura
-        N95](https://www.amazon.com/gp/product/B095FJ36H2)
-
-    -   Convenient alternative: [Generic
-        KF94](https://www.amazon.com/Packs-PUREMATE-Individual-Wrapped-Pattern/dp/B09HV14Q1R)
-
--   **Choosing an air filter for COVID-19:** Guide from the National
-    Institute of Environmental Health Sciences: [Selection and Use of
-    Portable Air
-    Cleaners](https://tools.niehs.nih.gov/wetp/public/hasl_get_blob.cfm?ID=13021)
-
-    -   Easy version: A HEPA filter like the [Levoit Core
-        200S](https://www.amazon.com/gp/product/B08FJ678YK) (or larger)
-
-    -   Cheapo version: Build a [Corsi-Rosenthal
-        box](https://cleanaircrew.org/box-fan-filters/)
