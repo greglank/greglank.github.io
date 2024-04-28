@@ -1,8 +1,9 @@
 ---
 theme: jekyll-theme-minimal
-layout: page
+layout: default
 title: Poker Hand History Parser and Database
 ---
+*This is the root parser.md*
 
 # Poker Hand History Parser and Database
 Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis

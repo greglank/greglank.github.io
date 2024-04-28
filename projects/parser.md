@@ -2,6 +2,8 @@ layout: page
 title: "Poker Hand History Parser and Database"
 filename: parser.md
 
+*This is the folder parser.md*
+
 # Poker Hand History Parser and Database
 Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis
 
