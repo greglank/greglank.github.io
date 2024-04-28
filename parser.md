@@ -1,6 +1,6 @@
 ---
 theme: jekyll-theme-minimal
-layout: page
+layout: default
 title: Poker Hand History Parser and Database
 ---
 *This is the root parser.md*
