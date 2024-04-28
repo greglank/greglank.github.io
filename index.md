@@ -1,12 +1,9 @@
 # Projects
 
 ## Links
-* <a href="grendel3.github.io/parser">grendel3.github.io/parser</a>
-* <a href="grendel3.github.io/parser.html">grendel3.github.io/parser.html</a>
 * <a href="parser">parser</a>
-* <a href="parser.html">parser.html</a>
-* <a href="/parser">/parser</a>
-* <a href="/parser.html">/parser.html</a>
+* <a href="about">about</a>
+* <a href="COVID-19">COVID-19</a>
 
 ## Poker Hand History Parser and Database
 Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis  
