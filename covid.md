@@ -114,7 +114,7 @@ The basic CR box is great, but loud (white noise machine, remember) and ugly as 
 
 ## Stopping the Spread of the Virus
 
-I used the CR boxes, masking, open windows, and social distancing (sleeping in the guest room/office) after I returned, because that's the biggest lesson of all from the medical and scientific community: ***this is how we stop the spread of the virus.***
+I used the CR boxes, masking, open windows, and social distancing (sleeping in the guest room/office) after I returned from my Vegas trip, because that's the biggest lesson of all from the medical and scientific community: ***this is how we stop the spread of the virus.***
 
 I don't want to get COVID-19, but more importantly, I don't want *anyone* to get COVID-19, especially the people I care about the most (and for those who have already had it, I don't want them to get it again). I don't want to contribute to the virus's spread, and I don't want to contribute to the virus's continued evolution. I don't want people who are immunocompromised to live trapped inside their houses forever. I want to do the right thing, and I want to help other people
 do the same!
