@@ -4,16 +4,30 @@
 
 ## Overview
 
-This is a lightly-edited adaptation of an email I wrote to my poker group on October 25, 2023. I am including it in my data science portfolio because I think it does a nice job encapsulating
+This is a lightly-edited adaptation of an email I wrote to my poker group. I am including it in my data science portfolio because I think it does a nice job encapsulating
 - How data can inform good decision-making in all aspects of life
 - How I write and communicate (yes, I include headers and formatted links in my emails!)
 - Who I am and what I value
 
-I am not an expert on COVID-19, but I do try to make decisions based on the best available evidence. If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more accessible, and/or more effectively communicated) than what I have, please let me know and I will update this page!
+I am not an expert on COVID-19, but I do try to make decisions based on the best available evidence. If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more rigorous, more accessible, and/or more effectively communicated) than what I have, please let me know and I will update this page!
 
-### TL;DR Links
+### Email Context
 
-This email is long and I have included a gaggle of links. Links are important for supporting my claims with evidence and for providing you with resources about any topic that you would like to dig into a bit more, but if you don't know where to start, here is a short list of what I consider to be the best resources. All of these are accessible for a general audience; for more rigorous scientific studies and meta analyses, check out the rest of the email. :)
+In October 2023, I attended a concert in Las Vegas (U2 at the Sphere -- amazing!). A number of my poker-playing friends wanted to hear about the experience, so I wrote an email to the group talking about the concert and my poker-playing adventures.
+
+In a follow-up email I also wrote a description of what I did behind the scenes to make the concert trip safer in the era of COVID-19. [From a sociological perspective](https://www.agjohnson.us/glad/arent-systems-just-people/), I stepped off the path of least resistance by taking COVID-19 precautions, and I needed to be vocal and visible about why.
+
+My follow-up email is below, lightly edited and with some updated sources. Enjoy!
+
+# Greg's COVID-19 Email
+
+All right, I know you all have been waiting in suspense for the Vegas Follow-Up Email!
+
+I think it's important to start shifting the social norms around COVID-19 to a more open and frank discussion of what it looks like to act responsibly while engaging in the activities that we enjoy. If I share my U2 story without sharing the activities that happened behind the scenes to make it relatively safer, then that just gives the false impression that it's not necessary to take any steps at all. So let's start that frank and open discussion!
+
+## TL;DR Links
+
+This email is long and includes a gaggle of links. Links are important for supporting my claims with evidence and for providing you with resources about any topic that you would like to dig into a bit more, but if you don't know where to start, here is a short list of what I consider to be the best resources. All of these are accessible for a general audience; for more rigorous scientific studies and meta analyses, check out the rest of the email. :)
 
 - **Current prevalence of COVID-19 in the U.S.:** The People's CDC and their weekly [COVID-19 Weather Report](https://peoplescdc.org/weatherreports/)
 - **Overview of Long COVID effects:** The summary from Johns Hopkins Medicine: [Long COVID: Long-Term Effects of COVID-19](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/covid-long-haulers-long-term-effects-of-covid19)
@@ -21,132 +35,27 @@ This email is long and I have included a gaggle of links. Links are important fo
 - **Reframing COVID-19 as a matter of public health** (instead of as an individual "choice"): Ed Yong's article in The Atlantic: [The Fundamental Question of the Pandemic is Shifting](https://www.theatlantic.com/health/archive/2021/06/individualism-still-spoiling-pandemic-response/619133/)
 - **Layers of protection:** The People's CDC and their [Layers of Protection](https://peoplescdc.org/2022/09/12/layers-of-protection/) page
 - **How masking works, why it's important, and where to find high-quality masks:** The People's CDC and their [Masking page](https://peoplescdc.org/2022/09/12/masking/)
-    -- Default gold standard: [3M Aura N95](https://www.amazon.com/gp/product/B095FJ36H2)
-    -- Convenient alternative: [Generic KF94](https://www.amazon.com/Packs-PUREMATE-Individual-Wrapped-Pattern/dp/B09HV14Q1R)
+    - Default gold standard: [3M Aura N95](https://www.amazon.com/gp/product/B095FJ36H2)
+    - Convenient alternative: [Generic KF94](https://www.amazon.com/Packs-PUREMATE-Individual-Wrapped-Pattern/dp/B09HV14Q1R)
 - **Choosing an air filter for COVID-19:** Guide from the National Institute of Environmental Health Sciences: [Selection and Use of Portable Air Cleaners](https://tools.niehs.nih.gov/wetp/public/hasl_get_blob.cfm?ID=13021)
-    -- Easy version: A HEPA filter like the [Levoit Core 200S](https://www.amazon.com/gp/product/B08FJ678YK) (or larger)
-    -- Cheapo version: Build a [Corsi-Rosenthal box](https://cleanaircrew.org/box-fan-filters/)
+    - Easy version: A HEPA filter like the [Levoit Core 200S](https://www.amazon.com/gp/product/B08FJ678YK) (or larger)
+    - Cheapo version: Build a [Corsi-Rosenthal box](https://cleanaircrew.org/box-fan-filters/)
 
-## Background
+## What Greg Teaches His Students
 
-In October 2023, I attended a concert in Las Vegas (U2 at the Sphere -- amazing!). A number of my poker-playing friends wanted to hear about the experience, so I wrote an email to my poker group talking about the concert and my poker-playing adventures.
+I teach a course on scientific and information literacy and a course on gender communication, and one of our case studies in each class is COVID-19. There is a lot that the medical and scientific community knows regarding COVID-19 that we don't hear much about, in part because it's not good news, and most people are exhausted by all the bad news and just want to live their lives.
 
-*Most of my poker group lives in Boston. They have been trying to
-convince me to visit them for a long time, but I have cited the COVID-19
-risks of flying cross-country as one of the barriers preventing me from
-doing so. After reading the concert email, a poker-playing friend teased
-me about my willingness to attend the concert but not visit them.*
+It takes courage to look at the medical and scientific evidence, and it takes courage to adjust our behavior in light of that evidence. Here are the big four takeaway messages that my course emphasizes about the medical and scientific evidence of COVID-19, complete with links if you would like more information:
 
-*I used that teasing to help frame a very important follow-up email that
-I planned to write anyway: a description of what I did behind the scenes
-to make the concert trip safer in the era of COVID-19. As I say in the
-follow-up email, I think it's vitally important to shift social norms by
-talking openly and frankly about COVID-19 and public health. In the
-words of Allan Johnson, I stepped off the path of least resistance by
-taking COVID-19 precautions, and I needed to be vocal and visible about
-why.*
+**1. COVID-19 is widespread in the United States.** We hear less about the prevalence of COVID-19 now in part because public health agencies like the CDC have actually [stopped monitoring](https://www.forbes.com/sites/brucelee/2023/04/29/cdc-will-stop-tracking-covid-19-community-levels-here-are-the-problems/?sh=32a4dc4e4bb3) community-level transmission of the virus. But *not knowing* about it does not make the virus disappear! The best information we have comes from analyzing wastewater; currently, [national wastewater data](https://biobot.io/data/) shows many times higher levels of SARS-CoV-2 (the virus that causes COVID-19) than in May 2021. The weekly [COVID-19 Weather Report](https://peoplescdc.org/weatherreports/) from The People's CDC is my go-to source for the most up-to-date information about COVID-19 in the U.S.
 
-*\
-Here is that follow-up email, lightly edited and with some updated
-sources. Enjoy!*
+**2. The long-term health risks of COVID-19 are serious, even for mild cases.** COVID-19 is responsible for over [a million deaths](https://covid.cdc.gov/covid-data-tracker/#trends_totaldeaths_select_00) in the United States (more than suffering a new September 11 terrorist attack every day for a year), which is an incredible loss. But perhaps more insidious is that even mild cases of COVID-19 lead to long-term health effects ("long COVID") for somewhere between [one in ten](https://jamanetwork.com/journals/jama/fullarticle/2805540) and [one in three](https://academic.oup.com/jid/article/226/9/1593/6569364) people, including [children and adolescents](https://www.cidrap.umn.edu/covid-19/not-little-adults-experts-say-long-covid-undercounted-misdiagnosed-kids). Every COVID-19 infection, even a mild one, carries the risk of long COVID; [90% of people](https://theconversation.com/long-covid-stemmed-from-mild-cases-of-covid-19-in-most-people-according-to-a-new-multicountry-study-195707) living with long COVID initially experienced only a mild case of COVID-19. People who contract COVID-19 more than once are [particularly
+at risk](https://medicine.wustl.edu/news/repeat-covid-19-infections-increase-risk-of-organ-failure-death/).
 
-All right, I know you all have been waiting in suspense for the Vegas
-Follow-Up Email!
-
-First, I\'d like to address \[Player X\]\'s comment:
-
-> *I will end with the question that is on everyone\'s mind, and it
-> isn\'t about poker.  You flew in a plane twice (i.e. round-trip) which
-> is a petri dish for traveling.  You were then jammed packed in the
-> Sphere with 20,000 people screaming at the top of their lungs and
-> spittle flying everywhere.  If that wasn\'t enough, you sat at tables
-> with drunk, sleep-deprived degenerate players who most likely didn\'t
-> wash their hands after using the commode.  The chips that you then won
-> and hence touched most likely had urine and fecal matter on them.  And
-> the question is - You mentioned that you are concerned about flying to
-> Boston due to health concerns, what were they again? *
-
-I know that this was mostly a good-natured ribbing trying to convince me
-to visit Boston (every time someone says, \"When are you coming to
-Boston, you asshole?\" I hear, \"I love you\"), but I will address it! I
-think it\'s important to start shifting the social norms around COVID-19
-to a more open and frank discussion of what it looks like to act
-responsibly while engaging in the activities that we enjoy. If I share
-my U2 story without sharing the activities that happened behind the
-scenes to make it relatively safer, then that just gives the false
-impression that it\'s not necessary to take any steps at all. So let\'s
-start that frank and open discussion!
-
-**\
-**
-
-# What Greg Teaches His Students
-
-I teach a course on scientific and information literacy and a course on
-gender communication, and one of our case studies in each class is
-COVID-19. There is a lot that the medical and scientific community knows
-regarding COVID-19 that we don\'t hear much about, in part because it\'s
-not good news, and most people are exhausted by all the bad news and
-just want to live their lives. It takes courage to look at the medical
-and scientific evidence, and it takes courage to adjust our behavior in
-light of that evidence. Here are the big four takeaway messages that my
-course emphasizes about the medical and scientific evidence of COVID-19,
-complete with links if you would like more information:
-
-**1. COVID-19 is widespread in the United States.** We hear less about
-the prevalence of COVID-19 now in part because public health agencies
-like the CDC have actually [[stopped
-monitoring]{.underline}](https://www.forbes.com/sites/brucelee/2023/04/29/cdc-will-stop-tracking-covid-19-community-levels-here-are-the-problems/?sh=32a4dc4e4bb3)
-community-level transmission of the virus. But *not knowing* about it
-does not make the virus disappear! The best information we have comes
-from analyzing wastewater; currently, [[national wastewater
-data]{.underline}](https://biobot.io/data/) shows about ten times higher
-levels of SARS-CoV-2 (the virus that causes COVID-19) than in May 2021.
-The weekly [[COVID-19 Weather
-Report]{.underline}](https://peoplescdc.org/weatherreports/) from The
-People's CDC is my go-to source for the most up-to-date information
-about COVID-19 in the U.S.
-
-**2. The long-term health risks of COVID-19 are serious, even for mild
-cases.** COVID-19 is responsible for over [[a million
-deaths]{.underline}](https://covid.cdc.gov/covid-data-tracker/#trends_totaldeaths_select_00)
-in the United States (more than suffering a new September 11 terrorist
-attack every day for a year), which is an incredible loss. But perhaps
-more insidious is that even mild cases of COVID-19 lead to long-term
-health effects (\"long COVID\") for somewhere between [[one in
-ten]{.underline}](https://jamanetwork.com/journals/jama/fullarticle/2805540)
-and [[one in
-three]{.underline}](https://academic.oup.com/jid/article/226/9/1593/6569364)
-people, including [[children and
-adolescents]{.underline}](https://www.cidrap.umn.edu/covid-19/not-little-adults-experts-say-long-covid-undercounted-misdiagnosed-kids).
-Every COVID-19 infection, even a mild one, carries the risk of long
-COVID; [[90% of
-people]{.underline}](https://theconversation.com/long-covid-stemmed-from-mild-cases-of-covid-19-in-most-people-according-to-a-new-multicountry-study-195707)
-living with long COVID initially experienced only a mild case of
-COVID-19. People who contract COVID-19 more than once are [[particularly
-at
-risk]{.underline}](https://medicine.wustl.edu/news/repeat-covid-19-infections-increase-risk-of-organ-failure-death/).\
-\
-Long COVID presents with [[dozens of long-term
-symptoms]{.underline}](https://www.nature.com/articles/s41591-022-01909-w),
-indicating [[damage to
-organs]{.underline}](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/covid-long-haulers-long-term-effects-of-covid19)
-like the brain, lungs, heart, kidneys, liver, and/or [[multiorgan
-effects]{.underline}](https://www.jacc.org/doi/abs/10.1016/j.jacbts.2021.07.002)
-that involve many body systems. I don\'t think the implications of long
-COVID are talked about enough; personally, I find the
-[[long-term]{.underline}](https://www.npr.org/sections/health-shots/2023/11/13/1211989263/pain-fatigue-brain-fog-long-covid-neurological-effects)
-effects [[on the
-brain]{.underline}](https://link.springer.com/article/10.1007/s00439-023-02549-x)
-the most disturbing (including a measurable [drop in IQ
-scores](https://theconversation.com/mounting-research-shows-that-covid-19-leaves-its-mark-on-the-brain-including-with-significant-drops-in-iq-scores-224216)).
-When juggling large amounts of emerging scientific information, I look
-to meta-analysis studies for the most complete and rigorous (though
-highly technical) analysis, such as [[Davis et al. in
-*Nature*]{.underline}](https://www.nature.com/articles/s41579-022-00846-2).
-But I also like to consider the human element, like this Guardian piece
-about readers who are [[living with long
-COVID]{.underline}](https://www.theguardian.com/society/2022/oct/25/long-covid-fight-guardian-readers).
+Long COVID presents with [dozens of long-term symptoms](https://www.nature.com/articles/s41591-022-01909-w), indicating [damage to organs](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/covid-long-haulers-long-term-effects-of-covid19) like the brain, lungs, heart, kidneys, liver, and/or [multiorgan effects](https://www.jacc.org/doi/abs/10.1016/j.jacbts.2021.07.002) that involve many body systems. I don't think the implications of long
+COVID are talked about enough; personally, I find the [long-term](https://www.npr.org/sections/health-shots/2023/11/13/1211989263/pain-fatigue-brain-fog-long-covid-neurological-effects) effects [on the brain](https://link.springer.com/article/10.1007/s00439-023-02549-x) the most disturbing (including a measurable [drop in IQ
+scores](https://theconversation.com/mounting-research-shows-that-covid-19-leaves-its-mark-on-the-brain-including-with-significant-drops-in-iq-scores-224216)). When juggling large amounts of emerging scientific information, I look to meta-analysis studies for the most complete and rigorous (though highly technical) analysis, such as [Davis et al. in *Nature*](https://www.nature.com/articles/s41579-022-00846-2). But I also like to consider the human element, like this Guardian piece
+about readers who are [living with long COVID](https://www.theguardian.com/society/2022/oct/25/long-covid-fight-guardian-readers).
 
 **3. Good masks and good ventilation are effective at preventing the
 spread of COVID-19.** This isn\'t all doom and gloom! This is actually
