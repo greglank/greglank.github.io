@@ -112,14 +112,14 @@ The basic CR box is great, but loud (white noise machine, remember) and ugly as 
     - PC fan CR box
     - I love these friggin' things, and after I returned from Vegas I kept the PC fan boxes running 24/7 in whatever room I was hanging out in (unmasked in my own office/bedroom and while eating, but masked otherwise). However, they were a lot more difficult to build than I expected, and they weren't cheap (I built two because the economies of scale worked better that way), so I'd only recommend the PC fan option for die-hard DIYers or for people who really want silent air filters. I used [140mm Arctic fans](https://www.amazon.com/gp/product/B07HCKWF2X), which are larger than the ones used in the linked instructions; let me know if you want to go down this route, and I'll give you some pointers I learned the hard way.
 
-### Stopping the Spread of the Virus
+## Stopping the Spread of the Virus
 
 I used the CR boxes, masking, open windows, and social distancing (sleeping in the guest room/office) after I returned, because that's the biggest lesson of all from the medical and scientific community: ***this is how we stop the spread of the virus.***
 
 I don't want to get COVID-19, but more importantly, I don't want *anyone* to get COVID-19, especially the people I care about the most (and for those who have already had it, I don't want them to get it again). I don't want to contribute to the virus's spread, and I don't want to contribute to the virus's continued evolution. I don't want people who are immunocompromised to live trapped inside their houses forever. I want to do the right thing, and I want to help other people
 do the same!
 
-## Attending the Concert... And Other Cool Things
+### Attending the Concert... And Other Cool Things
 
 Masking and ventilation are two things you and I can do to stop the spread of the virus, and are two of the layers in the [layers of protection](https://peoplescdc.org/2022/09/12/layers-of-protection/) that can protect everyone's health. Other layers include vaccination, testing, and limiting our and others' exposure. All together, these layers are what went on behind the scenes to make attending the U2 concert relatively safer for me and everyone around me.
 
