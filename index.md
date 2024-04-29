@@ -7,19 +7,19 @@ Python script that cleans and parses poker hand histories from PokerNow and load
   
   
 ## [Poker Visualization](visualization)
-Tableau workbook that leverages SQL database queries to visualize poker player strategies and statistics for better decision-making [[link]](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)  
+Tableau workbook that draws from a SQLite database to visualize poker player strategies and statistics for better decision-making
 
 <a href="visualization"><img src="images/tableau-running.png" alt="Tableau screenshot" width="60%"></a>
   
   
 ## [Poker AI and Machine Learning Insights](ai)
-Coming Soon  
+Coming soon...
 
 <a href="ai"><img src="images/range.png" alt="Starting hands screenshot" width="60%"></a>
   
   
 ## [NCAA March Madness Pool Optimizer](ncaa)
-Java program that picks the optimal NCAA basketball tournament bracket for the typical office pool  
+Java program that picks the optimal NCAA basketball tournament bracket for a typical office pool  
 
 <a href="ncaa"><img src="images/bracket-small.png" alt="NCAA bracket screenshot" width="60%"></a>
   
