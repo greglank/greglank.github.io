@@ -8,7 +8,7 @@ title: Poker Hand History Parser and Database
 
 Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis
 
-<img src="images/poker.png" alt="Poker screenshot" width="300" height="300">
+<img src="images/poker.png" alt="Poker screenshot" width="60%">
 
 ### Skills
 - Programming (Python)
@@ -30,3 +30,4 @@ The resulting SQLite database can be queried for analysis, and is used as the ba
 
 This project started as a personal project for my poker group, but I would like to expand it and make the code publicly available as open-source on GitHub. I plan to add a more robust set of database inputs and outputs, such as a GUI for the database so users can look up queries without having to know SQL or the database structure, and a hand history converter that can output hands to a more common hand history format, like Poker Stars, so players can convert their PokerNow hand histories to a format that is more widely recognized by other software tools.
 
+<img src="images/flowchart.jpg" alt="Poker database flowchart: future directions" width="100%">
