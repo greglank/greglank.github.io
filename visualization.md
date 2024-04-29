@@ -1,31 +1,20 @@
-# Poker Hand History Parser and Database
+# Poker Visualization
 
 ## Overview
 
-Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis
+Tableau workbook that draws from a SQLite database to visualize poker player strategies and statistics for better decision-making
 
-<img src="images/poker.png" alt="Poker screenshot" width="60%">
+<img src="images/tableau-running.png" alt="Tableau screenshot" width="60%">
 
 ### Skills
-- Programming (Python)
+- Visualization (Tableau)
 - Relational databases (MySQL)
+- Programming (Python)
 
 ### Background
 
-I have been playing poker (no limit Texas hold 'em) online with a group of friends at least twice a week since spring 2020. We play using the online platform, PokerNow, which provides downloadable hand histories that contain a record of all the hands that the group played and all the players' actions that happened within them. Per year, we play approximately 100,000 hands with a total of approximately 1.35 million player actions.
-
-The hand histories are downloadable but are deleted from the PokerNow server after five days. Beginning in January, 2021, I started downloading the hand histories after each session in order to save them for group recordkeeping and analysis.
+This project builds on my [Poker Hand History Parser and Database](parser). The parser reads PokerNow hand histories into a SQLite database, and the resulting database can be used as the basis for additional projects, such as visuzalization. Visuzalization is a handy tool to both summarize what happened in the past (e.g., who won or lost over time) and provide key metrics to inform future-decision making.
 
 ## Project Description
 
-I wrote a hand history parser in Python to clean the PokerNow hand history CSV files and load them into a SQLite database. One of the challenges is that the hand histories are not standardized and change over time as features are added or modified on PokerNow. Additionally, sometimes player actions are missing in the hand histories, which meant that I had to use my domain knowledge of poker to build an internal logic into the parser that recognizes when an action is missing or incorrect and automatically corrects it when possible.
-
-The resulting SQLite database can be queried for analysis, and is used as the basis for the Poker Visualization and Poker AI and Machine Learning Insights projects.
-
-### Future Plans
-
-This project started as a personal project for my poker group, but I would like to expand it and make the code publicly available as open-source on GitHub. I plan to add a more robust set of database inputs and outputs, such as a GUI for the database so users can look up queries without having to know SQL or the database structure, and a hand history converter that can output hands to a more common hand history format, like Poker Stars, so players can convert their PokerNow hand histories to a format that is more widely recognized by other software tools.
-
-<a href="images/database-flowchart.jpg"><img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions" width="100%"></a>
-
-*Flowchart adapted from [Multi Input Output Process](https://poweredtemplate.com/multi-input-output-process-80158/)*
+I created a public Tableau workbook that visualizes key summary statistics from my online poker group's games of no limit Texas hold 'em. The link to the workbook is here: [Rebuy Club | Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
