@@ -11,6 +11,8 @@ This is a lightly-edited adaptation of an email I wrote to my poker group. I am 
 
 I am not an expert on COVID-19, but I do try to make decisions based on the best available evidence. If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more rigorous, more accessible, and/or more effectively communicated), please let me know and I will update this page!
 
+For another example of my communication style, see my [NCAA March Madness Pool Optimizer](ncaa) project.
+
 ### Email Context
 
 In October 2023, I attended a concert in Las Vegas (U2 at the Sphere -- amazing!). I play poker regularly with an online group that uses audio/video chat via Discord while playing. A number of my poker-playing friends wanted to hear about the experience, so I wrote an email to the group talking about the concert and my poker-playing adventures.
