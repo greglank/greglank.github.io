@@ -82,7 +82,7 @@ KF94 (made in Korea) and KN95 (made in China) masks are tested to filter at leas
 #### The fashionable option: [MaskLab KF94](https://masklab.us/collections/kf-series)
 I don't teach in any ol' KF94; I teach in fashionable KF94 masks from MaskLab that are color-coordinated to my outfit. I'm talking purple ombre, black "sacred geometry," blue "waves of hope," and red Vivienne Tam "city camouflage." One of the other social norms I'm conscious of changing is re-framing masks as fashion accessories, the way people enjoy purses or watches. My students constantly talk about what I'm wearing, which is the point. Wearing a mask can be fun if we do it right!
 
-<p><img src="images/covid/masklab.jpg" alt="Photo of a model wearing a Masklab KF94" width="20%"/>
+<p><img src="images/covid/masklab.jpg" alt="Photo of a model wearing a Masklab KF94" width="20%"/><br>
 <i>(note: not an actual photo of me)</i></p>
 
 #### The special occasion: [Airgami](https://www.airgami.life/collections) (now sold out)
