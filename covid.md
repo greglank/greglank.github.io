@@ -17,23 +17,23 @@ In October 2023, I attended a concert in Las Vegas (U2 at the Sphere -- amazing!
 
 In a follow-up email I also wrote a description of what I did behind the scenes to make the concert trip safer in the era of COVID-19. [From a sociological perspective](https://www.agjohnson.us/glad/arent-systems-just-people/), I stepped off the path of least resistance by taking COVID-19 precautions, and I needed to be vocal and visible about why.
 
-My follow-up email is below, lightly edited and with some updated sources. Enjoy!
+My follow-up email is below, lightly edited and with some updated sources.
 
 # Greg's COVID-19 Email
 
-All right, I know you all have been waiting in suspense for the Vegas Follow-Up Email.
+All right, I know you all have been waiting in suspense for the Vegas Follow-Up Email!
 
 I think it's important to start shifting the social norms around COVID-19 to a more open and frank discussion of what it looks like to act responsibly while engaging in the activities that we enjoy. If I share my U2 story without sharing the activities that happened behind the scenes to make it relatively safer, then that just gives the false impression that it's not necessary to take any steps at all. So let's start that frank and open discussion!
 
 ## TL;DR Links
 
-This email is long and includes a gaggle of links. Links are important for supporting my claims with evidence and for providing you with resources about any topic that you would like to dig into a bit more, but if you don't know where to start, here is a short list of what I consider to be the best resources. All of these are accessible for a general audience; for more rigorous scientific studies and meta analyses, check out the rest of the email. :)
+This email is long and includes a gaggle of links. I included so many links because they show the evidence that lead to these claims, and they provide additional information if you would like to dig into a particular topic a bit more. If you'd like to learn more but don't know where to start, here is a short list of what I consider to be the best resources. All of these are accessible for a general audience; for more rigorous scientific studies and meta analyses, check out the rest of the email. :)
 
 - **Current prevalence of COVID-19 in the U.S.:** The People's CDC and their weekly [COVID-19 Weather Report](https://peoplescdc.org/weatherreports/)
 - **Overview of Long COVID effects:** The summary from Johns Hopkins Medicine: [Long COVID: Long-Term Effects of COVID-19](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/covid-long-haulers-long-term-effects-of-covid19)
 - **Long-term effects of COVID-19 on the brain:** Ziyad Al-Aly's article in *The Conversation*: [Mounting research shows that COVID-19 leaves its mark on the brain, including with significant drops in IQ scores](https://theconversation.com/mounting-research-shows-that-covid-19-leaves-its-mark-on-the-brain-including-with-significant-drops-in-iq-scores-224216)
 - **Reframing COVID-19 as a matter of public health** (instead of as an individual "choice"): Ed Yong's article in *The Atlantic*: [The Fundamental Question of the Pandemic is Shifting](https://www.theatlantic.com/health/archive/2021/06/individualism-still-spoiling-pandemic-response/619133/)
-- **Layers of protection:** The People's CDC and their [Layers of Protection](https://peoplescdc.org/2022/09/12/layers-of-protection/) page
+- **Using multiple layers of protection to prevent the spread of COVID-19:** The People's CDC and their [Layers of Protection](https://peoplescdc.org/2022/09/12/layers-of-protection/) page
 - **How masking works, why it's important, and where to find high-quality masks:** The People's CDC and their [Masking page](https://peoplescdc.org/2022/09/12/masking/)
     - Default gold standard: [3M Aura N95](https://www.amazon.com/gp/product/B095FJ36H2)
     - Convenient alternative: [Generic KF94](https://www.amazon.com/Packs-PUREMATE-Individual-Wrapped-Pattern/dp/B09HV14Q1R)
@@ -113,7 +113,8 @@ You can clean indoor air with air filters, and this is where my inner nerd reall
 
 #### The easy option: Buy a HEPA air filter
 The higher Clean Air Delivery Rate (CADR) the better, though the cost and noise goes up with the amount of clean air that a filter is capable of pushing through. Product descriptions often list the square footage of a room that the filter is capable of cleaning; this is usually one air change per hour at the filter's maximum speed. You want multiple air changes per hour (commercial buildings do [5+ air changes per hour](https://www.cdc.gov/coronavirus/2019-ncov/community/ventilation.html)), so get a filter that's rated for a room that's many times larger than the one you'll use it in. For more information about choosing an air filter, here's a [thorough guide](https://tools.niehs.nih.gov/wetp/public/hasl_get_blob.cfm?ID=13021) from the National Institute of Environmental Health Sciences.
-    - I love this [Levoit Core 200S](https://www.amazon.com/gp/product/B08FJ678YK) HEPA air filter, which is small enough to fit in my carry-on luggage! This is what I brought with me to Vegas and kept running in our hotel room, so my friend and I could hang out (and sleep) without masks. At night it also handily doubles as a white noise machine. There are air filters smaller than this, but any smaller than this is too small to be effective in a hotel room.
+
+I really like the [Levoit Core 200S](https://www.amazon.com/gp/product/B08FJ678YK) HEPA air filter, which is small enough to fit in my carry-on luggage! This is what I brought with me to Vegas and kept running in our hotel room, so my friend and I could hang out (and sleep) without masks. At night it also handily doubles as a white noise machine. There are air filters smaller than this, but any smaller than this is too small to be effective in a hotel room.
 
 #### The cheapo option: [Build a Corsi-Rosenthal box](https://cleanaircrew.org/box-fan-filters/)
 These things are amazing and offer an incredible bang for the buck! A Corsi-Rosenthal (CR) box is just a set of furnace air filters duct taped together into a cube, with a department-store box fan duct taped to the top (the fan sucks in air through the filter cube and blows clean air out the top). It has a much higher [Clean Air Delivery Rate per dollar](https://itsairborne.com/comparing-hepa-filters-and-the-corsi-rosenthal-box-a8b6d03af905) than any store-bought HEPA air filter I know of, and it's fun to build! Instructions are in the link; just make sure to get high-quality furnace filters rated MERV 13 or higher (3M Filtrete 1900+ MPR filters are the best; you can get them in cheap four-packs at [Costco](https://www.costco.com/3m-2500-series-filtrete-1%22-filter%2C-4-pack.product.4000181409.html), [Amazon](https://www.amazon.com/gp/product/B005GZ8IG2), etc). Any generic 20" box fan will do; I got [this one](https://www.homedepot.com/p/Lasko-20-in-3-Speeds-Box-Fan-in-White-with-Save-Smart-Technology-for-Energy-Efficiency-Carry-Handle-B20201/203072133). My CR box gets tons of use at home, and it works very well as an aforementioned white noise machine at night. Here it is, in all its boxy glory:
