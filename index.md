@@ -1,9 +1,9 @@
 # Projects
 
-## [Poker Hand History Parser and Database]("parser")
+## [Poker Hand History Parser and Database]("/parser")
 Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis  
   
-<a href="/parser"><img src="images/poker.png" alt="Poker screenshot" width="300" height="300"></a>
+<a href="parser"><img src="images/poker.png" alt="Poker screenshot" width="300" height="300"></a>
   
   
 ## Poker Visualization
