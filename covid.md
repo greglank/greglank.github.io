@@ -4,12 +4,12 @@
 
 ## Overview
 
-This is a lightly-edited adaptation of an email I wrote to my poker group. I am including it in my data science portfolio because I think it does a nice job encapsulating
-- How data can inform good decision-making in all aspects of life
-- How I write and communicate (yes, I include headers and formatted links in my emails!)
-- Who I am and what I value
+This is a lightly-edited adaptation of an email I wrote to my poker group. I am including it in my data science portfolio because it
+- Is a good example of how data can inform decision-making in all aspects of life
+- Demonstrates how I write and communicate (yes, I include headers and formatted links in my emails... at least the important ones!)
+- Is part of a conversation that I would like to see happening more openly and frequently
 
-I am not an expert on COVID-19, but I do try to make decisions based on the best available evidence. If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more rigorous, more accessible, and/or more effectively communicated) than what I have, please let me know and I will update this page!
+I am not an expert on COVID-19, but I do try to make decisions based on the best available evidence. If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more rigorous, more accessible, and/or more effectively communicated), please let me know and I will update this page!
 
 ### Email Context
 
@@ -72,7 +72,9 @@ Masks are great! As noted by the [Dread Pirate Roberts](https://www.youtube.com/
 
 #### The gold standard: [3M Aura N95](https://www.amazon.com/gp/product/B095FJ36H2)
 N95 masks (made in USA) are tested to filter at least 95% of airborne particles. The 3M Aura N95 is the gold standard, and personally fits me the best without any gaps or air leakage, which means it also doesn't fog my glasses. This is what I wore during my Vegas trip any time I was in a public indoor space, including in the airports and flights, at the concert, and in the casinos. And let me tell you, it's a huge advantage at the poker table! It makes me look mysterious (a fellow player asked me to do a [Bane impression](https://www.youtube.com/watch?v=rAxJ5EFu2Co)), hides many of my stupid-obvious tells, and lets me mutter out loud about the hand and/or my idiot opponents, just like I do playing against you degenerates when I'm on mute.
-    - Here\'s a photo of my friend and me in our masks at the U2 concert. Spread the love of music, not the virus!
+
+Here's a photo of my friend and me in our masks at the U2 concert. Spread the love of music, not the virus!
+<img src="images/covid/concert.jpg" width="50%"/>
 
 #### The convenient option: [Generic KF94](https://www.amazon.com/Packs-PUREMATE-Individual-Wrapped-Pattern/dp/B09HV14Q1R)
 KF94 (made in Korea) and KN95 (made in China) masks are tested to filter at least 94-95% of airbonre particles. I find it easier to talk and be understood while wearing a KF94 mask, so this is what I use when I teach. It also attaches with ear loops, which are more convenient for taking a mask on and off during short periods of time, so it's what I wore around the house after I returned home until I was sure that I wasn't contagious. Since KF94 masks are from Korea, particular brands are constantly going in and out of stock on Amazon, and it takes some effort to verify that they are legit (I usually cross-reference generic brands against the [MaskNerd testing data](https://docs.google.com/spreadsheets/d/1M0mdNLpTWEGcluK6hh5LjjcFixwmOG853Ff45d3O-L0/htmlview?usp=drive_web&ouid=108355114845682180386&pru=AAABfniWips*ZW4K5ipiMBIUEgzyHDB1eA) by Aaron Collins and/or the testing data from [Armburst USA](https://www.armbrustusa.com/pages/mask-testing/)). But there are *tons* of KF94 options, and they come in various sizes.
