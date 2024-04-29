@@ -12,7 +12,7 @@ Python script that cleans and parses poker hand histories from PokerNow and load
 
 ### Background
 
-I have been playing poker (no limit Texas hold 'em) online with a group at least twice a week since spring 2020. We play using the online platform, PokerNow, which provides downloadable hand histories that contain a record of all the hands that the group played and all the players' actions that happened within them. Per year, we play approximately 100,000 hands with a total of approximately 1.35 million player actions.
+I have been playing poker (no limit Texas hold 'em) online with a group of friends at least twice a week since spring 2020. We play using the online platform, PokerNow, which provides downloadable hand histories that contain a record of all the hands that the group played and all the players' actions that happened within them. Per year, we play approximately 100,000 hands with a total of approximately 1.35 million player actions.
 
 The hand histories are downloadable but are deleted from the PokerNow server after five days. Beginning in January, 2021, I started downloading the hand histories after each session in order to save them for group recordkeeping and analysis.
 
