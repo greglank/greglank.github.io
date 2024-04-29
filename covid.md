@@ -73,19 +73,23 @@ Masks are great! As noted by the [Dread Pirate Roberts](https://www.youtube.com/
 #### The gold standard: [3M Aura N95](https://www.amazon.com/gp/product/B095FJ36H2)
 N95 masks (made in USA) are tested to filter at least 95% of airborne particles. The 3M Aura N95 is the gold standard, and personally fits me the best without any gaps or air leakage, which means it also doesn't fog my glasses. This is what I wore during my Vegas trip any time I was in a public indoor space, including in the airports and flights, at the concert, and in the casinos. And let me tell you, it's a huge advantage at the poker table! It makes me look mysterious (a fellow player asked me to do a [Bane impression](https://www.youtube.com/watch?v=rAxJ5EFu2Co)), hides many of my stupid-obvious tells, and lets me mutter out loud about the hand and/or my idiot opponents, just like I do playing against you degenerates when I'm on mute.
 
-Here's a photo of my friend and me in our masks at the U2 concert. Spread the love of music, not the virus!
 <p><img src="images/covid/concert.jpg" width="30%"/></p>
+*My friend and me in our masks at the U2 concert. Spread the love of music, not the virus!*
 
 #### The convenient option: [Generic KF94](https://www.amazon.com/Packs-PUREMATE-Individual-Wrapped-Pattern/dp/B09HV14Q1R)
 KF94 (made in Korea) and KN95 (made in China) masks are tested to filter at least 94-95% of airbonre particles. I find it easier to talk and be understood while wearing a KF94 mask, so this is what I use when I teach. It also attaches with ear loops, which are more convenient for taking a mask on and off during short periods of time, so it's what I wore around the house after I returned home until I was sure that I wasn't contagious. Since KF94 masks are from Korea, particular brands are constantly going in and out of stock on Amazon, and it takes some effort to verify that they are legit (I usually cross-reference generic brands against the [MaskNerd testing data](https://docs.google.com/spreadsheets/d/1M0mdNLpTWEGcluK6hh5LjjcFixwmOG853Ff45d3O-L0/htmlview?usp=drive_web&ouid=108355114845682180386&pru=AAABfniWips*ZW4K5ipiMBIUEgzyHDB1eA) by Aaron Collins and/or the testing data from [Armburst USA](https://www.armbrustusa.com/pages/mask-testing/)). But there are *tons* of KF94 options, and they come in various sizes.
 
 #### The fashionable option: [MaskLab KF94](https://masklab.us/collections/kf-series)
 I don't teach in any ol' KF94; I teach in fashionable KF94 masks from MaskLab that are color-coordinated to my outfit. I'm talking purple ombre, black "sacred geometry," blue "waves of hope," and red Vivienne Tam "city camouflage." One of the other social norms I'm conscious of changing is re-framing masks as fashion accessories, the way people enjoy purses or watches. My students constantly talk about what I'm wearing, which is the point. Wearing a mask can be fun if we do it right!
-    - (note: not an actual photo of me)
+
+<p><img src="images/covid/masklab.jpg" width="20%"/></p>
+*(note: not an actual photo of me)*
 
 #### The special occasion: [Airgami](https://www.airgami.life/collections) (now sold out)
 For my brother's wedding, I sported an Airgami, which is a super-fancy origami-style mask that I bought for super-special occasions. This thing is gorgeous and a compliment magnet! Too bad they are now sold out. There might be an actual photo out there of me getting down on the dance floor to YMCA or Shake It Off wearing my Airgami, but you will have to settle for a product photo.
-    - Airgami
+
+<p><img src="images/covid/airgami.jpg" width="10%"/></p>
+*An Airgami for super-special occasions*
 
 ### When to Wear Masks
 
