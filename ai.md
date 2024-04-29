@@ -1,31 +1,26 @@
-# Poker Hand History Parser and Database
+# Poker AI and Machine Learning Insights
 
 ## Overview
 
-Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis
+Coming soon...
 
-<img src="images/poker.png" alt="Poker screenshot" width="60%">
+<img src="images/range.png" alt="Starting hands screenshot" width="60%">
 
 ### Skills
+- Machine learning (scikit-learn)
+- Neural networks (Keras/TensorFlow)
 - Programming (Python)
-- Relational databases (MySQL)
 
 ### Background
 
-I have been playing poker (no limit Texas hold 'em) online with a group of friends at least twice a week since spring 2020. We play using the online platform, PokerNow, which provides downloadable hand histories that contain a record of all the hands that the group played and all the players' actions that happened within them. Per year, we play approximately 100,000 hands with a total of approximately 1.35 million player actions.
+This project builds on my [Poker Hand History Parser and Database](parser). I am currently working on a set of projects that leverage machine learning and AI to derive advanced insights about poker strategy.
 
-The hand histories are downloadable but are deleted from the PokerNow server after five days. Beginning in January, 2021, I started downloading the hand histories after each session in order to save them for group recordkeeping and analysis.
+### Limitations
+
+Ethically, since I play poker almost exclusively against friends, I want to take steps to ensure that I don't build an unfair advantage for myself with AI-driven insights. One of the best ways I can level the playing field is to create a complete poker-playing bot (in a simulated poker-playing environment) that plays exactly like me, and allow my friends to play against this Greg-bot as much as they'd like to practice their real-life strategies against me. This is like handing all of my opponents cheat codes to beating me, specifically!
+
+Any AI-driven insights about other players cannot be nearly this thorough, simply because of the asymmetry of available data. I can only build this sort of bot to mimic my own play because I have access to my private hole cards for every hand I've played, whereas the hand histories don't show other players' private hole cards except in specific circumstances, such after winning at showdown or choosing to show their cards voluntarily. Other players' hole card data will always be incomplete, and incomplete in a way that is inevitably biased towards certain kinds of hands. For example, weak hands that are folded (by far the most frequent action in Texas hold 'em) are rarely shown, and thus bias the data set, no matter how many years of data I have for an opponent.
 
 ## Project Description
 
-I wrote a hand history parser in Python to clean the PokerNow hand history CSV files and load them into a SQLite database. One of the challenges is that the hand histories are not standardized and change over time as features are added or modified on PokerNow. Additionally, sometimes player actions are missing in the hand histories, which meant that I had to use my domain knowledge of poker to build an internal logic into the parser that recognizes when an action is missing or incorrect and automatically corrects it when possible.
-
-The resulting SQLite database can be queried for analysis, and is used as the basis for the Poker Visualization and Poker AI and Machine Learning Insights projects.
-
-### Future Plans
-
-This project started as a personal project for my poker group, but I would like to expand it and make the code publicly available as open-source on GitHub. I plan to add a more robust set of database inputs and outputs, such as a GUI for the database so users can look up queries without having to know SQL or the database structure, and a hand history converter that can output hands to a more common hand history format, like Poker Stars, so players can convert their PokerNow hand histories to a format that is more widely recognized by other software tools.
-
-<a href="images/database-flowchart.jpg"><img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions" width="100%"></a>
-
-*Flowchart adapted from [Multi Input Output Process](https://poweredtemplate.com/multi-input-output-process-80158/)*
+Coming soon...
