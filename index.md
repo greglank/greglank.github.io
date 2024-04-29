@@ -1,10 +1,5 @@
 # Projects
 
-## Links
-* <a href="parser">Poker Parser</a>
-* <a href="about">About Me</a>
-* <a href="covid">COVID-19</a>
-
 ## Poker Hand History Parser and Database
 Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis  
   
