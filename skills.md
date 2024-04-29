@@ -39,7 +39,3 @@ Published Social Science Research
 ### Pandas, Excel, Google Sheets, NVivo  
 
 Dynamic Gradebook
-
-## Writing and Communication
-### Professional educator, trained public speaker, English minor (creative writing)
-COVID-19: What You Can Do
