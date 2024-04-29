@@ -26,4 +26,4 @@ The resulting SQLite database can be queried for analysis, and is used as the ba
 
 This project started as a personal project for my poker group, but I would like to expand it and make the code publicly available as open-source on GitHub. I plan to add a more robust set of database inputs and outputs, such as a GUI for the database so users can look up queries without having to know SQL or the database structure, and a hand history converter that can output hands to a more common hand history format, like Poker Stars, so players can convert their PokerNow hand histories to a format that is more widely recognized by other software tools.
 
-<img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions" width="100%">
+<a href="images/database-flowchart.jpg"><img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions" width="100%"></a>
