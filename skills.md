@@ -8,28 +8,36 @@ This page is a mini-resume with an overview of my technical skills. It contains 
 
 ## Programming
 ### Python, Java  
+
 Poker Hand History Parser and Database
+
 Poker AI and Machine Learning Insights
+
 NCAA March Madness Pool Optimizer
   
 ## Machine Learning and Neural Networks
 ### scikit-learn, Keras/TensorFlow  
+
 Poker AI and Machine Learning Insights
   
 ## Data Visualization
 ### Tableau, matplotlib, Seaborn  
+
 Poker Visualization
   
 ## Relational Databases
 ### MySQL, SQLite  
+
 Poker Hand History Parser and Database
   
 ## Statistical and Numerical Analysis
 ### NumPy, SPSS, MATLAB, Octave  
+
 Published Social Science Research
   
 ## Data Analysis
 ### Pandas, Excel, Google Sheets, NVivo  
+
 Dynamic Gradebook
 
 ## Writing and Communication
