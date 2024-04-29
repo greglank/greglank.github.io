@@ -1,8 +1,4 @@
----
-theme: jekyll-theme-minimal
-layout: default
-title: Poker Hand History Parser and Database
----
+# Poker Hand History Parser and Database
 
 ## Overview
 
