@@ -104,7 +104,8 @@ For example, I wear a mask in public indoor spaces like the grocery store and at
 
 As you might have inferred from the three Cs, good ventilation is important. Because the virus is airborne, opening windows helps, and being outdoors helps a lot. When going out to eat, it's very easy to click the checkbox on Yelp that filters for outdoor seating:
 
-<p><img src="images/covid/yelp.png" alt="Yelp screenshot with outdoor seating selected"></p>
+<p><img src="images/covid/yelp.png" alt="Yelp screenshot with outdoor seating selected"><br>
+<i>Click that "outdoor seating" option!</i></p>
 
 (Also, dark mode for the win! Setting my phone and PC to use dark mode for everything that possibly has a dark mode has changed my life.)
 
@@ -117,12 +118,14 @@ The higher Clean Air Delivery Rate (CADR) the better, though the cost and noise 
 #### The cheapo option: [Build a Corsi-Rosenthal box](https://cleanaircrew.org/box-fan-filters/)
 These things are amazing and offer an incredible bang for the buck! A Corsi-Rosenthal (CR) box is just a set of furnace air filters duct taped together into a cube, with a department-store box fan duct taped to the top (the fan sucks in air through the filter cube and blows clean air out the top). It has a much higher [Clean Air Delivery Rate per dollar](https://itsairborne.com/comparing-hepa-filters-and-the-corsi-rosenthal-box-a8b6d03af905) than any store-bought HEPA air filter I know of, and it's fun to build! Instructions are in the link; just make sure to get high-quality furnace filters rated MERV 13 or higher (3M Filtrete 1900+ MPR filters are the best; you can get them in cheap four-packs at [Costco](https://www.costco.com/3m-2500-series-filtrete-1%22-filter%2C-4-pack.product.4000181409.html), [Amazon](https://www.amazon.com/gp/product/B005GZ8IG2), etc). Any generic 20" box fan will do; I got [this one](https://www.homedepot.com/p/Lasko-20-in-3-Speeds-Box-Fan-in-White-with-Save-Smart-Technology-for-Energy-Efficiency-Carry-Handle-B20201/203072133). My CR box gets tons of use at home, and it works very well as an aforementioned white noise machine at night. Here it is, in all its boxy glory:
 
-<p><img src="images/covid/cr_box.jpg" alt="Photo of my CR box" width="30%"/></p>
+<p><img src="images/covid/cr_box.jpg" alt="Photo of my CR box" width="30%"/><br>
+<i>My mighty, mighty CR box</i></p>
 
 #### The fancy DIY option: [Build a CR box with PC fans](https://itsairborne.com/busy-mom-builds-a-pc-fan-corsi-rosenthal-box-c64a56bae528)!
-The basic CR box is great, but loud (white noise machine, remember) and ugly as sin, and I wanted something prettier to run all the time after I returned home from my trip that wouldn't be disruptive. So I built not one, but two CR boxes that use quiet PC fans instead of a box fan. The PC fan CR boxes are nearly silent, thinner... and light up in dazzling LED colors, bro! Check this gorgeous thing out:
+The basic CR box is great, but loud (white noise machine, remember) and ugly as sin, and I wanted something prettier to run all the time after I returned home from my trip that wouldn't be disruptive. So I built not one, but two CR boxes that use quiet PC fans instead of a box fan. The PC fan CR boxes are nearly silent, thinner... and light up in an arry of LED colors, bro! Check this gorgeous thing out:
     
-<p><img src="images/covid/pc_box.jpg" alt="Photo of my PC fan CR box with blue LED lights" width="40%"/></p>
+<p><img src="images/covid/pc_box.jpg" alt="Photo of my PC fan CR box with blue LED lights" width="40%"/><br>
+<i>My silent, bedazzled PC fan CR box</i></p>
 
 I love these friggin' things, and after I returned from Vegas I kept the PC fan boxes running 24/7 in whatever room I was hanging out in (unmasked in my own office/bedroom and while eating, but masked otherwise). However, they were a lot more difficult to build than I expected, and they weren't cheap (I built two because the economies of scale worked better that way), so I'd only recommend the PC fan option for die-hard DIYers or for people who really want silent air filters. I used [140mm Arctic fans](https://www.amazon.com/gp/product/B07HCKWF2X), which are larger than the ones used in the linked instructions; let me know if you want to go down this route, and I'll give you some pointers I learned the hard way.
 
