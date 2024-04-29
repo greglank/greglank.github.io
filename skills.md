@@ -41,5 +41,5 @@ Published Social Science Research
 Dynamic Gradebook
 
 ## Writing and Communication
-### Professional educator and public speaker, English minor
+### Professional educator, trained public speaker, English minor (creative writing)
 COVID-19: What You Can Do
