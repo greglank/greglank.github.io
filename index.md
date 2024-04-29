@@ -40,34 +40,3 @@ Peer-reviweed study that uses quantitative statistical analysis to demonstrate t
 28-sheet workbook using Google Sheets integrated with Google Forms for automated mail merge grade reports
 
 <img src="images/gradebook.png" alt="Gradebook screenshot" width="300" height="300">
-  
-  
-# Technical Skills
-## Programming
-Python, Java  
-  
-Projects:
-* Poker Hand History Parser and Database
-* Poker AI and Machine Learning Insights
-* NCAA March Madness Pool Optimizer
-  
-## Machine Learning and Neural Networks
-scikit-learn, Keras/TensorFlow  
-* Project: Poker AI and Machine Learning Insights
-  
-## Data Visualization
-Tableau, matplotlib, Seaborn  
-* Project: Poker Visualization
-  
-## Relational Databases
-MySQL, SQLite  
-* Project: Poker Hand History Parser and Database
-  
-## Statistical and Numerical Analysis
-NumPy, SPSS, MATLAB, Octave  
-* Project: Published Social Science Research
-  
-## Data Analysis
-Pandas, Excel, Google Sheets, NVivo  
-* Project: Dynamic Gradebook
-  
