@@ -82,20 +82,21 @@ KF94 (made in Korea) and KN95 (made in China) masks are tested to filter at leas
 #### The fashionable option: [MaskLab KF94](https://masklab.us/collections/kf-series)
 I don't teach in any ol' KF94; I teach in fashionable KF94 masks from MaskLab that are color-coordinated to my outfit. I'm talking purple ombre, black "sacred geometry," blue "waves of hope," and red Vivienne Tam "city camouflage." One of the other social norms I'm conscious of changing is re-framing masks as fashion accessories, the way people enjoy purses or watches. My students constantly talk about what I'm wearing, which is the point. Wearing a mask can be fun if we do it right!
 
-<p><img src="images/covid/masklab.jpg" alt="Photo of a model wearing a Masklab KF94" width="20%"/></p>
-
-*(note: not an actual photo of me)*
+<p><img src="images/covid/masklab.jpg" alt="Photo of a model wearing a Masklab KF94" width="20%"/>
+<i>(note: not an actual photo of me)</i></p>
 
 #### The special occasion: [Airgami](https://www.airgami.life/collections) (now sold out)
 For my brother's wedding, I sported an Airgami, which is a super-fancy origami-style mask that I bought for super-special occasions. This thing is gorgeous and a compliment magnet! Too bad they are now sold out. There might be an actual photo out there of me getting down on the dance floor to YMCA or Shake It Off wearing my Airgami, but you will have to settle for a product photo.
 
-<p><img src="images/covid/airgami.jpg" alt="Airgami product photo" width="10%"></p>
-
-*An Airgami for super-special occasions*
+<p><img src="images/covid/airgami.jpg" alt="Airgami product photo" width="10%"><br>
+<i>An Airgami for super-special occasions</i></p>
 
 ### When to Wear Masks
 
-In everyday life, the situations where it is important to wear a mask are the [three C's](https://www.who.int/brunei/news/infographics---english): **Crowded spaces** with many people, **Close-contact settings** with people nearby, and **Confined/enclosed spaces** with poor ventilation.
+In everyday life, the situations where it is important to wear a mask are the [three C's](https://www.who.int/brunei/news/infographics---english):
+- **Crowded spaces** with many people
+- **Close-contact settings** with people nearby
+- **Confined/enclosed spaces** with poor ventilation.
 
 For example, I wear a mask in public indoor spaces like the grocery store and at crowded outdoor spaces like sporting events. Some spaces like my classroom hit all three C's and are very high risk for transmission, so I require students to wear masks, as well. The more people wear masks, the more it becomes 'normal' and acceptable for others to do so!
 
@@ -116,12 +117,12 @@ The higher Clean Air Delivery Rate (CADR) the better, though the cost and noise 
 #### The cheapo option: [Build a Corsi-Rosenthal box](https://cleanaircrew.org/box-fan-filters/)
 These things are amazing and offer an incredible bang for the buck! A Corsi-Rosenthal (CR) box is just a set of furnace air filters duct taped together into a cube, with a department-store box fan duct taped to the top (the fan sucks in air through the filter cube and blows clean air out the top). It has a much higher [Clean Air Delivery Rate per dollar](https://itsairborne.com/comparing-hepa-filters-and-the-corsi-rosenthal-box-a8b6d03af905) than any store-bought HEPA air filter I know of, and it's fun to build! Instructions are in the link; just make sure to get high-quality furnace filters rated MERV 13 or higher (3M Filtrete 1900+ MPR filters are the best; you can get them in cheap four-packs at [Costco](https://www.costco.com/3m-2500-series-filtrete-1%22-filter%2C-4-pack.product.4000181409.html), [Amazon](https://www.amazon.com/gp/product/B005GZ8IG2), etc). Any generic 20" box fan will do; I got [this one](https://www.homedepot.com/p/Lasko-20-in-3-Speeds-Box-Fan-in-White-with-Save-Smart-Technology-for-Energy-Efficiency-Carry-Handle-B20201/203072133). My CR box gets tons of use at home, and it works very well as an aforementioned white noise machine at night. Here it is, in all its boxy glory:
 
-<p><img src="images/covid/cr_box.jpg" alt="Photo of my CR box" width="20%"/></p>
+<p><img src="images/covid/cr_box.jpg" alt="Photo of my CR box" width="30%"/></p>
 
 #### The fancy DIY option: [Build a CR box with PC fans](https://itsairborne.com/busy-mom-builds-a-pc-fan-corsi-rosenthal-box-c64a56bae528)!
 The basic CR box is great, but loud (white noise machine, remember) and ugly as sin, and I wanted something prettier to run all the time after I returned home from my trip that wouldn't be disruptive. So I built not one, but two CR boxes that use quiet PC fans instead of a box fan. The PC fan CR boxes are nearly silent, thinner... and light up in dazzling LED colors, bro! Check this gorgeous thing out:
     
-<p><img src="images/covid/pc_box.jpg" alt="Photo of my PC fan CR box with blue LED lights" width="30%"/></p>
+<p><img src="images/covid/pc_box.jpg" alt="Photo of my PC fan CR box with blue LED lights" width="40%"/></p>
 
 I love these friggin' things, and after I returned from Vegas I kept the PC fan boxes running 24/7 in whatever room I was hanging out in (unmasked in my own office/bedroom and while eating, but masked otherwise). However, they were a lot more difficult to build than I expected, and they weren't cheap (I built two because the economies of scale worked better that way), so I'd only recommend the PC fan option for die-hard DIYers or for people who really want silent air filters. I used [140mm Arctic fans](https://www.amazon.com/gp/product/B07HCKWF2X), which are larger than the ones used in the linked instructions; let me know if you want to go down this route, and I'll give you some pointers I learned the hard way.
 
