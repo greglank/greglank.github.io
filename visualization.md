@@ -2,7 +2,9 @@
 
 ## Overview
 
-[Tableau workbook](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub) that draws from a SQLite database to visualize poker player strategies and statistics for better decision-making
+Tableau workbook that draws from a SQLite database to visualize poker player strategies and statistics for better decision-making
+
+Workbook link: [Rebuy Club | Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
 
 <img src="images/tableau-running.png" alt="Tableau screenshot" width="60%">
 
@@ -17,4 +19,4 @@ This project builds on my [Poker Hand History Parser and Database](parser). The 
 
 ## Project Description
 
-I created a public Tableau workbook that visualizes key summary statistics from my online poker group's games of no limit Texas hold 'em. The link to the workbook is here: [Rebuy Club | Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
+I created a public Tableau workbook that visualizes key summary statistics from my online poker group's games of no limit Texas hold 'em.
