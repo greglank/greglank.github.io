@@ -84,8 +84,8 @@ KF94 (made in Korea) and KN95 (made in China) masks are tested to filter at leas
 #### The fashionable option: [MaskLab KF94](https://masklab.us/collections/kf-series)
 I don't teach in any ol' KF94; I teach in fashionable KF94 masks from MaskLab that are color-coordinated to my outfit. I'm talking purple ombre, black "sacred geometry," blue "waves of hope," and red Vivienne Tam "city camouflage." One of the other social norms I'm conscious of changing is re-framing masks as fashion accessories, the way people enjoy purses or watches. My students constantly talk about what I'm wearing, which is the point. Wearing a mask can be fun if we do it right!
 
-<p><img src="images/covid/masklab.jpg" alt="Photo of a model wearing a Masklab KF94" width="50%"/><br>
-<i>(note: not an actual photo of me)</i></p>
+<p><img src="images/covid/masklab.jpg" alt="Photo of a model wearing a Masklab KF94" width="60%"/><br>
+<i>Note: not an actual photo of me</i></p>
 
 #### The special occasion: [Airgami](https://www.airgami.life/collections) (now sold out)
 For my brother's wedding, I sported an Airgami, which is a super-fancy origami-style mask that I bought for super-special occasions. This thing is gorgeous and a compliment magnet! Too bad they are now sold out. There might be an actual photo out there of me getting down on the dance floor to YMCA or Shake It Off wearing my Airgami, but you will have to settle for a product photo.
@@ -121,7 +121,7 @@ I really like the [Levoit Core 200S](https://www.amazon.com/gp/product/B08FJ678Y
 #### The cheapo option: [Build a Corsi-Rosenthal box](https://cleanaircrew.org/box-fan-filters/)
 A Corsi-Rosenthal (CR) box is just a set of furnace air filters duct taped together into a cube, with a department-store box fan duct taped to the top (the fan sucks in air through the filter cube and blows clean air out the top). A CR box is amazing and offers an incredible bang for the buck! It has a much higher [Clean Air Delivery Rate per dollar](https://itsairborne.com/comparing-hepa-filters-and-the-corsi-rosenthal-box-a8b6d03af905) than any store-bought HEPA air filter I know of, and it's fun to build! Instructions are in the link; just make sure to get high-quality furnace filters rated MERV 13 or higher (3M Filtrete 1900+ MPR filters are the best; you can get them in cheap four-packs at [Costco](https://www.costco.com/3m-2500-series-filtrete-1%22-filter%2C-4-pack.product.4000181409.html), [Amazon](https://www.amazon.com/gp/product/B005GZ8IG2), etc). Any generic 20" box fan will do; I got [this one](https://www.homedepot.com/p/Lasko-20-in-3-Speeds-Box-Fan-in-White-with-Save-Smart-Technology-for-Energy-Efficiency-Carry-Handle-B20201/203072133). My CR box gets tons of use at home, and it works very well as an aforementioned white noise machine at night. Here it is, in all its boxy glory:
 
-<p><img src="images/covid/cr_box.jpg" alt="Photo of my CR box" width="50%"/><br>
+<p><img src="images/covid/cr_box.jpg" alt="Photo of my CR box" width="60%"/><br>
 <i>My mighty, mighty CR box</i></p>
 
 #### The fancy DIY option: [Build a CR box with PC fans](https://itsairborne.com/busy-mom-builds-a-pc-fan-corsi-rosenthal-box-c64a56bae528)!
