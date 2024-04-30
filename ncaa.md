@@ -21,7 +21,7 @@ I don't know anything about NCAA college basketball. I don't watch it, I don't f
 
 *Aside: I actually did know something about NCAA basketball once. When I was in college, I played on the practice squad for the Colorado State women's basketball team for two years, running opponents' plays and participating in drills and scrimmages. I followed the team fanatically and absorbed a lot of firsthand knowledge about other teams. And you're damn right I won the women's tournament pool by a landslide my first year. (No one has joined a women's tournament pool with me since.)*
 
-Other than that flash of knowledge from playing on the women's basketball practice squad, I genuinely have not followed, and do not follow, NCAA college basketball at all. The question: How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball?
+Other than that flash of knowledge from playing on the women's basketball practice squad, I have not followed, and do not follow, NCAA college basketball at all. The question: How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball?
 
 The answer: Scrape some data and write a program, of course.
 
@@ -45,7 +45,7 @@ To this day this stupid March Madness bracket remains my luckiest accomplishment
 
 ### The Rise of the Optimizer
 
-Each year I continued to expand my hacky Java program to include more and more functionality. Finally I made the ultimate upgrade: an predictive algorithm that outputs the optimal NCAA March Madness bracket for a typical office pool.
+Each year I continued to expand my humble Java program to include more and more functionality. Finally I made the ultimate upgrade: an predictive algorithm that outputs the optimal NCAA March Madness bracket for a typical office pool.
 
 Intuitively, the basic concept is that an optimal bracket should be composed of teams that are likely to win but unlikely to be chosen by other bracket-pickers. If, say, there is a team with a 20% chance to win the tournament (which is actually quite high in a field of 64 teams) but 25% of people picked that team to win, then picking that team to win would actually be a losing proposition. In contrast, if there is a team with a 10% chance to win the tournament but only 2% of people picked that team to win, that is a high-value choice and closer to optimal.
 
@@ -59,13 +59,13 @@ Then, starting with the championship game (because later games are weighted much
 
 The program repeats the process for a set number of simulated tournament outcomes and a set number of opponent pools. Then it collates the values across the set of all simulations to find the optimal bracket. If you don't like putting all your eggs in one basket, the program can also output an arbitrary number of alternative brackets that assume that your other bracket(s) did not win, therefore increasing the number of scenarios where you walk away from the NCAA tournament a winner. Neat!
 
-The first year I used the optimizer program, I created two brackets for my regular 60-entry pool. My primary bracket ("Value Bets") won the pool and my significantly different secondary bracket also nearly finished in the money (heading into the Final Four, there was a plausible scenario where my brackets took first and third). This game is easy! My program will take over the world!
+The first year I used the optimizer program I created two brackets for my regular 60-entry pool. My primary bracket ("Value Bets") won the pool and my significantly non-overlapping secondary bracket also nearly finished in the money (heading into the Final Four, there was a plausible scenario where my brackets would take first and third). This game is easy! My program will take over the world!
 
 ### The Optimizer Struggles
 
 *Narrator: This game is not easy. His program did not take over the world.*
 
-After the commanding victory its first year, the bracket optimizer has struggled to have that kind of commanding performance again. There was an especially bleak run of a few years where I would enter multiple non-overlapping brackets into the pool, which overlooked just one or two good teams, and somehow those one or two overlooked teams were the ones that kept winning. These are actual quotes from actual emails I actually wrote after identifying which team(s) the program overlooked:
+After the commanding victory its first year, the bracket optimizer struggled to have that kind of commanding performance again. There was an especially bleak run of a few years where I would enter multiple non-overlapping brackets into the pool, which overlooked just one or two good teams, and somehow those one or two overlooked teams were the ones that kept winning. These are actual quotes from actual emails I actually wrote after identifying which team(s) the program overlooked:
 - "So... North Carolina over West Virginia?" (tournament winner: North Carolina)
 - "Anybody but Villanova, right? Right?" (tournament winner: Villanova)
 - "Yes! Bring on Duke over Wisconsin! (tournament winner: Duke over Wisconsin)
@@ -76,7 +76,7 @@ Then there was that year where the optimizer *would* have picked a winning brack
 
 ### The (Possible) End of the Optimizer
 
-There's this famous mansion, the [Winchester Mystery House](http://www.smithsonianmag.com/history/heiress-gun-empire-built-mansion-forever-haunted-blood-money-built-it-180959712/), that belonged to Sarah Winchester, of Winchester Rifle fame. Convinced that the ghosts of people killed by Winchester rifles would never rest unless she continuously built and re-built the house, she had additions and renovations added to the house pretty much continuously for decades. There are completely closed-off rooms, doors that open to nothing but air, and stairs that lead to nowhere.
+There's this famous mansion, the [Winchester Mystery House](http://www.smithsonianmag.com/history/heiress-gun-empire-built-mansion-forever-haunted-blood-money-built-it-180959712/), that belonged to Sarah Winchester, of Winchester rifle fame. Convinced that the ghosts of people killed by Winchester rifles would never rest unless she kept building and re-building the house, she had additions and renovations added to the house pretty much continuously for decades. There are completely closed-off rooms, doors that open to nothing but air, and stairs that lead to nowhere.
 
 My NCAA bracket optimizer program is a lot like that.
 
@@ -84,10 +84,12 @@ Once a year, I resurrect the program and add something to it. Unfortunately, giv
 
 In 2024 I decided to rewrite the optimizer from the ground up using Python. I planned out the structure, anticipated current and future functionality, and took advantage of modern data science libraries like Pandas and Beautiful Soup. I even automated some of the tedious work that I used to have to do manually, like resolving the team name conflicts between ESPN and FiveThirtyEight.
 
-And then, somehow, for some reason, in a complete reversal of fortune from the red-hot tournament run that started this whole program, this was the year that ESPN stopped publishing their "Who Picked Whom" page of population picks *and* Nate Silver moved his March Madness predictions behind a paywall. (I'm fine with paying Silver for his hard work, but ESPN killing the "Who Picked Whom" page is unforgiveable.)
+And then, somehow, for some reason, in a complete reversal of fortune from the red-hot tournament run that started this whole program, this was the year that ESPN stopped publishing their "Who Picked Whom" page of population picks *and* Nate Silver moved his March Madness predictions behind a paywall. (I'm fine with paying Silver for his hard work, but ESPN's killing the "Who Picked Whom" page is unforgiveable.)
 
 This is a good lesson in how good data science is always at the mercy of good data. I don't know what the future holds for my NCAA March Madness bracket optimizer. Can I hack together enough population data from sources like Yahoo (not nearly as popular as ESPN)? Can I justify paying to access Nate Silver's probabilities when it costs more than an entry to my regular office pool?
 
 How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball and not being able to access the necessary data?
 
-I guess there's always returning to your roots and getting absurdly lucky. Come on, 99.99th percentile lottery ticket! Now that would make a good story.
+I guess there's always returning to your roots and getting absurdly lucky. Come on, 99.99th percentile lottery ticket!
+
+Now that would make a good story.
