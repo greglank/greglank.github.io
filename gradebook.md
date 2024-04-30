@@ -38,7 +38,9 @@ Some major assignments like the peer-reviewed research project in my research me
 Here is an example of the automated mail merge grade report that students receive weekly:
 
 ---
+
 <img src="images/mail-merge.png" alt="Screenshot of student grade report" width="100%">
+
 ---
 
 ### Project Summary
