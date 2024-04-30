@@ -2,7 +2,7 @@
 
 ## Overview
 
-Coming soon...
+Work in progress...
 
 <img src="images/range.png" alt="Starting hands screenshot" width="60%">
 
@@ -23,4 +23,4 @@ Any AI-driven insights about other players cannot be nearly this thorough, simpl
 
 ## Project Description
 
-Coming soon...
+Work in progress...
