@@ -25,9 +25,11 @@ Some of the workbook sheets summarize past information mainly for the purpose of
 - A bar graph displaying average player wins and losses per hand, normalized in terms of big blinds per 100 hands (bb/100)
 - A "Nemesis-Hero" table displaying the breakdown of wins and losses of every player against every other player
 
+Other workbook sheets are more strategic in nature and can be used to inform future decision-making in the game. 
+
 ### Example Sheet
 
-Some workbook sheets are more strategic in nature and can be used to inform future decision-making in the game. My favorite sheet displays a 2D coordinate plane that plots two variables against each other for each player: PFR% (preflop raise; the percentage of times the player raises a hand when given the opportunity) and VPIP% (voluntarily put money into pot; the percentage of times the player chooses to play a hand when given the opportunity). PFR% is the x (horizontal) axis, so players more to the right of the graph raise more hands. VPIP% is the y (vertical) axis, so players higher on the graph play more hands.
+My favorite strategically-oriented sheet displays a 2D coordinate plane that plots two variables against each other for each player: PFR% (preflop raise; the percentage of times the player raises a hand when given the opportunity) and VPIP% (voluntarily put money into pot; the percentage of times the player chooses to play a hand when given the opportunity). PFR% is the x (horizontal) axis, so players more to the right of the graph raise more hands. VPIP% is the y (vertical) axis, so players higher on the graph play more hands.
 
 <img src="images/vpip-pfr.jpg" alt="VPIP vs. PFR screenshot">
 
