@@ -31,3 +31,7 @@ This project started as a personal project for my poker group, but I would like 
 <a href="images/database-flowchart.jpg"><img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions" width="100%"></a>
 
 *Flowchart adapted from [Multi Input Output Process](https://poweredtemplate.com/multi-input-output-process-80158/)*
+
+### The Take-Away Message
+
+This project uses Python and a SQLite database to convert ephemeral poker hands and actions into a recorded format that can be stored, accessed, and queried. The database currently provides for analysis through Tableau visualization, with future plans to expand its possibilities even further.
