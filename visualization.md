@@ -10,8 +10,7 @@ Link to workbook: [Rebuy Club | Tableau Public](https://public.tableau.com/app/p
 
 ### Skills
 - Visualization (Tableau)
-- Relational databases (MySQL)
-- Programming (Python)
+- Relational databases (SQLite)
 
 ### Background
 
