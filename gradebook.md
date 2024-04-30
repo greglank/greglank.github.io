@@ -11,9 +11,9 @@
 
 ### Background
 
-I teach interactive and discussion-based courses with the aim of connecting course material to students' everyday lives. To this end, I have assignments like peer-graded reading reflections and open-ended options for course participation. My courses also frequently use bundle grading, which is an approach to grading that allows students to earn a grade in the course by choosing, and then completing, a specified bundle of requirements.
+I teach interactive and discussion-based courses with the aim of connecting course material to students' everyday lives. To this end, I have non-standard assignments, such as peer-graded reading reflections, and non-standard grading polcies, such as bundle grading (students earn a grade in the course by choosing and completing a specified bundle of requirements).
 
-These non-standard assignments and grading requirements mean that typical learning management systems (e.g. Instructure Canvas) don't have a gradebook flexible enough to accommodate my courses. Instead, I have to create my own dynamic gradebook that can interface with students.
+These non-standard assignments and grading policies mean that typical learning management systems (e.g. Instructure Canvas) don't have a gradebook flexible enough to accommodate my courses. Instead, I have to create my own dynamic gradebook that can interface with students.
 
 ## Project Description
 
