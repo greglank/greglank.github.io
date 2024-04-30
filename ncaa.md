@@ -21,7 +21,7 @@ I don't know anything about NCAA college basketball. I don't watch it, I don't f
 
 *Aside: I actually did know something about NCAA basketball once. When I was in college, I played on the practice squad for the Colorado State women's basketball team for two years, running opponents' plays and participating in drills and scrimmages. As a practice squad player and a fan, I absorbed a lot of firsthand knowledge about other teams. And you're damn right I won the women's tournament pool by a landslide my first year. (No one has joined a women's tournament pool with me since.)*
 
-Other than that flash of knowledge from playing on the practice squad, I have not followed, and do not follow, NCAA college basketball at all. The question: How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball?
+Other than that flash of knowledge from playing on the Colorado State practice squad, I have not followed, and do not follow, NCAA college basketball at all. The question: How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball?
 
 The answer: Scrape some data and write a program, of course.
 
