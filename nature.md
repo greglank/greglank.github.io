@@ -20,7 +20,7 @@ Link to study: [Fostering Connectedness to Nature in Higher Education](https://d
 
 I am a trained PhD researcher with a background in quantitative methods, qualitative methods, and computational methods. My area of focus is environmental sustainability, especially the beliefs and values that underlie (un)sustainable behavior. My scholarship begins with the premise that working towards a more just and sustainable world is not only a political and technical challenge, but is also a challenge of identity. It is about who we are, both indivdually and collectively.
 
-The published peer-reviewed manuscript is a mixed methods (primarily quantitative) social science study that queries whether higher education can foster connectedness to nature. Connectedness to nature is the perception of being part of, rather than separate from, the natural world.
+This is a published, peer-reviewed social science study that uses mixed methods (primarily quantitative) to query whether higher education can foster connectedness to nature. Connectedness to nature is the perception of being part of, rather than separate from, the natural world.
 
 ## Project Description
 
