@@ -11,7 +11,7 @@ Java program that picks the optimal NCAA basketball tournament bracket for a typ
 - Data analysis (Pandas)
 - Communication and storytelling
 
-Yes, storytelling. Humans make meaning out of stories, which is true whether the stories are told through TV shows, books, or data science reports. This page tells the story of my NCAA March Madness Pool Optimizer, its creation from the luckiest NCAA postseason imaginable, its lurching evolution, and its recent existential crisis.
+Yes, storytelling. Humans make meaning out of stories, which is true whether the stories are told through TV shows, books, or data science reports. This page tells the story of my NCAA March Madness Pool Optimizer, its creation from the luckiest NCAA bracket imaginable, its lofty heights, its lurching evolution, and its recent existential crisis.
 
 This story is way (way) more elaborate and embellished than it needs to be, but I wanted to have fun with it and provide a glimpse into what I'm like as a person and how I communicate. (For another example of my communication style, see my [COVID-19 Communication](covid) page.)
 
@@ -65,7 +65,7 @@ The first year I used the optimizer program, I created two brackets for my regul
 
 *Narrator: This game is not easy. His program did not take over the world.*
 
-After the commanding victory its first year, the bracket optimizer has struggled to reach those lofty heights again. There was an especially bleak run of a few years where I would enter multiple non-overlapping brackets into the pool, which overlooked just one or two good teams, and somehow those one or two overlooked teams were the ones that kept winning. These are actual quotes from actual emails I actually wrote after identifying which team(s) the program overlooked:
+After the commanding victory its first year, the bracket optimizer has struggled to have that kind of commanding performance again. There was an especially bleak run of a few years where I would enter multiple non-overlapping brackets into the pool, which overlooked just one or two good teams, and somehow those one or two overlooked teams were the ones that kept winning. These are actual quotes from actual emails I actually wrote after identifying which team(s) the program overlooked:
 - "So... North Carolina over West Virginia?" (tournament winner: North Carolina)
 - "Anybody but Villanova, right? Right?" (tournament winner: Villanova)
 - "Yes! Bring on Duke over Wisconsin! (tournament winner: Duke over Wisconsin)
@@ -74,5 +74,20 @@ This is a good illustration of how probabilities aren't certainties, especially 
 
 Then there was that year where the optimizer *would* have picked a winning bracket, except I manually switched a few games around to produce an outcome that I thought made more sense. Oops. Never again! Obey the machines without question! (Actually, this is terrible advice in general, but seeing as I don't know anything about college basketball... I have obeyed the machine ever since.)
 
-### The Possible End of the Optimizer
+### The (Possible) End of the Optimizer
 
+There's this famous mansion, the [Winchester Mystery House](http://www.smithsonianmag.com/history/heiress-gun-empire-built-mansion-forever-haunted-blood-money-built-it-180959712/), that belonged to Sarah Winchester, of Winchester Rifle fame. Convinced that the ghosts of people killed by Winchester rifles would never rest unless she continuously built and re-built the house, she had additions and renovations added to the house pretty much continuously for decades. There are completely closed-off rooms, doors that open to nothing but air, and stairs that lead to nowhere.
+
+My NCAA bracket optimizer program is a lot like that.
+
+Once a year, I resurrect the program and add something to it. Unfortunately, given that (A) I only work on it once a year, (B) it's always written in haste as the tournament approaches, (C) it was never intended to perform all the functions that it currently does, and (D) at no point did I take into account any design considerations or long-term plans, it is a monstrous, hot mess. Each year when I return to it, it's like re-learning the path through a labyrinth. What does this part even do? (On the bright side, it's one of the most well-commented pieces of code the world has ever seen, like the guy in [Memento](https://www.imdb.com/title/tt0209144/) writing notes to his future amnesiac self.)
+
+In 2024 I decided to rewrite the optimizer from the ground up using Python. I planned out the structure, anticipated current and future functionality, and took advantage of modern data science libraries like Pandas and Beautiful Soup. I even automated some of the tedious work that I used to have to do manually, like resolving the team name conflicts between ESPN and FiveThirtyEight.
+
+And then, somehow, for some reason, in a complete reversal of fortune from the red-hot tournament run that started this whole program, this was the year that ESPN stopped publishing their "Who Picked Whom" page of population picks *and* Nate Silver moved his March Madness predictions behind a paywall. (I'm fine with paying Silver for his hard work, but ESPN killing the "Who Picked Whom" page is unforgiveable.)
+
+This is a good lesson in how good data science is always at the mercy of good data. I don't know what the future holds for my NCAA March Madness bracket optimizer. Can I hack together enough population data from sources like Yahoo (not nearly as popular as ESPN)? Can I justify paying to access Nate Silver's probabilities when it costs more than an entry to my regular office pool?
+
+How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball and not being able to access the necessary data?
+
+I guess there's always returning to your roots and getting absurdly lucky. Come on, 99.99th percentile lottery ticket! Now that would make a good story.
