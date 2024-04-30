@@ -39,7 +39,7 @@ Here is an example of the automated mail merge grade report that students receiv
 
 ---
 
-<img src="images/mail-merge.png" alt="Screenshot of student grade report" width="100%">
+<img src="images/mail-merge.png" alt="Screenshot of student grade report">
 
 ---
 
