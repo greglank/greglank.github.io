@@ -31,3 +31,5 @@ The results show that BiSci 3 significantly increased participants’ connectedn
 ### The Take-Away Message
 
 If woven into the goals and approach of teaching, connectedness to nature can indeed be fostered in higher education. This is an informative result for environmental scholars and educators, as well as an inspiring one. The path to a sustainable future is long and difficult; environmental education that fosters connectedness to nature can aid us on this journey.
+
+Link to study: [Fostering Connectedness to Nature in Higher Education](https://doi.org/10.1080/13504622.2016.1225674)
