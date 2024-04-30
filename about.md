@@ -1,5 +1,7 @@
 # About Me
-Hi, I'm Greg, and I'm not your ordinary data scientist. At heart, I'm a teacher, an environmental researcher, and an interesting (?) human being.
+Hi, I'm Greg, and I'm not your ordinary data scientist.
+
+At heart, I'm a teacher, an environmental researcher, and an interesting (?) human being.
 
 I'm a professional educator with years of experience as a college instructor and assistant professor, which means that I know how to communicate complex ideas in simple terms. I have an English minor with an emphasis in creative writing, so I know how to tell stories that engage different audiences, whether those stories are told through creative fiction or data science reports. I've taught college-level public speaking and know how to speak and present effectively, including how to not put audiences to sleep with technical information. (Which I know would never happen with an audience as sophisticated and engaged as you, right? Hey, are you still there? Hello?)
 
