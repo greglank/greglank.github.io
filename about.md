@@ -19,7 +19,7 @@ You can contact me at [LinkedIn](https://www.linkedin.com/in/greg-lankenau-70b51
 
 ## Certifications
 
-**[IBM Data Science Professional Certificate](https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url)**: Certifies readiness for a career in data science with a demonstrated ability to solve real-world problems. [See IBM Training](https://www.ibm.com/training/badge/data-science-professional-certificate) for more information.
+**[IBM Data Science Professional Certificate](https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url)**: Certifies readiness for a career in data science with a demonstrated ability to solve real-world problems.
 
 <a href="https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url"><img src="images/ibm-certificate.png" alt="Poker screenshot" width="60%"></a>
 
