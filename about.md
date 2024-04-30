@@ -13,7 +13,9 @@ If you would like to contact me, drop me a line at [LinkedIn](https://www.linked
 
 ## Certifications
 
-[IBM](https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url)
+**IBM Data Science Professional Certificate:** Certifies readiness for a career in data science with a demonstrated ability to solve real-world problems. [See IBM Training](https://www.ibm.com/training/badge/data-science-professional-certificate) for more information.
+
+<a href="https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url"><img src="images/ibm-certificate.png" alt="Poker screenshot" width="60%"></a>
 
 ## Technical Skills
 
