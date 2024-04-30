@@ -14,7 +14,7 @@ Link to workbook: [Rebuy Club: Tableau Public](https://public.tableau.com/app/pr
 
 ### Background
 
-This project builds on my [Poker Hand History Parser and Database](parser). I have a SQLite database of no limit Texas hold 'em hands played with my online poker group since January, 2021. Visualization turns the somewhat opaque database into a set of easily-accessible, informative, and fun insights.
+This project builds on my [Poker Hand History Parser and Database](parser). I have a SQLite database of no limit Texas hold 'em hands played with my online poker group since January, 2021.
 
 ## Project Description
 
