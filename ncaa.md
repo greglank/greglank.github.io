@@ -86,10 +86,14 @@ In 2024 I decided to rewrite the optimizer from the ground up using Python. I pl
 
 And then, somehow, for some reason, in a complete reversal of fortune from the red-hot tournament run that started this whole program, this was the year that ESPN stopped publishing their "Who Picked Whom" page of population picks *and* Nate Silver moved his March Madness predictions behind a paywall. (I'm fine with paying Silver for his hard work, but ESPN's killing the "Who Picked Whom" page is unforgiveable.)
 
-This is a good lesson in how good data science is always at the mercy of good data. I don't know what the future holds for my NCAA March Madness bracket optimizer. Can I hack together enough population data from sources like Yahoo (not nearly as popular as ESPN)? Can I justify paying to access Nate Silver's probabilities when it costs more than an entry to my regular office pool?
+Sadly, I have shelved my NCAA bracket optimizer for now.
 
-How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball and not being able to access the necessary data?
+### The Take-Away Message
 
-I guess there's always returning to your roots and getting absurdly lucky. Come on, 99.99th percentile lottery ticket!
+Apart from the lessons about not building labrythine code that turns into the Winchester Mystery House, this project is a good illustration in how good data science is always at the mercy of good data. How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball and not being able to access the necessary data?
+
+I don't know what the future holds for my NCAA March Madness bracket optimizer. Can I hack together enough population data from sources like Yahoo (not nearly as popular as ESPN)? Can I justify paying to access Nate Silver's probabilities when it costs more than an entry to my regular office pool?
+
+If not, I guess there's always the possibility of returning to my roots and getting absurdly lucky. Come on, 99.99th percentile lottery ticket!
 
 Now that would make a good story.
