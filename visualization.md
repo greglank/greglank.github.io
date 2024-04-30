@@ -4,7 +4,7 @@
 
 Tableau workbook that draws from a SQLite database to visualize poker player strategies and statistics for better decision-making
 
-Workbook link: [Rebuy Club | Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
+Link to workbook: [Rebuy Club | Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
 
 <img src="images/tableau-running.png" alt="Tableau screenshot" width="60%">
 
@@ -24,3 +24,5 @@ I created a public Tableau workbook that visualizes key summary statistics from 
 ### The Take-Away Message
 
 Visualization is awesome!
+
+Link to workbook: [Rebuy Club | Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
