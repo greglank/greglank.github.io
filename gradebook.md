@@ -43,6 +43,6 @@ Here is an example of the automated mail merge grade report that students receiv
 
 ---
 
-### Project Summary
+### The Take-Away Message
 
 I use Google Sheets, integrated with Google Forms and various plugins, to overcome the limitations of traditional gradebooks. A little bit of spreadsheet wizardry allows me to facilitate a more creative, open-ended, and personal learning experience for students.
