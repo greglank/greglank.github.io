@@ -46,7 +46,7 @@ Here is a short list of my most relevant technical skills for data science. The 
     - [Published Social Science Research](nature)
 - **Communication and Writing**
     - [NCAA March Madness Pool Optimizer](ncaa)
-    - [COVID-19 Communication](covid)
+    - [COVID-19: What You Can Do](covid)
  
 ## Thank You
 
