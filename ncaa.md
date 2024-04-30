@@ -11,7 +11,7 @@ Java program that picks the optimal NCAA basketball tournament bracket for a typ
 - Data analysis (Pandas)
 - Communication and storytelling
 
-Yes, storytelling. Humans make meaning out of stories, which is true whether the stories are told through TV shows, books, or data science reports. This page tells the story of my NCAA March Madness Pool Optimizer, its creation from the luckiest NCAA bracket imaginable, its lofty heights, its lurching evolution, and its recent existential crisis.
+Yes, storytelling. Humans make meaning out of stories, which is true whether the stories are told through TV shows, books, or data science reports. This page tells the story of my NCAA March Madness Pool Optimizer, including its creation from the luckiest NCAA bracket imaginable, its lofty heights, its lurching evolution, and its recent existential crisis.
 
 This story is way (way) more elaborate and embellished than it needs to be, but I wanted to have fun with it and provide a glimpse into what I'm like as a person and how I communicate. (For another example of my communication style, see my [COVID-19 Communication](covid) page.)
 
