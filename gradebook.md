@@ -1,4 +1,4 @@
-# Dynamic Gradebooks]
+# Dynamic Gradebook
 
 ## Overview
 
