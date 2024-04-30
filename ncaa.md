@@ -9,7 +9,7 @@ Java program that picks the optimal NCAA basketball tournament bracket for a typ
 ### Skills
 - Programming (Java, Python)
 - Data analysis (Pandas)
-- Communication and storytelling
+- Communication and storytelling (this silly page)
 
 Yes, storytelling. Humans make meaning out of stories, which is true whether the stories are told through TV shows, books, or data science reports. This page takes the idea of data science as storytelling literally! Here I tell the story of my NCAA March Madness Pool Optimizer, including its creation from the luckiest NCAA bracket imaginable, its lofty heights, its lurching evolution, and its recent existential crisis.
 
