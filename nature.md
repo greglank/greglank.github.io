@@ -26,7 +26,7 @@ This is a published, peer-reviewed social science study that uses mixed methods 
 
 This study examines an introductory college-level ecology course for non majors, "BiSci 3." Fostering connectedness and a fuller relationship with nature is one of the primary goals of BiSci 3, which features reflective assignments, peer-led discussions, and interactive activities. Using pre-and post-test measurements of Nature Relatedness and supplemental interviews, the study addresses the question of whether BiSci 3 can increase learners’ connectedness to nature, both independently and in comparison to similar courses.
 
-The results show that BiSci 3 significantly increased participants’ connectedness, particularly their identification with nature and nature-focused worldview. Other environmental courses studied demonstrated no such changes, suggesting that environmental education does not automatically lead to connectedness; the key difference is likely an intentional focus on connectedness in the goals and approach of the course or program.
+The results show that BiSci 3 significantly increased participants’ connectedness, particularly their identification with nature and nature-focused worldview. Other environmental courses studied demonstrated no such changes, suggesting that environmental education does not automatically lead to connectedness; the key difference is likely an intentional focus on connectedness in the goals and approach of the course.
 
 ### The Take-Away Message
 
