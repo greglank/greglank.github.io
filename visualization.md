@@ -20,3 +20,7 @@ This project builds on my [Poker Hand History Parser and Database](parser). The 
 ## Project Description
 
 I created a public Tableau workbook that visualizes key summary statistics from my online poker group's games of no limit Texas hold 'em.
+
+### The Take-Away Message
+
+Visualization is awesome!
