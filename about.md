@@ -28,10 +28,10 @@ You can contact me at [LinkedIn](https://www.linkedin.com/in/greg-lankenau-70b51
 Here is a short list of my most relevant technical skills for data science. The list contains links to the same projects as the [Projects (Home)]("/") page, but organized by skill. Some projects are listed under more than one skill.
 
 - **Programming:** Python, Java
+    - Includes experience in **programming environments** like Jupyter Lab/Notebooks and GitHub
     - [Poker Hand History Parser and Database](parser)
     - [Poker AI and Machine Learning Insights](ai)
     - [NCAA March Madness Pool Optimizer](ncaa)
-    - Includes experience in **programming environments** like Jupyter Lab/Notebooks and GitHub
 - **Machine Learning and Neural Networks:** scikit-learn, Keras/TensorFlow
     - [Poker AI and Machine Learning Insights](ai)
 - **Data Visualization:** Tableau, matplotlib, Seaborn, Plotly/Dash
