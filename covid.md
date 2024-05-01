@@ -1,7 +1,3 @@
----
-layout: page
----
-
 # COVID-19: What You Can Do
 
 *Sources updated on April 4, 2024*
