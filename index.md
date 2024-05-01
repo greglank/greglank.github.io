@@ -41,6 +41,3 @@ Peer-reviweed study that uses quantitative statistical analysis to demonstrate t
 28-sheet workbook using Google Sheets integrated with Google Forms for automated mail merge grade reports
 
 <a href="gradebook"><img src="images/gradebook.png" alt="Gradebook screenshot" width="60%"></a>
-
----
--
