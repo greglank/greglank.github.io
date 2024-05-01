@@ -29,7 +29,7 @@ I think it's important to start shifting the social norms around COVID-19 to a m
 
 ## TL;DR Links
 
-This email is long and includes a gaggle of links. I included so many links because they show the evidence that lead to these claims, and they provide additional information if you would like to dig into a particular topic a bit more. If you'd like to learn more but don't know where to start, here is a short list of what I consider to be the best resources. All of these are accessible for a general audience; for more rigorous scientific studies and meta analyses, check out the rest of the email. :)
+This email is long and includes a gaggle of links. I included so many links because they show the evidence that lead to these claims, and they provide additional information if you would like to dig into a particular topic. If you'd like to learn more but don't know where to start, here is a short list of what I consider to be the best resources. All of these are accessible for a general audience; for more rigorous scientific studies and meta analyses, check out the rest of the email. :)
 
 - **Current prevalence of COVID-19 in the U.S.:** The People's CDC and their weekly [COVID-19 Weather Report](https://peoplescdc.org/weatherreports/)
 - **Overview of Long COVID effects:** The summary from Johns Hopkins Medicine: [Long COVID: Long-Term Effects of COVID-19](https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/covid-long-haulers-long-term-effects-of-covid19)
