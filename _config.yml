@@ -1,5 +1,5 @@
-# theme: jekyll-theme-minimal
-remote_theme: jekyll/minima
+theme: jekyll-theme-minimal
+# remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
 minima:
