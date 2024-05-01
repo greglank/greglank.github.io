@@ -1,4 +1,7 @@
-theme: jekyll-theme-minimal
-skin: dark
+# theme: jekyll-theme-minimal
+remote_theme: "godalming123/minimal"
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Greg Lankenau's Data Science Portfolio
 description: Not Your Ordinary Data Scientist
+color-scheme: "auto"
