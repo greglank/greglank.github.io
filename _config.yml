@@ -1,6 +1,8 @@
 # theme: jekyll-theme-minimal
-theme: jekyll-theme-minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark # or auto if you want it to switch with your system settings.
 title: Greg Lankenau's Data Science Portfolio
 description: Not Your Ordinary Data Scientist
-minima:
-  skin: dark
