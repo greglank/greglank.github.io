@@ -20,7 +20,7 @@ This project builds on my [Poker Hand History Parser and Database](parser). I ha
 
 I created a public Tableau workbook that visualizes key values and summary statistics from the SQLite database. The database holds all the information since I began downloading hand histories, but the Tableau workbook limits its display to the **most recent 30 days** of play. This was a deliberate design decision made to allow 'winners' and 'losers' to ebb and flow over time, such that any player can rise to the top and claim the trophy of big winner for the month.
 
-Some of the workbook sheets summarize past information mainly for the purpose of recordkeeping and entertainment (and bragging rights, of course). For example:
+Some of the workbook sheets summarize past information mainly for the purpose of record-keeping and entertainment (and bragging rights, of course). For example:
 - A line graph displaying the running total of player wins and losses over time (pictured in the above thumbnail)
 - A bar graph displaying average player wins and losses per hand, normalized in terms of big blinds per 100 hands (bb/100)
 - A "Nemesis-Hero" table displaying the breakdown of wins and losses of every player against every other player
@@ -45,6 +45,6 @@ In the upper right there is a set of interactive filters. Depending on the sheet
 
 ### The Take-Away Message
 
-Visuzalization is a handy tool to ~~establish bragging rights~~ both summarize what happened in the past and provide strategic insights to inform future decision-making. This public Tableau workbook, accessible to everyone in my poker group, is a handy tool for fun and profit!
+Visualization is a handy tool to ~~establish bragging rights~~ both summarize what happened in the past and provide strategic insights to inform future decision-making. This public Tableau workbook, accessible to everyone in my poker group, is a handy tool for fun and profit!
 
 Link to workbook: [Rebuy Club: Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)

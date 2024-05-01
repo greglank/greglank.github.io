@@ -31,7 +31,7 @@ Java program that picks the optimal NCAA basketball tournament bracket for a typ
 ---
 
 ## [Published Social Science Research](nature)
-Peer-reviweed study that uses quantitative statistical analysis to demonstrate that higher education can foster connectedness to nature  
+Peer-reviewed study that uses quantitative statistical analysis to demonstrate that higher education can foster connectedness to nature  
 
 <a href="nature"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%"></a>
   

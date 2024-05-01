@@ -35,7 +35,7 @@ In the beginning, this project didn't actually start as a NCAA March Madness bra
 
 <img src="images/ncaa-crop.jpg" alt="First place after one weekend in the NCAA pool">
 
-I wanted to know which teams I should root for in the upcoming weekend of games in order to keep my unexpected first-place run alive. I thought there might be some unintuitive rooting interests, such as rooting against a team that I picked to win a game because that team's losing might hurt my closest competition more.
+I wanted to know which teams I should root for in the upcoming weekend of games in order to keep my unexpected first-place run alive. I thought there might be some counter-intuitive rooting interests, such as rooting against a team that I picked to win a game because that team's losing might hurt my closest competition more.
 
 To find out, I wrote a rough-and-tumble Java program that enumerated all possible outcomes of the tournament (it simply gave each team a 50/50 chance to win each game), and for each outcome compared the resulting score of my bracket to the scores of my closest competition. From there it determined the teams I most needed to root for and the teams I most needed to root against.
 
@@ -84,13 +84,13 @@ Once a year, I resurrect the program and add something to it. Unfortunately, giv
 
 In 2024 I decided to rewrite the optimizer from the ground up using Python. I planned out the structure, anticipated current and future functionality, took advantage of modern data science libraries like Pandas and Beautiful Soup, and automated some of the tedious work that I used to have to do manually, like scraping the most recent game results.
 
-And then, somehow, for some reason, in a complete reversal of fortune from the red-hot tournament run that started this whole program, this was the year that ESPN stopped publishing their "Who Picked Whom" page of population picks *and* Nate Silver moved his March Madness predictions behind a paywall. (I'm fine with paying Silver for his hard work, but ESPN's killing the "Who Picked Whom" page is unforgiveable.)
+And then, somehow, for some reason, in a complete reversal of fortune from the red-hot tournament run that started this whole program, this was the year that ESPN stopped publishing their "Who Picked Whom" page of population picks *and* Nate Silver moved his March Madness predictions behind a paywall. (I'm fine with paying Silver for his hard work, but ESPN's killing the "Who Picked Whom" page is unforgivable.)
 
 Sadly, my NCAA March Madness pool optimizer is now sitting on the digital shelf, collecting digital dust.
 
 ### The Take-Away Message
 
-Apart from the lessons about not building labrythine code that turns into the Winchester Mystery House, this project is a good illustration in how good data science is always at the mercy of good data. How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball and not being able to access the necessary data?
+Apart from the lessons about not building labyrinthine code that turns into the Winchester Mystery House, this project is a good illustration in how good data science is always at the mercy of good data. How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball and not being able to access the necessary data?
 
 I don't know what the future holds for my NCAA March Madness bracket optimizer. Can I hack together enough population data from sources like Yahoo (not nearly as popular as ESPN)? Can I justify paying to access Nate Silver's probabilities when it costs more than an entry to my regular office pool?
 
