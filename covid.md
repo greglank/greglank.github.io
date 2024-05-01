@@ -138,7 +138,7 @@ I think it's important to foster frank and open conversations like these about C
 
 The really good news is now that I have a routine with the smorgasbord of masks, the HEPA filter in the carry-on, the bedazzled CR boxes, etc, I have the foundation to fly across the country to hang out with you and lose all my money playing poker! Let's see if we can make it happen next summer!
 
-## The Take-Away Message: Stopping the Spread of the Virus
+## The Take-Away Message
 
 After I returned from my Vegas trip, I used masking, CR boxes, open windows, and social distancing (sleeping in the guest room/office), because that's the biggest lesson of all from the medical and scientific community: ***this is how we stop the spread of the virus.***
 
