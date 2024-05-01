@@ -4,4 +4,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Greg Lankenau's Data Science Portfolio
 description: Not Your Ordinary Data Scientist
-color-scheme: "dark"
+color-scheme: dark
