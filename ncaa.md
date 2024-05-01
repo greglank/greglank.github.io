@@ -19,9 +19,9 @@ This story is much (much) longer and more elaborate than it needs to be, but I w
 
 I don't know anything about NCAA college basketball. I don't watch it, I don't follow it, I don't pay any attention at all to it... except in March, when the annual NCAA tournament rolls around. The March Madness tournament means casual March Madness "office" pools! That's where a bunch of chumps like me compete with each other to see who can put together the most accurate bracket of predicted winning teams while knowing nothing about college basketball.
 
-*Aside: I actually did know something about NCAA basketball once. When I was in college, I played on the practice squad for the Colorado State women's basketball team for two years, running opponents' plays and participating in drills and scrimmages. As a practice squad player and a fan, I absorbed a lot of firsthand knowledge about other teams. And you're damn right I won the women's tournament pool by a landslide my first year. (No one has joined a women's tournament pool with me since.)*
+*Aside: I actually did know something about NCAA basketball once. In college I played on the practice squad for the Colorado State women's basketball team for two years, running opponents' plays and participating in drills and scrimmages. As a practice squad player and a fan, I absorbed a lot of firsthand knowledge about other teams. And you're damn right I won the women's tournament pool by a landslide my first year. (No one has joined a women's tournament pool with me since.)*
 
-Other than that flash of knowledge from playing on the Colorado State practice squad, I have not followed, and do not follow, NCAA college basketball at all. The question: How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball?
+Other than that flash of knowledge from playing on the practice squad, I have not followed, and do not follow, NCAA college basketball at all. The question: How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball?
 
 The answer: Scrape some data and write a program, of course.
 
@@ -82,7 +82,7 @@ My NCAA bracket optimizer program is a lot like that.
 
 Once a year, I resurrect the program and add something to it. Unfortunately, given that (A) I only work on it once a year, (B) it's always written in haste as the NCAA tournament approaches, (C) it was never intended to perform all the functions that it currently does, and (D) at no point did I take into account any design considerations or long-term plans, it is a monstrous, hot mess. Each year when I return to it, it's like re-learning the path through a labyrinth. What does this part even do? (On the bright side, it's one of the most well-commented pieces of code the world has ever seen, like the guy in [Memento](https://www.imdb.com/title/tt0209144/) writing notes to his future amnesiac self.)
 
-In 2024 I decided to rewrite the optimizer from the ground up using Python. I planned out the structure, anticipated current and future functionality, and took advantage of modern data science libraries like Pandas and Beautiful Soup. I even automated some of the tedious work that I used to have to do manually, like scraping the most recent game results.
+In 2024 I decided to rewrite the optimizer from the ground up using Python. I planned out the structure, anticipated current and future functionality, took advantage of modern data science libraries like Pandas and Beautiful Soup, and automated some of the tedious work that I used to have to do manually, like scraping the most recent game results.
 
 And then, somehow, for some reason, in a complete reversal of fortune from the red-hot tournament run that started this whole program, this was the year that ESPN stopped publishing their "Who Picked Whom" page of population picks *and* Nate Silver moved his March Madness predictions behind a paywall. (I'm fine with paying Silver for his hard work, but ESPN's killing the "Who Picked Whom" page is unforgiveable.)
 
