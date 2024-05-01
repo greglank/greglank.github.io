@@ -109,8 +109,6 @@ As you might have inferred from the three Cs, good ventilation is important. Bec
 <p><img src="images/covid/yelp.png" alt="Yelp screenshot with outdoor seating selected"><br>
 <i>Click that "outdoor seating" option!</i></p>
 
-(Also, dark mode for the win! Setting my phone and PC to use dark mode for everything that possibly has a dark mode has changed my life.)
-
 You can clean indoor air with air filters, and this is where my inner nerd really comes out to play. Air filters that remove small airborne particles in the 0.1-1 micron range (HEPA filters do this) are effective at [reducing SARS-CoV-2 and other viruses](https://www.epa.gov/coronavirus/air-cleaners-hvac-filters-and-coronavirus-covid-19) in the air. There are three great options for buying -- or building! -- air filters capable of reducing COVID-19:
 
 #### The easy option: Buy a HEPA air filter
