@@ -46,6 +46,6 @@ This is a short list of my most relevant technical skills for data science. The 
     - [NCAA March Madness Pool Optimizer](ncaa)
     - [COVID-19: What You Can Do](covid)
  
-## Thank You
+## The Take-Away Message
 
-Thank you for visiting my portfolio!
+To complement my technical skills as a data scientist, I am also a teacher, a researcher, a communicator, and an interesting (?) person. Thank you for viewing my portfolio!
