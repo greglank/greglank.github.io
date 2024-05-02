@@ -2,7 +2,7 @@
 
 ## Overview
 
-Work in progress...
+Works in progress that leverage machine learning and AI to derive advanced insights about poker strategy
 
 <img src="images/range.png" alt="Starting hands screenshot" width="60%">
 
@@ -13,7 +13,7 @@ Work in progress...
 
 ### Background
 
-This project builds on my [Poker Hand History Parser and Database](parser). I am currently working on a set of projects that leverage machine learning and AI to derive advanced insights about poker strategy.
+This project builds on my [Poker Hand History Parser and Database](parser). I am currently working on a set of projects that use machine learning models and deep learning (neural networks) to analyze my own play, and possibly that of my opponents'.
 
 ### Limitations
 
