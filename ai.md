@@ -13,7 +13,7 @@ Works in progress that leverage machine learning and AI to derive advanced insig
 
 ### Background
 
-This project builds on my [Poker Hand History Parser and Database](parser). I am currently working on a set of projects that use machine learning models and deep learning (neural networks) to analyze my own play, and possibly that of my opponents'.
+This project builds on my [Poker Hand History Parser and Database](parser). I am currently working on a set of projects that use machine learning and deep learning (neural networks) to analyze my own play, and possibly that of my opponents'.
 
 ### Limitations
 
