@@ -92,7 +92,7 @@ I don't teach in any ol' KF94; I teach in fashionable KF94 masks from MaskLab th
 For my brother's wedding, I sported an Airgami, which is a super-fancy origami-style mask that I bought for super-special occasions. This thing is gorgeous and a compliment magnet! Too bad they are now sold out. There might be an actual photo out there of me getting down on the dance floor to YMCA or Shake It Off wearing my Airgami, but you will have to settle for a product photo.
 
 <p><img src="images/covid/airgami.jpg" alt="Airgami product photo" width="30%"><br>
-<i>An Airgami for super-special occasions</i></p>
+<i>A super-special mask for super-special occasions</i></p>
 
 ### When to Wear Masks
 
