@@ -45,6 +45,6 @@ In the upper right there is a set of interactive filters. Depending on the sheet
 
 ### The Take-Away Message
 
-Visualization is a handy tool to ~~establish bragging rights~~ both summarize what happened in the past and provide strategic insights to inform future decision-making. This public Tableau workbook, accessible to everyone in my poker group, is a handy tool for fun and profit!
+Visualization is an effective way to ~~establish bragging rights~~ both summarize what happened in the past and provide strategic insights to inform future decision-making. This public Tableau workbook, accessible to everyone in my poker group, is a handy tool for fun and profit!
 
 Link to workbook: [Rebuy Club: Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
