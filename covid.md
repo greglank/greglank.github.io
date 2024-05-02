@@ -84,7 +84,7 @@ KF94 masks (made in Korea) and KN95 masks (made in China) are tested to filter a
 I don't teach in any ol' KF94; I teach in fashionable KF94 masks from MaskLab that are color-coordinated to my outfit. I'm talking purple ombre, black "sacred geometry," blue "waves of hope," and red Vivienne Tam "city camouflage." One of the other social norms I'm conscious of changing is re-framing masks as fashion accessories, the way people enjoy purses or watches. My students constantly talk about what I'm wearing, which is the point. Wearing a mask can be fun if we do it right!
 
 <p><img src="images/covid/masklab.jpg" alt="Photo of a model wearing a Masklab KF94" width="60%"/><br>
-<i>Note: not an actual photo of me</i></p>
+<i>(note: not an actual photo of me)</i></p>
 
 #### The special occasion: [Airgami](https://www.airgami.life/collections) (now sold out)
 For my brother's wedding, I sported an Airgami, which is a super-fancy origami-style mask that I bought for super-special occasions. This thing is gorgeous and a compliment magnet! Too bad they are now sold out. There might be an actual photo out there of me getting down on the dance floor to YMCA or Shake It Off wearing my Airgami, but you will have to settle for a product photo.
