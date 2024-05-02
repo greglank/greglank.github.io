@@ -23,4 +23,4 @@ Any AI-driven insights about other players cannot be nearly this thorough, simpl
 
 ## Project Description
 
-Work in progress...
+Work in progress... Will be updated as the projects mature!
