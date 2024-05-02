@@ -17,7 +17,7 @@ Tableau workbook that draws from a SQLite database to visualize poker player str
 ---
   
 ## [Poker AI and Machine Learning Insights](ai)
-Work in progress...
+Works in progress that leverage machine learning and AI to derive advanced insights about poker strategy
 
 <a href="ai"><img src="images/range.png" alt="Starting hands screenshot" width="60%"></a>
   
