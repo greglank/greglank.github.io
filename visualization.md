@@ -41,7 +41,7 @@ All of the graphs and stats in the Tableau workbook are interactive. You can mou
 
 Along the top there is a set of tabs you can click to see the different sheets.
 
-In the upper right there is a set of interactive filters. Depending on the sheet, you can filter by date, session number, number of players, number of hands played, and/or big blind amount. For example, moving the "session number" slider all the way to the right will tell the workbook to show only the results from the most recent session. Note that most of the filters apply to ALL the sheets in the workbook, so if something doesn't look right to you, double check to make sure the filters are set how you want them.
+In the upper right there is a set of interactive filters. Depending on the sheet, you can filter by date, session number, number of players, number of hands played, and/or big blind amount. For example, moving the "session number" slider all the way to the right will tell the workbook to show only the results from the most recent session. Note that most of the filters apply to all the sheets in the workbook, so if something doesn't look right, double check to make sure the filters are set how you want them.
 
 ### The Take-Away Message
 
