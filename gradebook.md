@@ -17,11 +17,9 @@ These non-standard assignments and grading policies mean that typical learning m
 
 ## Project Description
 
-My dynamic gradebooks are Google Sheets workbooks integrated with Google Forms and various plugins. Each course has its own gradebook; the most complex gradebook has 28 sheets within the workbook.
+My dynamic gradebooks are Google Sheets workbooks integrated with Google Forms and various plugins. Each course has its own gradebook; the most complex gradebook has 28 sheets within the workbook. Integrating with Google Forms makes the gradebook interactive, allowing students to perform actions like entering feedback and scores for peer-reviewed assignments, choosing group members and grade bundles, and checking in after group meetings.
 
-Integrating with Google Forms allows students to enter information into the gradebook. Leveraging the plugin, Form Ranger, the dynamic gradebook allows students to perform actions like entering feedback and scores for peer-reviewed assignments, choosing group members and grade bundles, and checking in after group meetings.
-
-On the other side of the coin, students need to be able to access their grades and track their progress. Each week I use the gradebook to send automated mail merge grade reports to students' email addresses via the plugin, Yet Another Mail Merge. I also use the mail merge function for more elaborate feedback on major assignments like the peer-reviewed research project in my research methods course, providing students with a 26-item checklist and written feedback synthesized from up to four peer reviewers.
+On the other side of the coin, students need to be able to access their grades and track their progress. Each week I use the gradebook to send automated mail merge grade reports to students' email addresses. I also use the mail merge function for more elaborate feedback on major assignments like the peer-reviewed research project in my research methods course, providing students with a 26-item checklist and written feedback automatically collated from up to four peer reviewers.
 
 ### The Take-Away Message
 
