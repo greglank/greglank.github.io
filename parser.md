@@ -36,6 +36,8 @@ This project started as a personal project for my poker group, but I would like 
 
 [![](images/database-flowchart.jpg)](images/database-flowchart.jpg)
 
+{% include lightbox.html src="database-flowchart.jpg" data="group" title="Sample Title" %}
+
 *Flowchart adapted from [Multi Input Output Process](https://poweredtemplate.com/multi-input-output-process-80158/)*
 
 ### The Take-Away Message
