@@ -1,3 +1,5 @@
+<link href="lightbox/dist/js/lightbox-plus-jquery.js" rel="stylesheet" />
+
 # Poker Hand History Parser and Database
 
 ## Overview
@@ -35,3 +37,5 @@ This project started as a personal project for my poker group, but I would like 
 ### The Take-Away Message
 
 This project uses Python and a SQLite database to convert poker hands and actions into a recorded format that can be stored, accessed, and queried. The database currently provides for analysis through SQLite queries and Tableau visualization, with plans for additional input and output functionality.
+
+<script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
