@@ -34,6 +34,8 @@ This project started as a personal project for my poker group, but I would like 
 
 <a href="images/database-flowchart.jpg" data-lightbox="database-flowchart" data-title="Poker database flowchart: future directions">Future Directions</a>
 
+[![](images/database-flowchart.jpg)](images/database-flowchart.jpg)
+
 *Flowchart adapted from [Multi Input Output Process](https://poweredtemplate.com/multi-input-output-process-80158/)*
 
 ### The Take-Away Message
