@@ -31,7 +31,7 @@ Other workbook sheets are more strategic in nature and can be used to inform fut
 
 My favorite strategically-oriented sheet displays a 2D coordinate plane that plots two variables against each other for each player: PFR% (preflop raise; the percentage of times the player raised a hand when given the opportunity) and VPIP% (voluntarily put money into pot; the percentage of times the player chose to play a hand when given the opportunity). PFR% is the x (horizontal) axis, so players more to the right of the graph raised more hands. VPIP% is the y (vertical) axis, so players higher on the graph played more hands.
 
-<img src="images/vpip-pfr.jpg" alt="VPIP vs. PFR screenshot">
+[![](images/vpip-pfr.jpg)](images/vpip-pfr.jpg)
 
 Together, these two measurements encapsulate a player's playing style and can be used to make better decisions against that player. For example, a player who with a high PFR% (raises a lot) and a high VPIP% (plays many hands) is probably bluffing too often, which can make calling or re-raising that player a better play than folding.
 
