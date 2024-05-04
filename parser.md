@@ -1,5 +1,3 @@
-<link href="lightbox/dist/js/lightbox-plus-jquery.js" rel="stylesheet" />
-
 # Poker Hand History Parser and Database
 
 ## Overview
@@ -32,16 +30,8 @@ This project started as a personal project for my poker group, but I would like 
 
 <a href="images/database-flowchart.jpg"><img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions"></a>
 
-<a href="images/database-flowchart.jpg" data-lightbox="database-flowchart" data-title="Poker database flowchart: future directions"><img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions"></a>
-
-[![](images/database-flowchart.jpg)](images/database-flowchart.jpg)
-
-{% include _includes/lightbox.html src="database-flowchart.jpg" data="group" title="Sample Title" %}
-
 *Flowchart adapted from [Multi Input Output Process](https://poweredtemplate.com/multi-input-output-process-80158/)*
 
 ### The Take-Away Message
 
 This project uses Python and a SQLite database to convert poker hands and actions into a recorded format that can be stored, accessed, and queried. The database currently provides for analysis through SQLite queries and Tableau visualization, with plans for additional input and output functionality.
-
-<script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
