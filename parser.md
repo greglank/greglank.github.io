@@ -32,7 +32,7 @@ This project started as a personal project for my poker group, but I would like 
 
 <a href="images/database-flowchart.jpg"><img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions"></a>
 
-<a href="images/database-flowchart.jpg" data-lightbox="database-flowchart" data-title="Poker database flowchart: future directions">Future Directions</a>
+<a href="images/database-flowchart.jpg" data-lightbox="database-flowchart" data-title="Poker database flowchart: future directions"><img src="images/database-flowchart.jpg" alt="Poker database flowchart: future directions"></a>
 
 [![](images/database-flowchart.jpg)](images/database-flowchart.jpg)
 
