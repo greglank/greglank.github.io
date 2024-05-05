@@ -3,7 +3,7 @@
 ---
 
 ## [Poker Hand History Parser and Database](parser)
-Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis  
+Python script that cleans and parses poker hand histories to load into a SQLite database for further analysis
   
 <a href="parser"><img src="images/poker.png" alt="Poker screenshot" width="60%"></a>
   
@@ -38,6 +38,6 @@ Peer-reviewed study that uses quantitative statistical analysis to demonstrate t
 ---
   
 ## [Dynamic Gradebook](gradebook)
-28-sheet workbook using Google Sheets integrated with Google Forms to collate student grades, instructor feedback, and peer feedback for automated mail merge grade reports
+28-sheet workbook using Google Sheets to collate student grades, instructor feedback, and peer feedback for automated mail merge grade reports
 
 <a href="gradebook"><img src="images/gradebook.png" alt="Gradebook screenshot" width="60%"></a>

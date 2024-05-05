@@ -2,7 +2,7 @@
 
 ## Overview
 
-Python script that cleans and parses poker hand histories from PokerNow and loads them into a SQLite database for further analysis
+Python script that cleans and parses poker hand histories to load into a SQLite database for further analysis
 
 The database is used as the basis for the [Poker Visualization](visualization) and [Poker AI and Machine Learning Insights](ai) projects
 
