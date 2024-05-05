@@ -38,6 +38,6 @@ Peer-reviewed study that uses quantitative statistical analysis to demonstrate t
 ---
   
 ## [Dynamic Gradebook](gradebook)
-28-sheet workbook using Google Sheets integrated with Google Forms for automated mail merge grade reports
+28-sheet workbook using Google Sheets integrated with Google Forms to collate student grades, instructor feedback, and peer feedback for automated mail merge grade reports
 
 <a href="gradebook"><img src="images/gradebook.png" alt="Gradebook screenshot" width="60%"></a>
