@@ -22,11 +22,14 @@ This is a short list of my most relevant skills for data science. Underneath eac
 
 - **Research Design**
     - [Published Social Science Research](nature)
-- **Teaching and Group Management**
-    - [Harold F. Martin Graduate Assistant Outstanding Teaching Award](https://gradschool.psu.edu/graduate-school-funding/programs/gradteach/): University-level award for outstanding teaching performance
 - **Communication and Writing**
     - [NCAA March Madness Pool Optimizer](ncaa)
     - [COVID-19: What You Can Do](covid)
+- **Teaching and Group Management**
+    - [Harold F. Martin Graduate Assistant Outstanding Teaching Award](https://gradschool.psu.edu/graduate-school-funding/programs/gradteach/): University-level award for outstanding teaching performance
+- **Soft Skills: Intellectual Curiosity, Leadership, Service, and Character**
+    - [Boettcher Foundation Scholarship](https://boettcherfoundation.org/scholarships/prospective-scholars/faqs/): Four-year full scholarship to any college or university in Colorado
+
 
 ## Certifications
 
