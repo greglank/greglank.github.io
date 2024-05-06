@@ -15,37 +15,6 @@ Here's a photo of me doing tall person things:
 
 You can contact me at [LinkedIn](https://www.linkedin.com/in/greg-lankenau-70b51013/).
 
-## Certifications
-
-**[IBM Data Science Professional Certificate](https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url)**: Certifies readiness for a career in data science with a demonstrated ability to solve real-world problems.
-
-<a href="https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url"><img src="images/ibm-certificate.png" alt="Poker screenshot" width="60%"></a>
-
-## Technical Skills
-
-This is a short list of my most relevant technical skills for data science. The list contains links to the same projects as the [Projects (Home)]("/") page, but is organized by skill. Some projects are listed under more than one skill.
-
-- **Programming:** Python, Java
-    - Includes experience in **programming environments** like Jupyter Lab and GitHub
-    - [Poker Hand History Parser and Database](parser)
-    - [Poker AI and Machine Learning Insights](ai)
-    - [NCAA March Madness Pool Optimizer](ncaa)
-- **Machine Learning and Neural Networks:** scikit-learn, Keras/TensorFlow
-    - [Poker AI and Machine Learning Insights](ai)
-- **Data Visualization:** Tableau, matplotlib, Seaborn, Plotly/Dash
-    - [Poker Visualization](visualization)
-- **Relational Databases:** MySQL, SQLite
-    - [Poker Hand History Parser and Database](parser)
-- **Statistical and Numerical Analysis:** NumPy, SPSS, MATLAB, Octave
-    - [Published Social Science Research](nature)
-- **Data Analysis:** Pandas, Excel, Google Sheets, NVivo
-    - [Dynamic Gradebook](gradebook)
-- **Research Design**
-    - [Published Social Science Research](nature)
-- **Communication and Writing**
-    - [NCAA March Madness Pool Optimizer](ncaa)
-    - [COVID-19: What You Can Do](covid)
- 
 ## The Take-Away Message
 
 To complement my technical skills as a data scientist, I am also a teacher, a researcher, a communicator, and an interesting (?) person. Thank you for viewing my portfolio!

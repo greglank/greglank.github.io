@@ -1,0 +1,36 @@
+# Skills, Certifications, and Awards
+
+This is a short list of my most relevant skills for data science. Underneath each skill is a project or award that best illustrates that skill. The projects are the same as those on [Projects (Home)]("/") page; some projects are listed under more than one skill.
+
+## Technical Skills
+
+- **Programming:** Python, Java
+    - Includes **programming tools** like Jupyter and Git
+    - Most of the projects below demonstrate programming skills
+- **Relational Databases:** MySQL, SQLite
+    - [Poker Hand History Parser and Database](parser)
+- **Data Visualization:** Tableau, matplotlib, Seaborn, Plotly/Dash
+    - [Poker Visualization](visualization)
+- **Machine Learning and Neural Networks:** scikit-learn, Keras/TensorFlow
+    - [Poker AI and Machine Learning Insights](ai)
+- **Statistical and Numerical Analysis:** NumPy, SPSS, MATLAB, Octave
+    - [Published Social Science Research](nature)
+- **Data Analysis:** Pandas, Excel, Google Sheets, NVivo
+    - [Dynamic Gradebook](gradebook)
+
+## Research and Communication Skills
+
+- **Research Design**
+    - [Published Social Science Research](nature)
+- **Teaching and Public Speaking**
+    - [Harold F. Martin Graduate Assistant Outstanding Teaching Award](https://gradschool.psu.edu/graduate-school-funding/programs/gradteach/), The Pennsylvania State University
+- **Communication and Writing**
+    - [NCAA March Madness Pool Optimizer](ncaa)
+    - [COVID-19: What You Can Do](covid)
+
+## Certifications
+
+**[IBM Data Science Professional Certificate](https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url)**: Certifies readiness for a career in data science with a demonstrated ability to solve real-world problems
+
+<a href="https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url"><img src="images/ibm-certificate.png" alt="Poker screenshot" width="60%"></a>
+
