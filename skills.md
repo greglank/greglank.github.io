@@ -22,8 +22,8 @@ This is a short list of my most relevant skills for data science. Underneath eac
 
 - **Research Design**
     - [Published Social Science Research](nature)
-- **Teaching and Public Speaking**
-    - [Harold F. Martin Graduate Assistant Outstanding Teaching Award](https://gradschool.psu.edu/graduate-school-funding/programs/gradteach/), The Pennsylvania State University
+- **Teaching and Group Management**
+    - [Harold F. Martin Graduate Assistant Outstanding Teaching Award](https://gradschool.psu.edu/graduate-school-funding/programs/gradteach/): University-level award for outstanding teaching performance
 - **Communication and Writing**
     - [NCAA March Madness Pool Optimizer](ncaa)
     - [COVID-19: What You Can Do](covid)
@@ -34,3 +34,6 @@ This is a short list of my most relevant skills for data science. Underneath eac
 
 <a href="https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url"><img src="images/ibm-certificate.png" alt="Poker screenshot" width="60%"></a>
 
+## The Take-Away Message
+
+I'm an experienced educator and researcher transitioning to a career in data science. I'm proficient in a range of technical skills, complemented by the ability to communicate complex ideas to non-technical audiences through writing, speaking, and presenting.
