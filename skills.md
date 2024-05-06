@@ -1,6 +1,6 @@
-# Skills, Certifications, and Awards
+# Skills, Certificates, and Awards
 
-This is a short list of my most relevant skills and certifications for data science. Underneath each skill is a project or award that best illustrates that skill. The projects are the same as those on [Projects (Home)]("/") page; some projects are listed under more than one skill.
+This is a short list of my most relevant skills and certificates for data science. Underneath each skill is a project or award that best illustrates that skill. The projects are the same as those on [Projects (Home)]("/") page; some projects are listed under more than one skill.
 
 ## Technical Skills
 
