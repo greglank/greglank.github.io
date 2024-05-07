@@ -1,7 +1,7 @@
 # About Me
 Hi, I'm Greg, and I'm not your ordinary data scientist.
 
-I'm a **professional educator** with years of experience as a college instructor and assistant professor, which means that I know how to communicate complex ideas in simple terms. I have an English minor with an emphasis in **creative writing**, so I know how to tell engaging stories, whether those stories are told through creative fiction or data science reports. I've taught college-level **public speaking** and know how to speak and present effectively, including how not to put audiences to sleep with technical information. (Which I know would never happen with an audience as sophisticated as you, right? Hey, are you still there? Hello?)
+I'm a **professional educator** with years of experience as a university instructor and assistant professor, which means that I know how to communicate complex ideas in simple terms. I have an English minor with an emphasis in **creative writing**, so I know how to tell engaging stories, whether those stories are told through creative fiction or data science reports. I've taught college-level **public speaking** and know how to speak and present effectively, including how not to put audiences to sleep with technical information. (Which I know would never happen with an audience as sophisticated as you, right? Hey, are you still there? Hello?)
 
 I'm a **PhD researcher** with training in quantitative methods, qualitative methods, and computational methods, which means that I know how to ask questions in a variety of ways and find reliable answers. My area of focus is **environmental sustainability**, and working towards a more just and sustainable world provides my work with meaning and fuels my passion for what I do. I would love to carry over this environmental focus into data science.
 
@@ -9,7 +9,7 @@ I'm a **"Renaissance person"** with a varied background and a wide set of skills
 
 Here's a photo of me doing tall person things:
 
-<img src="images/ultimate-frisbee.jpg" alt="Photo of me playing ultimate Frisbee" width="60%">
+<a href="images/ultimate-frisbee.jpg"><img src="images/ultimate-frisbee.jpg" alt="Photo of me playing ultimate Frisbee" width="60%"></a>
 
 ## Contact Me
 
