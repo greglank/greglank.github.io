@@ -22,16 +22,16 @@ This is a short list of my most relevant skills and certificates for data scienc
 
 - **Research Design**
     - [Published Social Science Research](nature)
-- **Communication and Writing**
+- **Writing and Communication**
     - [NCAA March Madness Pool Optimizer](ncaa)
     - [COVID-19: What You Can Do](covid)
-- **Teaching and Group Management**
+- **Public Speaking and Project Management**
     - [Harold F. Martin Graduate Assistant Outstanding Teaching Award](https://gradschool.psu.edu/graduate-school-funding/programs/gradteach/): University-level award for outstanding teaching performance
-- **Soft Skills: Intellectual Curiosity, Leadership, Service, and Character**
+- **Intellectual Curiosity, Leadership, Service, and Character**
     - [Boettcher Foundation Scholarship](https://boettcherfoundation.org/scholarships/prospective-scholars/faqs/): Four-year full scholarship to any college or university in Colorado
 
 
-## Certifications
+## Certificates
 
 **[IBM Data Science Professional Certificate](https://www.credly.com/badges/d99318dc-807b-4d6d-9850-435f2c6d4f1d/public_url)**: Certifies readiness for a career in data science with a demonstrated ability to solve real-world problems
 
