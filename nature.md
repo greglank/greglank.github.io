@@ -2,7 +2,7 @@
 
 ## Overview
 
-Peer-reviewed study that uses quantitative statistical analysis to demonstrate that higher education can foster connectedness to nature  
+Peer-reviewed study that uses mixed quantitative and qualitative analysis to demonstrate that higher education can foster connectedness to nature  
 
 > Lankenau, Greg. 2018. “Fostering Connectedness to Nature in Higher Education.” *Environmental Education Research* 24 (2): 230–44. doi:10.1080/13504622.2016.1225674
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Tableau workbook that draws from a SQLite database to visualize poker player strategies and statistics for better decision-making
+Tableau dashboard and workbook to visualize poker player strategies and statistics for better decision-making
 
 Link to workbook: [Rebuy Club: Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
 
