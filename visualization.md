@@ -18,7 +18,7 @@ This project builds on my [Poker Hand History Parser and Database](parser). I ha
 
 ## Project Description
 
-I created a public Tableau workbook that visualizes key values and summary statistics from the SQLite database. The database holds all the information since I began downloading hand histories, but the Tableau workbook limits its display to the **most recent 30 days** of play. This was a deliberate design decision made to allow 'winners' and 'losers' to ebb and flow over time, such that any player can rise to the top and claim the trophy of big winner for the month.
+I created a public Tableau workbook that visualizes key values and summary statistics from the poker database. The database holds all the information since I began downloading hand histories, but the Tableau workbook limits its display to the **most recent 30 days** of play. This was a deliberate design decision made to allow "winners" and "losers" to ebb and flow over time, such that any player can rise to the top and claim the trophy of big winner for the month.
 
 Some of the workbook sheets summarize past information mainly for the purpose of record-keeping and entertainment (and bragging rights, of course). For example:
 - A line graph displaying the running total of player wins and losses over time (pictured in the above thumbnail)
