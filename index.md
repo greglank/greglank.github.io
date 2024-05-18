@@ -1,6 +1,6 @@
 # Projects
 
-Welcome to my data science portfolio! Each project listed below contains a link to an individual project page with a more in-depth description.
+Welcome to my data science portfolio. Each project listed below contains a link to an individual project page with a more in-depth description.
 
 ---
 
