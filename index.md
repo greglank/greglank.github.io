@@ -1,5 +1,14 @@
 # Projects
 
+Welcome to my data science portfolio! Each project listed below contains a link to an individual project page with a more in-depth description.
+
+---
+
+## [Published Social Science Research](nature)
+Peer-reviewed study that uses mixed quantitative and qualitative analysis to demonstrate that higher education can foster connectedness to nature
+
+<a href="nature"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%"></a>
+  
 ---
 
 ## [Poker Hand History Parser and Database](parser)
@@ -27,13 +36,6 @@ Works in progress that leverage machine learning and AI to derive advanced insig
 Java program that picks the optimal NCAA basketball tournament bracket for a typical office pool
 
 <a href="ncaa"><img src="images/bracket-small.png" alt="NCAA bracket screenshot" width="60%"></a>
-  
----
-
-## [Published Social Science Research](nature)
-Peer-reviewed study that uses mixed quantitative and qualitative analysis to demonstrate that higher education can foster connectedness to nature
-
-<a href="nature"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%"></a>
   
 ---
   
