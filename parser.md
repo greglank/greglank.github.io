@@ -6,7 +6,9 @@ Python program that cleans and parses poker hand histories to load into a SQLite
 
 The database is used as the basis for the [Poker Visualization](visualization) and [Poker AI and Machine Learning Insights](ai) projects
 
-<img src="images/poker.png" alt="Poker screenshot" width="60%">
+See this project on [GitHub](https://github.com/greglank/PokerNowHH)
+
+<a href="https://github.com/greglank/PokerNowHH"><img src="images/poker.png" alt="Poker screenshot" width="60%"></a>
 
 ### Skills
 - Programming (Python)

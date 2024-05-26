@@ -4,8 +4,6 @@
 
 Works in progress that leverage machine learning and AI to derive advanced insights about poker strategy
 
-<img src="images/range.png" alt="Starting hands screenshot" width="60%">
-
 ### Skills
 - Machine learning (scikit-learn)
 - Neural networks (Keras/TensorFlow)

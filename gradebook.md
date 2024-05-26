@@ -4,8 +4,6 @@
 
 28-sheet workbook using Google Sheets to collate student grades, instructor feedback, and peer feedback for automated mail merge grade reports
 
-<img src="images/gradebook.png" alt="Gradebook screenshot" width="60%">
-
 ### Skills
 - Data Analysis (Google Sheets and plugins)
 

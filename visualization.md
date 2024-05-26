@@ -4,9 +4,9 @@
 
 Tableau dashboard and workbook to visualize poker player strategies and statistics for better decision-making
 
-Link to workbook: [Rebuy Club: Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
+View this workbook live on Tableau! [Rebuy Club: Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
 
-<img src="images/tableau-running.png" alt="Tableau screenshot" width="60%">
+<a href="https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub"><img src="images/tableau-running.png" alt="Tableau screenshot" width="60%"></a>
 
 ### Skills
 - Visualization (Tableau)

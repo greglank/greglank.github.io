@@ -4,8 +4,6 @@
 
 Java program that picks the optimal NCAA basketball tournament bracket for a typical office pool  
 
-<img src="images/bracket-small.png" alt="NCAA bracket screenshot" width="60%">
-
 ### Skills
 - Programming (Java, Python)
 - Data analysis (Pandas)

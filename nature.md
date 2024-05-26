@@ -8,7 +8,7 @@ Peer-reviewed study that uses mixed quantitative and qualitative analysis to dem
 
 Link to study: [Fostering Connectedness to Nature in Higher Education](https://doi.org/10.1080/13504622.2016.1225674)
 
-<img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%">
+<a href="https://doi.org/10.1080/13504622.2016.1225674"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%"></a>
 
 ### Skills
 - Research Design
