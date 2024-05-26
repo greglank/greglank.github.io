@@ -12,8 +12,8 @@ Link to study: [Fostering Connectedness to Nature in Higher Education](https://d
 
 ### Skills
 - Research Design
-- Statistical and Numerical Analysis (SPSS)
-- Data Analysis (NVivo)
+- Statistical and Numerical Analysis
+- Data Analysis
 - Writing and Communication
 
 ### Background
