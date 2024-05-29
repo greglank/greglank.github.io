@@ -11,7 +11,9 @@ Here's a photo of me doing tall person things:
 
 <a href="images/ultimate-frisbee.jpg"><img src="images/ultimate-frisbee.jpg" alt="Photo of me playing ultimate Frisbee" width="60%"></a>
 
-## Contact Me
+## Resume and Contact Info
+
+For a resume of sorts, see my [Skills, Certificates, and Awards](skills) page.
 
 You can contact me at [LinkedIn](https://www.linkedin.com/in/greg-lankenau-70b51013/).
 

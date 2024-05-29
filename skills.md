@@ -39,4 +39,4 @@ This is a short list of my most relevant skills and certificates for data scienc
 
 ## The Take-Away Message
 
-I'm an experienced educator and researcher transitioning to a career in data science. I'm proficient in a range of technical skills, complemented by the ability to communicate complex ideas to non-technical audiences through writing, speaking, and presenting.
+I'm an experienced educator and researcher transitioning to a career in data science. I'm proficient in a range of technical skills, complemented by the ability to communicate complex ideas to non-technical audiences through writing, speaking, and presenting. For more about me, see my [About Me](about) page.
