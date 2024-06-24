@@ -11,7 +11,7 @@ This is a short list of my most relevant skills and certificates for data scienc
     - [Poker Hand History Parser and Database](parser)
 - **Data Visualization:** Tableau, matplotlib, Seaborn, Plotly/Dash
     - [Poker Visualization](visualization)
-- **Machine Learning and Neural Networks:** scikit-learn, Keras/TensorFlow
+- **Machine Learning and Deep Learning:** scikit-learn, Keras/TensorFlow
     - [Poker AI and Machine Learning Insights](ai)
 - **Statistical and Numerical Analysis:** NumPy, SPSS, MATLAB, Octave
     - [Published Social Science Research](nature)

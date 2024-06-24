@@ -19,7 +19,7 @@ I don't know anything about NCAA college basketball. I don't watch it, I don't f
 
 *Aside: I actually did know something about NCAA basketball once. In college I played on the practice squad for the Colorado State women's basketball team for two years, running opponents' plays and participating in drills and scrimmages. As a practice squad player and a fan, I absorbed a lot of firsthand knowledge about other teams. And you're damn right I won the women's tournament pool by a landslide my first year. (No one has joined a women's tournament pool with me since.)*
 
-Other than that flash of knowledge from playing on the practice squad, I have not followed, and do not follow, NCAA college basketball at all. The question: How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball?
+Other than that flash of knowledge from playing on the Colorado State practice squad, I have not followed, and do not follow, NCAA college basketball at all. The question: How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball?
 
 The answer: Scrape some data and write a program, of course.
 
@@ -66,7 +66,7 @@ The first year I used the optimizer program I created two brackets for my regula
 After the commanding victory its first year, the bracket optimizer struggled to have that kind of performance again. There was an especially bleak run of a few years where I would enter multiple non-overlapping brackets into the pool, overlooking just one or two good teams, and somehow those one or two overlooked teams were the ones that ended up winning. These are actual quotes from actual emails I actually wrote after identifying which team(s) the program overlooked:
 - "So... North Carolina over West Virginia?" (tournament winner: North Carolina)
 - "Anybody but Villanova, right? Right?" (tournament winner: Villanova)
-- "Yes! Bring on Duke over Wisconsin! (tournament winner: Duke over Wisconsin)
+- "Yes! Bring on Duke over Wisconsin!" (tournament winner: Duke over Wisconsin)
 
 This is a good illustration of how probabilities aren't certainties, especially when even a high-value team is often around only 10% to win the tournament. No amount of data, and no amount of algorithmic wizardry, can deliver certainty when the range of likely outcomes is wide.
 

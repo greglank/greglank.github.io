@@ -6,7 +6,8 @@ Works in progress that leverage machine learning and AI to derive advanced insig
 
 ### Skills
 - Machine learning (scikit-learn)
-- Neural networks (Keras/TensorFlow)
+- Deep learning (Keras/TensorFlow)
+- Data analysis (Pandas, NumPy)
 - Programming (Python)
 
 ### Background
