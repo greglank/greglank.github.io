@@ -45,9 +45,9 @@ The "mapper" model that attempts to directly predict an opponent's hole cards is
 
 All of the models discussed below will use the same example game state and player action, "raise first in from the cutoff." This means:
 
--Preflop (only private hole cards have been dealt; no community cards yet)
--Everyone has folded to the player in the cutoff (one to the right of the dealer button)
--The cutoff raises
+- Preflop (only private hole cards have been dealt; no community cards yet)
+- Everyone has folded to the player in the cutoff (one to the right of the dealer button)
+- The cutoff raises
 
 The question is, what range of hole cards does the cutoff have when raising first in?
 
