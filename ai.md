@@ -55,7 +55,17 @@ The question is, what range of hole cards does the cutoff have when raising firs
 
 I built a series of machine learning models that predict a player's range of hole cards given an observed set of actions and game state. Consistent with ethical principle #1 (my own play first), here is the output of the random forest model that predicts my hole cards when raising first in from the cutoff:
 
-[![Frequency of Hole Card Combinations](images/ml/Frequency_of_Hole_Card_Combinations.png)](images/ml/Frequency_of_Hole_Card_Combinations.png)
+[![Frequency of Hole Card Combinations](images/ml/Absolute_Hole_Card_Frequency_for_Act-to-HC_Model.png)](images/ml/Absolute_Hole_Card_Frequency_for_Act-to-HC_Model.png)
+
+This model is a success! These predicted frequencies very closely match the actual empirical frequencies from my own hand histories (we'll return to this point in a minute).
+
+Notice how different this range of hands is than a naive guess. Hands with an ace, especially an ace paired with another large card, are very often raised. Low, disconnected, and/or unsuited hands are very rarely raised. Many preflop hand distributions look something like this, with the highest frequency along the edges (hands with aces), the diagonal (pocket pairs and connected cards), and the upper left (two big cards). These are the better hole cards in Texas hold 'em.
+
+Did you notice the seemingly anomalous 72s and 72o standing out from the rest? 72 is known for being the worst hand in poker, so some players in my poker group -- me included! -- sometimes try to win with it as a matter of entertainment/pride. And the random forest model picked up on that!
+
+This model is a success... but not very useful. 
+
+
 
 Work in progress... Will be updated as the projects mature!
 
