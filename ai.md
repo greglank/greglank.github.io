@@ -35,6 +35,7 @@ We can visualize a player's two hole cards in a 13x13 grid, where the value of e
 Pocket pairs (hole cards of equal rank) are along the diagonal, suited cards (cards where the suits match) are above the diagonal, and unsuited cards (cards where the suits do not mach) are below the diagonal. There are 13\*13=169 possible hands, but not every hand is equally likely. The grid is darkest below the diagonal because unsuited cards are the most common, followed by pocket pairs, followed by suited cards. (For consistency, the scale used in this grid is the same scale used later, which is why there are no hands at the high end of the scale in this particular visualization.)
 
 The above grid would be our naive guess if we knew nothing about an opponent's hole cards. But let's see if we can do better. There a few different ways we can go about designing a machine learning model to predict an opponent's hole cards:
+
 1. "The mapper": Build a model to directly predict an opponent's hole cards given an observed set of actions and game state (actions + game_state --> hole_cards)
 2. "The poker bot": Build a model that plays like the opponent (hole_cards + game_state --> actions). Then "reverse engineer" the model to determine which hole cards are most consistent with the observed actions and game state.
 
@@ -42,16 +43,19 @@ The "mapper" model that attempts to directly predict an opponent's hole cards is
 
 ### Example Game State
 
-All of the models discussed below will use the same example game state and player action:
+All of the models discussed below will use the same example game state and player action, "raise first in from the cutoff." This means:
+
 -Preflop (only private hole cards have been dealt; no community cards yet)
--Everyone folds to the player in the cutoff (one to the right of the dealer button)
+-Everyone has folded to the player in the cutoff (one to the right of the dealer button)
 -The cutoff raises
 
-The question is, what range of hole cards does the cutoff have?
+The question is, what range of hole cards does the cutoff have when raising first in?
 
 ### Mapping Actions to Hole Cards
 
-I built a series of machine learning models that successfully predict a player's range of hole cards given an observed set of actions and game state. Consistent with ethical principle #1 (my own play first), here is 
+I built a series of machine learning models that predict a player's range of hole cards given an observed set of actions and game state. Consistent with ethical principle #1 (my own play first), here is the output of the random forest model that predicts my hole cards when raising first in from the cutoff:
+
+[![Frequency of Hole Card Combinations](images/ml/Frequency_of_Hole_Card_Combinations.png)](images/ml/Frequency_of_Hole_Card_Combinations.png)
 
 Work in progress... Will be updated as the projects mature!
 
