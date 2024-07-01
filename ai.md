@@ -30,7 +30,7 @@ In Texas hold 'em poker, the public community cards are face up on the table and
 
 We can visualize a player's two hole cards in a 13x13 grid, where the value of each card, (A)ce down to 2, is an axis. Here is the distribution of possible hole cards a player can be dealt:
 
-![Frequency of Hole Card Combinations](images/ml/Frequency_of_Hole_Card_Combinations.png)(images/ml/Frequency_of_Hole_Card_Combinations.png)
+[![Frequency of Hole Card Combinations](images/ml/Frequency_of_Hole_Card_Combinations.png)](images/ml/Frequency_of_Hole_Card_Combinations.png)
 
 Pocket pairs (hole cards of equal rank) are along the diagonal, suited cards (cards where the suits match) are above the diagonal, and unsuited cards (cards where the suits do not mach) are below the diagonal. There are 13\*13=169 possible hands, but not every hand is equally likely. Unsuited cards are the most common, followed by pocket pairs, followed by suited cards, which is why the grid is darkest below the diagonal. (The scale used in this grid is the same scale used later, which is why there are no hands at the high end of the scale in this particular visualization.)
 
