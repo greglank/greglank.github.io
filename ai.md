@@ -32,7 +32,7 @@ We can visualize a player's two hole cards in a 13x13 grid, where the value of e
 
 [![Frequency of Hole Card Combinations](images/ml/Frequency_of_Hole_Card_Combinations.png)](images/ml/Frequency_of_Hole_Card_Combinations.png)
 
-Pocket pairs (hole cards of equal rank) are along the diagonal, suited cards (cards where the suits match) are above the diagonal, and unsuited cards (cards where the suits do not mach) are below the diagonal. There are 13\*13=169 possible hands, but not every hand is equally likely. The grid is darkest below the diagonal because unsuited hands are the most common, followed by pocket pairs, followed by suited hands. (For consistency, the scale used in this grid is the same scale used later, which is why there are no hands at the high end of the scale in this particular visualization.)
+Pocket pairs (hole cards of equal rank) are along the diagonal, suited cards (cards where the suits match) are above the diagonal, and unsuited cards (cards where the suits do not mach) are below the diagonal. There are 13\*13=169 possible hands, but not every hand is equally likely. The grid is darkest below the diagonal because unsuited hands are the most common (~1% each), followed by pocket pairs (~0.5% each), followed by suited hands (~0.3% each). Note that the color scale used in this grid is the same scale used later, which is why there are no hands at the high end of the scale in this particular visualization.
 
 The above grid would be our naive guess if we knew nothing about an opponent's hole cards. But let's see if we can do better.
 
@@ -48,43 +48,63 @@ The question is, what range of hole cards does the cutoff have when raising firs
 
 ### Mapping Actions to Hole Cards (Act-to-HC Model)
 
-Using the hand history database as data, I trained a series of machine learning models to learn the mapping between a player's actions and game state to the player's hole cards (actions + game_state --> hole_cards), or "HC-to-Act":
+Using the hand history database as data, I trained a series of machine learning models to learn the mapping between a player's action and given game state to the player's hole cards (action + game_state --> hole_cards). As shorthand, I refer to this kind of model as actions to hole cards, or "Act-to-HC":
 
 <a href="images/ml/act-to-hc_model.png"><img src="images/ml/act-to-hc_model.png" alt="Act-to-HC Model" width="60%"></a>
 
-The HC-to-Act models can then be used to directly predict a player's range of hole cards given an observed set of actions and game state:
+Once trained, an Act-to-HC model can then be used to directly predict a player's range of hole cards given an observed set of actions and game state:
 
-[![Act-to-HC Workflow](act-to-hc_workflow.png)](act-to-hc_workflow.png)
+[![Act-to-HC Workflow](images/ml/act-to-hc_workflow.png)](images/ml/act-to-hc_workflow.png)
 
-Consistent with ethical principle #1 (my own play first), here is the output of the random forest model that predicts my hole cards when raising first in from the cutoff:
+Consistent with ethical principle #1 (my own play first), here is the output of the random forest Act-to-HC model that predicts my range of hole cards when raising first in from the cutoff:
 
 [![Absolute Hole Card Frequency for Act-to-HC Model](images/ml/Absolute_Hole_Card_Frequency_for_Act-to-HC_Model.png)](images/ml/Absolute_Hole_Card_Frequency_for_Act-to-HC_Model.png)
 
-This model is a success! These predicted frequencies very closely match the actual empirical frequencies from my own hand histories (we'll return to this point in a minute).
+The Act-to-HC model is a success! These predicted frequencies very closely match the actual empirical frequencies from my own hand histories (we'll return to this point in a minute).
 
-Notice how different this range of hands is than a naive guess. Hands with an ace, especially an ace paired with another large card, are very often raised. Low, disconnected, and/or unsuited hands are very rarely raised. The grid is darkest below the diagonal because unsuited hands are more frequent than pocket pairs and suited hands. Many preflop hand distributions look something like this, with the highest frequency along the edges (hands with aces), the diagonal (pocket pairs and connected cards), and the upper left (two big cards). These are the better hole cards in Texas hold 'em.
+This range of hands is much more specific than a naive guess. Hands with an ace, especially an ace paired with another large card, are very often raised. Low, disconnected, and/or unsuited hands are very rarely raised. The grid is darkest below the diagonal because unsuited hands are more frequent than pocket pairs and suited hands.
 
 Did you notice the seemingly anomalous 72s and 72o standing out from the rest? 72 is known for being the worst hand in poker, so some players in my poker group -- me included! -- sometimes try to win with it as a matter of entertainment/pride. And the random forest model picked up on that!
 
-This model is a success... but not very useful. 
+The Act-to-HC model is a success... but not very useful. 
 
 A closer look at the grid reveals some discontinuities in the predictions, such as KK being notably less frequent than the adjacent AA and QQ. There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely to be dealt, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but the data. The empirically observed frequencies look just like this, which means that I was just dealt KK less often in this game state due to random variance. Even after roughly 200,000 of my hands played across multiple years, there is not enough data to smooth out these variations.
 
-And that is the death knell for the "mapper" model for any data other than my own.
+And that is the death knell for the Act-to-HC model for any data other than my own.
 
 As mentioned before, I know all my own private hole cards, whereas other players' private hole cards are infrequently shown. If 200,000 known hands aren't enough to smooth out variance, the model is doomed when tasked with predicting players who have one, two, or even three orders of magnitude fewer known hands (and whose known hands are inevitably biased).
 
-The poker bot to the rescue!
+Using a model to predict hole cards requires thinking of the problem in a different way.
 
-### The Poker Bot: Mapping Hole Cards to Actions
+### Mapping Hole Cards to Actions (HC-to-Act Model)
 
-Here's a quick preview of where this is going:
+Instead of training a model to directly predict a player's hole cards, what if we instead trained a model to play like a particular player? I trained a series of models to learn the mappings between a player's hole cards and given game state to the player's action (hole_cards + game_state --> action). As shorthand, I refer to this kind of model as hole cards to actions, or "HC-to-Act":
+
+<a href="images/ml/act-to-hc_model.png"><img src="images/ml/act-to-hc_model.png" alt="Act-to-HC Model" width="60%"></a>
+
+What we really want to know, though, is a player's hole cards, which the HC-to-Act model takes as input, not provides as output. Here's where this gets interesting. If we provide the HC-to-Act model with all possible hole card hands and a given game state, it will output the player's actions for every hole card hand they could be holding in that game state:
+
+[![Act-to-HC Workflow, Part 1](images/ml/hc-to-act_workflow1.png)](images/ml/hc-to-act_workflow1.png)
+
+What we have now is a player's complete strategy for that game state! When presented with an observed player action, we can ask how consistent that action is with each possible hole card hand. That gives us the player's predicted hole cards, which was our goal all along:
+
+[![Act-to-HC Workflow, Part 2](images/ml/hc-to-act_workflow2.png)](images/ml/hc-to-act_workflow2.png)
+
+We've essentially "reverse engineered" a HC-to-Act model to predict the player's hole cards for an observed action and game state. Because I like hyphens, I call this complete workflow the HC-to-Act-to-HC model. Here is the output of the random forest HC-to-Act-to-HC model that predicts my range of hole cards when raising first in from the cutoff:
+
+[![Absolute Hole Card Frequency for HC-to-Act-to-HC Model](images/ml/Absolute_Hole_Card_Frequency_for_HC-to-Act-to-HC_Model.png)](Absolute_Hole_Card_Frequency_for_HC-to-Act-to-HC_Model.png)
+
+Notice how much smoother this probability distribution is than the earlier Act-to-HC model. For example, KK is no longer notably different than the adjacent AA and QQ. The HC-to-Act-to-HC model provides a more robust prediction that is much less sensitive to the random variance of hole cards being dealt more or less often in particular game states.
+
+To see why this is the case, here is a different visualization that is closer to what the HC-to-Act-to-HC model outputs natively. Instead of an absolute probability distribution that sums to one across all hole card hands, the following grid shows how often *each hole card hand* takes the observed action in the given game state. This is the output from the same random forest HC-to-Act-to-HC model that predicts my range of hole cards when raising first in from the cutoff:
+
+This "relative" visualization shows that I nearly always raise AA, KK, QQ, etc., first in from the cutoff. This 
 
 [![Relative Hole Card Frequency for HC-to-Act Model](images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)](Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)
 
 And:
 
-[![Absolute Hole Card Frequency for HC-to-Act-to-HC Model](images/ml/Absolute_Hole_Card_Frequency_for_HC-to-Act-to-HC_Model.png)](Absolute_Hole_Card_Frequency_for_HC-to-Act-to-HC_Model.png)
+
 
 To be continued...
 
