@@ -34,7 +34,7 @@ We can visualize a player's two hole cards in a 13x13 grid, where the value of e
 
 Pocket pairs (hole cards of equal rank) are along the diagonal, suited cards (cards where the suits match) are above the diagonal, and unsuited cards (cards where the suits do not mach) are below the diagonal. There are 13\*13=169 possible hands, but not every hand is equally likely. The grid is darkest below the diagonal because unsuited hands are the most common, followed by pocket pairs, followed by suited hands. (For consistency, the scale used in this grid is the same scale used later, which is why there are no hands at the high end of the scale in this particular visualization.)
 
-The above grid would be our naive guess if we knew nothing about an opponent's hole cards. But let's see if we can do better. There a few different ways we can go about designing a machine learning model to predict an opponent's hole cards:
+The above grid would be our naive guess if we knew nothing about an opponent's hole cards. But let's see if we can do better. There are a few different ways we can go about designing a machine learning model to predict an opponent's hole cards:
 
 1. "The mapper": Build a model to directly predict an opponent's hole cards given an observed set of actions and game state (actions + game_state --> hole_cards)
 2. "The poker bot": Build a model that plays like the opponent (hole_cards + game_state --> actions). Then "reverse engineer" the model to determine which hole cards are most consistent with the observed actions and game state.
@@ -65,7 +65,7 @@ Did you notice the seemingly anomalous 72s and 72o standing out from the rest? 7
 
 This model is a success... but not very useful. 
 
-A closer look at the grid reveals some discontinuities in the predictions, such as KK being notably less frequent than the adjacent AA and QQ. There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but the data. The empirically observed frequencies look just like this, which means that I was just dealt KK less often in this game state due to random variance. Even after roughly 200,000 of my hands played across multiple years, there is not enough data to smooth out these variations.
+A closer look at the grid reveals some discontinuities in the predictions, such as KK being notably less frequent than the adjacent AA and QQ. There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely to be dealt, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but the data. The empirically observed frequencies look just like this, which means that I was just dealt KK less often in this game state due to random variance. Even after roughly 200,000 of my hands played across multiple years, there is not enough data to smooth out these variations.
 
 And that is the death knell for the "mapper" model for any data other than my own.
 
