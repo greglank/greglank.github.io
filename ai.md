@@ -48,15 +48,13 @@ The question is, what range of hole cards does the cutoff have when raising firs
 
 ### Mapping Actions to Hole Cards (Act-to-HC Model)
 
-Using the hand history database as data, I trained a series of machine learning models to learn the mapping between a player's actions and game state to the player's hole cards (actions + game_state --> hole_cards):
+Using the hand history database as data, I trained a series of machine learning models to learn the mapping between a player's actions and game state to the player's hole cards (actions + game_state --> hole_cards), or "HC-to-Act":
 
 <a href="images/ml/act-to-hc_model.png"><img src="images/ml/act-to-hc_model.png" alt="Act-to-HC Model" width="60%"></a>
 
-[![Act-to-HC Model](act-to-hc_model.png)](act-to-hc_model.png)
+The HC-to-Act models can then be used to directly predict a player's range of hole cards given an observed set of actions and game state:
 
-These models can then be used to directly predict a player's range of hole cards given an observed set of actions and game state:
-
-
+[![Act-to-HC Workflow](act-to-hc_workflow.png)](act-to-hc_workflow.png)
 
 Consistent with ethical principle #1 (my own play first), here is the output of the random forest model that predicts my hole cards when raising first in from the cutoff:
 
