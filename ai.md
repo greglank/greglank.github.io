@@ -26,9 +26,9 @@ These AI-driven models should only be used as study tools outside the game, *nev
 
 ## Project Description: Hole Card Predictor
 
-In Texas hold 'em poker, the public community cards are face up on the table and known to all, whereas each player has two private hole cards known only to them. Knowing, or at least being able to narrow down, an opponent's two hole cards is very valuable information that informs your optimal strategy in that situation. Can a machine learning model predict the range of hole cards that an opponent is holding, given the action in the hand so far?
+In Texas hold 'em poker, public community cards are face up on the table and known to all, plus each player has two private hole cards known only to them. Knowing, or at least being able to narrow down, an opponent's two hole cards is very valuable information that informs your optimal strategy in the hand. Can a machine learning model predict the range of hole cards that an opponent is holding, given the action in the hand so far?
 
-We can visualize a player's two hole cards in a 13x13 grid, where the value of each card, (A)ce down to 2, is an axis. Here is the distribution of possible hole cards a player can be dealt:
+We can visualize a player's two hole cards in a 13x13 grid, where the value of each card, (A)ce down to 2, is an axis. Here is the distribution of possible hole card hands a player can be dealt:
 
 [![Frequency of Hole Card Combinations](images/ml/Frequency_of_Hole_Card_Combinations.png)](images/ml/Frequency_of_Hole_Card_Combinations.png)
 
@@ -52,7 +52,7 @@ Using the hand history database as data, I trained a series of machine learning 
 
 <a href="images/ml/act-to-hc_model.png"><img src="images/ml/act-to-hc_model.png" alt="Act-to-HC Model" width="60%"></a>
 
-Once trained, an Act-to-HC model can then be used to directly predict a player's range of hole cards given an observed set of actions and game state:
+Once trained, an Act-to-HC model can then be used to directly predict a player's range of hole cards given an observed player action and game state:
 
 [![Act-to-HC Workflow](images/ml/act-to-hc_workflow.png)](images/ml/act-to-hc_workflow.png)
 
@@ -74,7 +74,7 @@ And that is the death knell for the Act-to-HC model for any data other than my o
 
 As mentioned before, I know all my own private hole cards, whereas other players' private hole cards are infrequently shown. If 200,000 known hands aren't enough to smooth out variance, the model is doomed when tasked with predicting players who have one, two, or even three orders of magnitude fewer known hands (and whose known hands are inevitably biased).
 
-Using a model to predict hole cards requires thinking of the problem in a different way.
+Using a model to predict hole cards requires thinking about the problem in a different way.
 
 ### Mapping Hole Cards to Actions (HC-to-Act Model)
 
@@ -86,7 +86,7 @@ What we really want to know, though, is a player's hole cards, which the HC-to-A
 
 [![Act-to-HC Workflow, Part 1](images/ml/hc-to-act_workflow1.png)](images/ml/hc-to-act_workflow1.png)
 
-What we have now is a player's complete strategy for that game state! When presented with an observed player action, we can ask how consistent that action is with each possible hole card hand. That gives us the player's predicted hole cards, which was our goal all along:
+What we have now is a player's complete strategy for that game state! When presented with an observed player action, we can ask how consistent that action is with the model's predicted action for each possible hole card hand. That gives us the player's predicted hole cards, which was our goal all along:
 
 <a href="images/ml/hc-to-act_workflow2.png"><img src="images/ml/hc-to-act_workflow2.png" alt="HC-to-Act Workflow, Part 2" width="60%"></a>
 
@@ -100,8 +100,9 @@ To see why this is the case, here is a different visualization that is closer to
 
 [![Relative Hole Card Frequency for HC-to-Act Model](images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)](Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)
 
-The blue-red "relative" visualization shows that I nearly always raise AA, KK, QQ, etc., first in from the cutoff. This is the core of why the HC-to-Act-to-HC model is so much more robust. After a reasonable minimum number of hands, it doesn't matter if I've been dealt KK five times or five thousand times first in from the cutoff; if I always raise KK in that game state, the model will correctly assign the same probability as other pocket pairs that I always raise.
+The blue-red "relative" visualization shows that I nearly always raise AA, KK, QQ, etc., first in from the cutoff. This is the core of why the HC-to-Act-to-HC model is so much more robust. After a reasonable minimum number of hands, it doesn't matter if I've been dealt KK five times or five thousand times first in from the cutoff; if I always raise KK in that game state, the model will correctly assign the same absolute probability as other pocket pairs that I always raise.
 
+From a human readability standpoint, I think this blue-red relative visualization is more informative than the orange absolute visualization from earlier. The blue-red relative visualization shows a player's strategy, and knowing an opponent's strategy is helpful for making human decisions while playing, whereas the orange absolute visualization shows probabilities that may be mathematically useful, but are less strategically useful in-game.
 
 #### Bayes' Theorem Sneaks In
 
