@@ -77,6 +77,10 @@ The poker bot to the rescue!
 
 Here's a quick preview of where this is going:
 
+[![Relative Hole Card Frequency for HC-to-Act Model](images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)](Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)
+
+And:
+
 [![Absolute Hole Card Frequency for HC-to-Act-to-HC Model](images/ml/Absolute_Hole_Card_Frequency_for_HC-to-Act-to-HC_Model.png)](Absolute_Hole_Card_Frequency_for_HC-to-Act-to-HC_Model.png)
 
 To be continued...
