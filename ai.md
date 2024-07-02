@@ -26,7 +26,7 @@ These AI-driven models should only be used as study tools outside the game, *nev
 
 ## Project Description: Hole Card Predictor
 
-In Texas hold 'em poker, the public community cards are face up on the table and known to all, whereas each player has two private hole cards known only to them. Knowing, or at least being able to narrow down, an opponent's two hole cards is very valuable information. Can a machine learning model predict the range of hole cards that an opponent is holding, given the action in the hand so far?
+In Texas hold 'em poker, the public community cards are face up on the table and known to all, whereas each player has two private hole cards known only to them. Knowing, or at least being able to narrow down, an opponent's two hole cards is very valuable information that informs your optimal strategy in that situation. Can a machine learning model predict the range of hole cards that an opponent is holding, given the action in the hand so far?
 
 We can visualize a player's two hole cards in a 13x13 grid, where the value of each card, (A)ce down to 2, is an axis. Here is the distribution of possible hole cards a player can be dealt:
 
@@ -34,16 +34,11 @@ We can visualize a player's two hole cards in a 13x13 grid, where the value of e
 
 Pocket pairs (hole cards of equal rank) are along the diagonal, suited cards (cards where the suits match) are above the diagonal, and unsuited cards (cards where the suits do not mach) are below the diagonal. There are 13\*13=169 possible hands, but not every hand is equally likely. The grid is darkest below the diagonal because unsuited hands are the most common, followed by pocket pairs, followed by suited hands. (For consistency, the scale used in this grid is the same scale used later, which is why there are no hands at the high end of the scale in this particular visualization.)
 
-The above grid would be our naive guess if we knew nothing about an opponent's hole cards. But let's see if we can do better. There are a few different ways we can go about designing a machine learning model to predict an opponent's hole cards:
-
-1. "The mapper": Build a model to directly predict an opponent's hole cards given an observed set of actions and game state (actions + game_state --> hole_cards)
-2. "The poker bot": Build a model that plays like the opponent (hole_cards + game_state --> actions). Then "reverse engineer" the model to determine which hole cards are most consistent with the observed actions and game state.
-
-The "mapper" model that attempts to directly predict an opponent's hole cards is a classic machine learning task and is conceptually much simpler than the "poker bot" model, so we'll start there.
+The above grid would be our naive guess if we knew nothing about an opponent's hole cards. But let's see if we can do better.
 
 ### Example Game State
 
-All of the models discussed below will use the same example game state and player action, "raise first in from the cutoff." This means:
+All of the models discussed below will use the same example player action and game state, "raise first in from the cutoff." This means:
 
 - Preflop (only private hole cards have been dealt; no community cards yet)
 - Everyone has folded to the player in the cutoff (one to the right of the dealer button)
@@ -51,9 +46,19 @@ All of the models discussed below will use the same example game state and playe
 
 The question is, what range of hole cards does the cutoff have when raising first in?
 
-### The Mapper: Mapping Actions to Hole Cards
+### Mapping Actions to Hole Cards (Act-to-HC Model)
 
-I built a series of machine learning models that predict a player's range of hole cards given an observed set of actions and game state. Consistent with ethical principle #1 (my own play first), here is the output of the random forest model that predicts my hole cards when raising first in from the cutoff:
+Using the hand history database as data, I trained a series of machine learning models to learn the mapping between a player's actions and game state to the player's hole cards (actions + game_state --> hole_cards):
+
+<a href="images/ml/act-to-hc_model.png"><img src="images/ml/act-to-hc_model.png" alt="Act-to-HC Model" width="60%"></a>
+
+[![Act-to-HC Model](act-to-hc_model.png)](act-to-hc_model.png)
+
+These models can then be used to directly predict a player's range of hole cards given an observed set of actions and game state:
+
+
+
+Consistent with ethical principle #1 (my own play first), here is the output of the random forest model that predicts my hole cards when raising first in from the cutoff:
 
 [![Absolute Hole Card Frequency for Act-to-HC Model](images/ml/Absolute_Hole_Card_Frequency_for_Act-to-HC_Model.png)](images/ml/Absolute_Hole_Card_Frequency_for_Act-to-HC_Model.png)
 
@@ -84,3 +89,11 @@ And:
 [![Absolute Hole Card Frequency for HC-to-Act-to-HC Model](images/ml/Absolute_Hole_Card_Frequency_for_HC-to-Act-to-HC_Model.png)](Absolute_Hole_Card_Frequency_for_HC-to-Act-to-HC_Model.png)
 
 To be continued...
+
+
+ There are a few different ways we can go about designing a machine learning model to predict an opponent's hole cards:
+
+1. "The mapper": Build a model to directly predict an opponent's hole cards given an observed set of actions and game state (actions + game_state --> hole_cards)
+2. "The poker bot": Build a model that plays like the opponent (hole_cards + game_state --> actions). Then "reverse engineer" the model to determine which hole cards are most consistent with the observed actions and game state.
+
+The "mapper" model that attempts to directly predict an opponent's hole cards is a classic machine learning task and is conceptually much simpler than the "poker bot" model, so we'll start there.
