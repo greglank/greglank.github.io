@@ -96,22 +96,17 @@ We've essentially "reverse engineered" a HC-to-Act model to predict the player's
 
 Notice how much smoother this probability distribution is than the earlier Act-to-HC model. For example, KK is no longer notably different than the adjacent AA and QQ. The HC-to-Act-to-HC model provides a more robust prediction that is much less sensitive to the random variance of hole cards being dealt more or less often in particular game states.
 
-To see why this is the case, here is a different visualization that is closer to what the HC-to-Act-to-HC model outputs natively. Instead of an absolute probability distribution that sums to one across all hole card hands, the following grid shows how often *each hole card hand* takes the observed action in the given game state. This is the output from the same random forest HC-to-Act-to-HC model that predicts my range of hole cards when raising first in from the cutoff:
-
-This "relative" visualization shows that I nearly always raise AA, KK, QQ, etc., first in from the cutoff. This 
+To see why this is the case, here is a different visualization that is closer to what the HC-to-Act-to-HC model outputs natively. Instead of an absolute probability distribution that sums to one across all hole card hands, the following grid shows how often *each hole card hand* takes the observed action in the given game state. This is the output from the same random forest HC-to-Act-to-HC model that predicts my range of hole cards when raising first in from the cutoff, but on a different scale. Red cells are close to 100%, which means that hand very often takes the observed action, whereas blue cells are close to 0%, which means that hand very rarely takes the observed action:
 
 [![Relative Hole Card Frequency for HC-to-Act Model](images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)](Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)
 
-And:
+The blue-red "relative" visualization shows that I nearly always raise AA, KK, QQ, etc., first in from the cutoff. This is the core of why the HC-to-Act-to-HC model is so much more robust. After a reasonable minimum number of hands, it doesn't matter if I've been dealt KK five times or five thousand times first in from the cutoff; if I always raise KK in that game state, the model will correctly assign the same probability as other pocket pairs that I always raise.
 
 
+#### Bayes' Theorem Sneaks In
+
+Now I've got your attention!
+
+## What's Next?
 
 To be continued...
-
-
- There are a few different ways we can go about designing a machine learning model to predict an opponent's hole cards:
-
-1. "The mapper": Build a model to directly predict an opponent's hole cards given an observed set of actions and game state (actions + game_state --> hole_cards)
-2. "The poker bot": Build a model that plays like the opponent (hole_cards + game_state --> actions). Then "reverse engineer" the model to determine which hole cards are most consistent with the observed actions and game state.
-
-The "mapper" model that attempts to directly predict an opponent's hole cards is a classic machine learning task and is conceptually much simpler than the "poker bot" model, so we'll start there.
