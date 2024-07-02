@@ -88,7 +88,7 @@ What we really want to know, though, is a player's hole cards, which the HC-to-A
 
 What we have now is a player's complete strategy for that game state! When presented with an observed player action, we can ask how consistent that action is with each possible hole card hand. That gives us the player's predicted hole cards, which was our goal all along:
 
-[![Act-to-HC Workflow, Part 2](images/ml/hc-to-act_workflow2.png)](images/ml/hc-to-act_workflow2.png)
+<a href="images/ml/hc-to-act_workflow2.png"><img src="images/ml/hc-to-act_workflow2.png" alt="HC-to-Act Workflow, Part 2" width="60%"></a>
 
 We've essentially "reverse engineered" a HC-to-Act model to predict the player's hole cards for an observed action and game state. Because I like hyphens, I call this complete workflow the HC-to-Act-to-HC model. Here is the output of the random forest HC-to-Act-to-HC model that predicts my range of hole cards when raising first in from the cutoff:
 
