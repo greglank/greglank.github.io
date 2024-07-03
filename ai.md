@@ -32,7 +32,7 @@ We can visualize a player's two hole cards in a 13x13 grid, where the value of e
 
 [![Frequency of Hole Card Combinations](images/ml/Frequency_of_Hole_Card_Combinations.png)](images/ml/Frequency_of_Hole_Card_Combinations.png)
 
-Pocket pairs (hole cards of equal rank) are along the diagonal, suited cards (cards where the suits match) are above the diagonal, and unsuited cards (cards where the suits do not mach) are below the diagonal. There are 13\*13=169 possible hands, but not every hand is equally likely. The grid is darkest below the diagonal because unsuited hands are the most common (\~1% each), followed by pocket pairs (\~0.5% each), followed by suited hands (\~0.3% each). Note that the color scale used in this grid is the same scale used later, which is why there are no hands at the high end of the scale in this particular visualization.
+Pocket pairs (hole cards of equal rank) are along the diagonal, suited cards (cards where the suits match) are above the diagonal, and unsuited cards (cards where the suits do not mach) are below the diagonal. There are 13\*13=169 possible hands, but not every hand is equally likely. The grid is darkest below the diagonal because unsuited hands are the most common (~1% each), followed by pocket pairs (~0.5% each), followed by suited hands (~0.3% each). Note that the color scale used in this grid is the same scale used later, which is why there are no hands at the high end of the scale in this particular visualization.
 
 The above grid would be our naive guess if we knew nothing about an opponent's hole cards. But let's see if we can do better.
 
