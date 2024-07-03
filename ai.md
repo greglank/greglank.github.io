@@ -114,15 +114,15 @@ From a human readability standpoint, I think this blue-red relative visualizatio
 
 It may seem like magic that the HC-to-Act model can be "reverse engineered" to predict hole cards, but it's not magic, it's Bayes' theorem! Bayes theorem is a way to derive a conditional probability (a probability that depends on something else happening) when you know a bunch of other probabilities.
 
-In a given game state, when we ask what hole cards a player is likely holding after taking a particular action, we are asking about the probability of their hole cards (HC) given the observed action (A), or P(HC | A). We don't know P(HC | A), but we do know
+In a given game state, when we ask what hole cards a player is likely holding after taking a particular action, we are asking about the probability of their hole cards (HC) given the observed action (A), or P(HC \| A). We don't know P(HC \| A), but we do know
 
-- P(A | HC): The probability of the player's actions given particular hole cards. This is the output of the HC-to-Act model, which we know.
+- P(A \| HC): The probability of the player's actions given particular hole cards. This is the output of the HC-to-Act model, which we know.
 - P(HC): The probability of a particular hole card hand. This is just the naive probability of being dealt that hand, which we know.
 - P(A): The probability of a particular action. Since this is observed after the player actually takes an action, its value is simply 1.
 
 Bayes theorem lets us put these probabilities together and solve for the one we don't know:
 
-P(HC | A) \* P(A) = P(A | HC) \* P(HC)
+P(HC \| A) \* P(A) = P(A \| HC) \* P(HC)
 
 Since P(A) = 1, all we have to do to determine P(HC | A) is divide the output of our Act-to-HC model (for all possible hole cards) by the naive hole card probabilities. This is what I was doing behind the scenes to translate the output of the Act-to-HC model into the orange absolute grid. Neat!
 
