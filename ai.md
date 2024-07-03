@@ -125,7 +125,7 @@ Bayes theorem lets us put these probabilities together and solve for the one we 
 
 P(HC\|A) = P(A\|HC) \* P(HC) / P(A)
 
-In a given game state, to determine the probability of a player holding a particular hole card card after taking a given action, we multiply the Act-to-HC model output by the general probability of that hand and divide by the general probability of that action. This is what I was doing intuitively behind the scenes to translate the output of the Act-to-HC model into the orange absolute grid. Neat!
+In a given game state, to determine the probability of a player holding a particular hole card card after taking a given action \[P(HC\|A)\], we multiply the Act-to-HC model output \[P(A\|HC)\] by the general probability of that hand \[P(HC)\] and divide by the general probability of that action \[P(A)\]. This is what I was doing intuitively behind the scenes to translate the output of the Act-to-HC model into hole card probabilities. Neat!
 
 ## What's Next?
 
