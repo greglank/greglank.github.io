@@ -28,7 +28,7 @@ Tableau dashboard and workbook to visualize poker player strategies and statisti
 ## [Poker AI and Machine Learning Insights](ai)
 Works in progress that leverage machine learning and AI to derive advanced insights about poker strategy
 
-<a href="ai"><img src="images/range.png" alt="Starting hands screenshot" width="60%"></a>
+<a href="ai"><img src="images/ml-range.png" alt="Starting hands screenshot" width="60%"></a>
    
 ---
   

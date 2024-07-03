@@ -4,9 +4,9 @@
 
 A set of projects that leverage machine learning and AI to derive advanced insights about poker strategy
 
-<img src="images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png" alt="Poker AI and machine learning preview" width="60%"></a>
+<img src="images/ml-range.png" alt="Poker AI and machine learning preview" width="60%"></a>
 
-*Note: This image is just a teaser to the insights to be revealed later. Read on!*
+*Note: This image is just a teaser. Don't worry, there will be a clickable version later!*
 
 ### Skills
 - Machine learning (scikit-learn)
