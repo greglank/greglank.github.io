@@ -99,13 +99,13 @@ What we have now is a player's complete strategy for that game state! When prese
 
 We've essentially "reverse engineered" a HC-to-Act model to predict the player's hole cards for an observed action and game state. Here is the output of the modified random forest HC-to-Act model that predicts my range of hole cards when raising first in from the cutoff:
 
-[![Absolute Hole Card Frequency for HC-to-Act Model](images/ml/Absolute_Hole_Card_Frequency_for_HC-to-Act_Model.png)](Absolute_Hole_Card_Frequency_for_HC-to-Act_Model.png)
+[![Absolute Hole Card Frequency for HC-to-Act Model](images/ml/Absolute_Hole_Card_Frequency_for_HC-to-Act_Model.png)](images/ml/Absolute_Hole_Card_Frequency_for_HC-to-Act_Model.png)
 
 Notice how much smoother this probability distribution is than the earlier Act-to-HC model (here's a link to <a href="images/ml/absolute_comparison" target="_blank">view them together</a>). For example, KK is no longer notably different than the adjacent AA and QQ. This modified HC-to-Act model provides a more robust prediction that is much less sensitive to the random variance of hole cards being dealt more or less often in particular game states.
 
 To see why this is the case, here is a different visualization that is closer to what the HC-to-Act model outputs natively. This is the same HC-to-Act model prediction as above, but on a different scale. Instead of an absolute probability distribution that sums to one across all hole card hands, the following grid shows how often *each hole card hand* takes the observed action in the given game state. Red cells are close to 100%, which means that hand very often takes the observed action, whereas blue cells are close to 0%, which means that hand very rarely takes the observed action:
 
-[![Relative Hole Card Frequency for HC-to-Act Model](images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)](Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)
+[![Relative Hole Card Frequency for HC-to-Act Model](images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)](images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)
 
 This blue-red "relative" visualization shows that I nearly always raise AA, KK, QQ, and many other hands first in from the cutoff. This is the core of why the HC-to-Act model is so much more robust. After a reasonable minimum number of hands, it doesn't matter if I've been dealt KK five times or five thousand times first in from the cutoff; if I always raise KK in that game state, the model will correctly assign the same absolute probability as other pocket pairs that I always raise.
 
