@@ -16,7 +16,7 @@ A set of projects that leverage machine learning and AI to derive advanced insig
 
 ### Background
 
-Building on my [Poker Hand History Parser and Database](parser), I am currently working on a set of projects that use machine learning and deep learning to improve my own poker play (and my opponents', if they are so inclined!). 
+Building on my [Poker Hand History Parser and Database](parser), I am currently working on a set of projects that use machine learning and deep learning to improve my poker play (and my opponents', if they are so inclined!). 
 
 ### Ethical Principle #1: My Own Play First
 
