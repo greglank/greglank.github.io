@@ -2,6 +2,12 @@
 
 Welcome to my data science portfolio! Each project listed below contains a link to an individual project page with a more in-depth description.
 
+### TL;DR
+Short on time? Try these first:
+
+-Interactive visuals and pretty graphs: [Poker Visualization](visualization)
+-Description of a fun ML model: [Poker AI and Machine Learning Insights](ai)
+
 ---
 
 ## [Published Social Science Research](nature)
