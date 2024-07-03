@@ -82,7 +82,7 @@ Instead of training a model to directly predict a player's hole cards, what if w
 
 <a href="images/ml/hc-to-act_model.png"><img src="images/ml/hc-to-act_model.png" alt="HC-to-Act Model" width="60%"></a>
 
-What we really want to know, though, is a player's hole cards, which the HC-to-Act model takes as input, not provides as output. Here's where this gets interesting. If we provide the HC-to-Act model with all possible hole card hands and a given game state, it will output the player's actions for every hole card hand they could be holding in that game state:
+What we really want to know, though, is a player's hole cards, which the HC-to-Act model takes as input, not provides as output. Here's where this gets interesting. If we provide the HC-to-Act model with all possible hole card hands and a given game state, it will predict the player's actions in that game state for every hole card hand they could be holding:
 
 [![Act-to-HC Workflow, Part 1](images/ml/hc-to-act_workflow1.png)](images/ml/hc-to-act_workflow1.png)
 
@@ -96,17 +96,17 @@ We've essentially "reverse engineered" a HC-to-Act model to predict the player's
 
 Notice how much smoother this probability distribution is than the earlier Act-to-HC model (here's a link to <a href="images/ml/absolute_comparison" target="_blank">view them together</a>). For example, KK is no longer notably different than the adjacent AA and QQ. The modified HC-to-Act model provides a more robust prediction that is much less sensitive to the random variance of hole cards being dealt more or less often in particular game states.
 
-To see why this is the case, here is a different visualization that is closer to what the HC-to-Act model outputs natively. Instead of an absolute probability distribution that sums to one across all hole card hands, the following grid shows how often *each hole card hand* takes the observed action in the given game state. This is the same HC-to-Act model prediction as above, but on a different scale. Red cells are close to 100%, which means that hand very often takes the observed action, whereas blue cells are close to 0%, which means that hand very rarely takes the observed action:
+To see why this is the case, here is a different visualization that is closer to what the HC-to-Act model outputs natively. This is the same HC-to-Act model prediction as above, but on a different scale. Instead of an absolute probability distribution that sums to one across all hole card hands, the following grid shows how often *each hole card hand* takes the observed action in the given game state. Red cells are close to 100%, which means that hand very often takes the observed action, whereas blue cells are close to 0%, which means that hand very rarely takes the observed action:
 
 [![Relative Hole Card Frequency for HC-to-Act Model](images/ml/Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)](Relative_Hole_Card_Frequency_for_HC-to-Act_Model.png)
 
-The blue-red "relative" visualization shows that I nearly always raise AA, KK, QQ, etc., first in from the cutoff. This is the core of why the HC-to-Act model is so much more robust. After a reasonable minimum number of hands, it doesn't matter if I've been dealt KK five times or five thousand times first in from the cutoff; if I always raise KK in that game state, the model will correctly assign the same absolute probability as other pocket pairs that I always raise.
+The blue-red "relative" visualization shows that I nearly always raise AA, KK, QQ, and many other hands first in from the cutoff. This is the core of why the HC-to-Act model is so much more robust. After a reasonable minimum number of hands, it doesn't matter if I've been dealt KK five times or five thousand times first in from the cutoff; if I always raise KK in that game state, the model will correctly assign the same absolute probability as other pocket pairs that I always raise.
 
 From a human readability standpoint, I think this blue-red relative visualization is more informative than the orange absolute visualization from earlier. The blue-red relative visualization shows a player's strategy, and knowing an opponent's strategy is helpful for making human decisions while playing, whereas the orange absolute visualization shows probabilities that may be mathematically useful, but are less strategically useful in-game.
 
 #### Bayes' Theorem Sneaks In
 
-Now I've got your attention!
+Coming soon!
 
 ## What's Next?
 
