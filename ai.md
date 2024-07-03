@@ -116,15 +116,17 @@ It may seem like magic that the HC-to-Act model can be "reverse engineered" to p
 
 In a given game state, when we ask what hole cards a player is likely holding after taking a particular action, we are asking about the probability of their hole cards (HC) given the observed action (A), or P(HC \| A). We don't know P(HC \| A), but we do know
 
-- P(A \| HC): The probability of the player's actions given particular hole cards. This is the output of the HC-to-Act model, which we know.
-- P(HC): The probability of a particular hole card hand. This is just the naive probability of being dealt that hand, which we know.
-- P(A): The probability of a particular action. Since this is observed after the player actually takes an action, its value is simply 1.
+- P(A \| HC): The probability of the player's actions given particular hole cards. This is the output of the HC-to-Act model given a specific hole card hand.
+- P(HC): The probability of a particular hole card hand, generally. This is just the naive probability of being dealt that hand.
+- P(A): The probability of a particular action, generally (across all hole cards). We can also determine this from the output of the HC-to-Act model.
 
 Bayes theorem lets us put these probabilities together and solve for the one we don't know:
 
 P(HC \| A) \* P(A) = P(A \| HC) \* P(HC)
+or
+P(HC \| A) = P(A \| HC) \* P(HC) \/ P(A)
 
-Since P(A) = 1, all we have to do to determine P(HC | A) is divide the output of our Act-to-HC model (for all possible hole cards) by the naive hole card probabilities. This is what I was doing behind the scenes to translate the output of the Act-to-HC model into the orange absolute grid. Neat!
+To determine the probability of a player holding a particular hole card card after taking a given action, we multiply the output of Act-to-HC model by the general probability of that hand and divide by the general probability of that action. This is what I was doing behind the scenes to translate the output of the Act-to-HC model into the orange absolute grid. Neat!
 
 ## What's Next?
 
