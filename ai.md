@@ -137,7 +137,6 @@ As part of this set of AI and machine learning projects, I am currently working 
 <a href="images/ml/robot_poker_by_theangryapple.jpg"><img src="images/ml/robot_poker_by_theangryapple.jpg" alt="Poker bots!" width="60%"></a>
 
 *"Robot Poker" by [theangryapple](https://www.deviantart.com/theangryapple/art/Robot-Poker-296743466) [\[Creative Commons license\]](http://creativecommons.org/licenses/by-sa/3.0/)*<br>
-*Obviously, Greg-bot is the one holding quad aces.*
 
 Consistent with ethical principle #1 (my own play first), my poker opponents should be very excited about the possibility of a poker bot that plays like me! Due to the asymmetry of known hole card data, AI-derived insights about my own play will always be more thorough than insights about other players. My opponents will be able to play against this very thorough Greg-bot as much as they'd like to practice their real-life strategies against me. You're welcome!
 
