@@ -11,10 +11,10 @@ Link to study: [Fostering Connectedness to Nature in Higher Education](https://d
 <a href="https://doi.org/10.1080/13504622.2016.1225674"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%"></a>
 
 ### Skills
-- Research Design
-- Statistical and Numerical Analysis
-- Data Analysis
-- Writing and Communication
+- Research Design (mixed methods)
+- Statistical and Numerical Analysis (SPSS, frequentist statistics)
+- Data Analysis (quantitative and qualitative analysis)
+- Writing and Communication (peer-reviewed publication)
 
 ### Background
 
@@ -26,7 +26,7 @@ This study examines an introductory college-level ecology course for non majors 
 
 The results show that the course significantly increased participants’ connectedness, particularly their identification with nature and nature-focused worldview. Other environmental courses studied demonstrated no such changes, suggesting that environmental education does not automatically lead to connectedness; the key difference is likely an intentional focus on connectedness in the goals and approach of the course.
 
-### The Take-Away Message
+## The Take-Away Message
 
 If woven into the goals and approach of teaching, connectedness to nature can indeed be fostered in higher education. This is an informative result for environmental scholars and educators, as well as an inspiring one. The path to a sustainable future is long and difficult; environmental education that fosters connectedness to nature can aid us on this journey.
 

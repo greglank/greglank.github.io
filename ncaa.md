@@ -86,7 +86,7 @@ And then, somehow, for some reason, in a complete reversal of fortune from the r
 
 Sadly, my NCAA March Madness pool optimizer is now sitting on the digital shelf, collecting digital dust.
 
-### The Take-Away Message
+## The Take-Away Message
 
 Apart from the lessons about not building labyrinthine code that turns into the Winchester Mystery House, this project is a good illustration in how good data science is always at the mercy of good data. How do you put together an optimal NCAA March Madness bracket while knowing nothing about college basketball and not being able to access the necessary data?
 

@@ -7,7 +7,7 @@ This is a short list of my most relevant skills and certificates for data scienc
 - **Programming:** Python, Java
     - Includes **programming tools** like Jupyter and Git
     - Most of the projects below demonstrate programming skills
-- **Relational Databases:** MySQL, SQLite
+- **Relational Databases:** SQL (MySQL, SQLite)
     - [Poker Hand History Parser and Database](parser)
 - **Data Visualization:** Tableau, matplotlib, Seaborn, Plotly/Dash
     - [Poker Visualization](visualization)

@@ -9,8 +9,8 @@ View this workbook live on Tableau! [Rebuy Club: Tableau Public](https://public.
 <a href="https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub"><img src="images/tableau-running.png" alt="Tableau screenshot" width="60%"></a>
 
 ### Skills
-- Visualization (Tableau)
-- Relational databases (SQLite)
+- Data visualization (Tableau)
+- Relational databases (SQL)
 
 ### Background
 
@@ -43,7 +43,7 @@ Along the top there is a set of tabs you can click to see the different sheets.
 
 In the upper right there is a set of interactive filters. Depending on the sheet, you can filter by date, session number, number of players, number of hands played, and/or big blind amount. For example, moving the "session number" slider all the way to the right will tell the workbook to show only the results from the most recent session. Note that most of the filters apply to all the sheets in the workbook, so if something doesn't look right, double check to make sure the filters are set how you want them.
 
-### The Take-Away Message
+## The Take-Away Message
 
 Visualization is an effective way to ~~establish bragging rights~~ both summarize what happened in the past and provide strategic insights to inform future decision-making. This public Tableau workbook, accessible to everyone in my poker group, is a handy tool for fun and profit!
 

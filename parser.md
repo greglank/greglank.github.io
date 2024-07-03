@@ -11,8 +11,8 @@ See this project on [GitHub](https://github.com/greglank/PokerNowHH)
 <a href="https://github.com/greglank/PokerNowHH"><img src="images/poker.png" alt="Poker screenshot" width="60%"></a>
 
 ### Skills
+- Relational databases (SQL)
 - Programming (Python)
-- Relational databases (SQLite)
 
 ### Background
 
@@ -34,6 +34,6 @@ This project started as a personal project for my poker group, but I am in the p
 
 *Flowchart adapted from [Multi Input Output Process](https://poweredtemplate.com/multi-input-output-process-80158/)*
 
-### The Take-Away Message
+## The Take-Away Message
 
 This project uses Python and a SQLite database to convert poker hands and actions into a recorded format that can be stored, accessed, and queried. The database currently provides for analysis through SQL queries and Tableau visualization, with plans for additional input and output functionality.

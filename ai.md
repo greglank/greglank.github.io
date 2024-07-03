@@ -11,7 +11,8 @@ A set of projects that leverage machine learning and AI to derive advanced insig
 ### Skills
 - Machine learning (scikit-learn)
 - Deep learning (Keras/TensorFlow)
-- Data analysis (Pandas, NumPy)
+- Data analysis (Pandas)
+- Statistical and numerical analysis (NumPy, Bayesian statistics)
 - Programming (Python)
 
 ### Background
@@ -50,7 +51,7 @@ The question is, what range of hole cards does the cutoff have when raising firs
 
 ### Mapping Actions to Hole Cards (Act-to-HC Model)
 
-Using data from the hand history database, I trained a series of machine learning models to learn the mapping between a player's action and a given game state to the player's hole cards (action + game_state --> hole_cards). As shorthand, I refer to this kind of model as actions to hole cards, or "Act-to-HC":
+Using scikit-learn and data from the hand history database, I trained a series of machine learning models to learn the mapping between a player's action and a given game state to the player's hole cards (action + game_state --> hole_cards). As shorthand, I refer to this kind of model as actions to hole cards, or "Act-to-HC":
 
 <a href="images/ml/act-to-hc_model.png"><img src="images/ml/act-to-hc_model.png" alt="Act-to-HC Model" width="60%"></a>
 
@@ -128,4 +129,13 @@ In a given game state, to determine the probability of a player holding a partic
 
 ## What's Next?
 
-To be continued...
+As part of this set of AI and machine learning projects, I am currently working on the following:
+
+- Deploying these models to the cloud, where users can interact with them via a web browser
+- Using Keras/Tensorflow to create a deep learning AI "poker bot" that can mimic my own and other players' complete strategies in a full game of poker. Consistent with ethical principle #2 (never while playing), the bot will not interface with any real-world poker websites, and will only operate in its own cloud instance for learning and entertainment purposes.
+
+Consistent with ethical principle #1 (my own play first), my poker opponents should be very excited about the possibility of a poker bot that plays like me! Due to the asymmetry of known hole card data, AI-derived insights about my own play will always be more thorough than insights about other players. My opponents will be able to play against this very thorough Greg-bot as much as they'd like to practice their real-life strategies against me. You're welcome!
+
+## The Take-Away Message
+
+This project uses scikit-learn, Keras/TensorFlow, and other Python data science libraries to create a set of AI and machine learning models that reveal strategic insights about my own and my opponents' poker play. I have completed models that predict players' private hole cards, and am currently working on deploying these models to the cloud and developing a complete poker-playing deep learning model.

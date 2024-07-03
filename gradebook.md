@@ -19,6 +19,6 @@ My dynamic gradebooks are Google Sheets workbooks integrated with Google Forms a
 
 On the other side of the coin, students need to be able to access their grades and track their progress. Each week I use the gradebook to send automated mail merge grade reports to students' email addresses. I also use the mail merge function for more elaborate feedback on major assignments like the peer-reviewed research project in my research methods course, providing students with a 26-item checklist and written feedback automatically collated from up to four peer reviewers.
 
-### The Take-Away Message
+## The Take-Away Message
 
 I use Google Sheets, integrated with Google Forms and various plugins, to overcome the limitations of traditional gradebooks. A little bit of spreadsheet wizardry allows me to facilitate a more creative, open-ended, and personal learning experience for students.
