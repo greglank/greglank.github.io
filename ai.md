@@ -22,8 +22,6 @@ Building on my [Poker Hand History Parser and Database](parser), I am currently 
 
 Ethically, since I play poker almost exclusively against friends, I want to take steps to ensure that I don't build an unfair advantage for myself with AI-driven insights. To level the playing field, whenever possible I will train the machine learning and AI models on *my own play first* and make these insights available to the rest of the group. This is like handing all of my opponents cheat codes to beating me, specifically!
 
-Moreover, the AI-driven insights about my own play will always be more thorough than insights about other players, simply because of the asymmetry of available data. I have access to my private hole cards for every hand I've played, whereas the hand histories don't show other players' private hole cards except in specific circumstances, such after winning at showdown or when players choose to show their cards voluntarily. Other players' hole card data will always be incomplete, and incomplete in a way that is inevitably biased towards certain kinds of hands. For example, weak hands that are folded (by far the most frequent action in Texas hold 'em) are rarely shown, and thus bias the data set, no matter how many years of data I have for an opponent.
-
 ### Ethical Principle #2: Never While Playing
 
 These AI-driven models should only be used as study tools outside the game, *never while playing*. Using outside assistance during play (whether AI, human, or otherwise) is strictly against the rules of poker and endangers the fundamental existence of the game. As someone who greatly enjoys the game of poker, I feel very strongly about this point!
@@ -76,7 +74,7 @@ A closer look at the grid reveals some discontinuities in the predictions, such 
 
 And that is the death knell for the Act-to-HC model for any data other than my own.
 
-As mentioned before, I know all my own private hole cards, whereas other players' private hole cards are infrequently shown. If 200,000 known hands aren't enough to smooth out variance, the model is doomed when tasked with predicting players who have one, two, or even three orders of magnitude fewer known hands (and whose known hands are inevitably biased).
+I have access to my private hole cards for every hand I've played (about 50,000 hands per year since 2021), whereas the hand histories don't show other players' private hole cards except in specific circumstances, such after winning at showdown or when players choose to show their cards voluntarily, which both limits and biases their known hands. If my treasure trove of known hands isn't enough to smooth out variance, the model is doomed when tasked with predicting hole cards from data that is significantly more limited and biased.
 
 Using a model to predict hole cards requires thinking about the problem in a different way.
 
