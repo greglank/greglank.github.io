@@ -52,7 +52,7 @@ The question is, what range of hole cards does the cutoff have when raising firs
 
 ### Mapping Actions to Hole Cards (Act-to-HC Model)
 
-Using the hand history database as data, I trained a series of machine learning models to learn the mapping between a player's action and given game state to the player's hole cards (action + game_state --> hole_cards). As shorthand, I refer to this kind of model as actions to hole cards, or "Act-to-HC":
+Using the hand history database as data, I trained a series of machine learning models to learn the mapping between a player's action and a given game state to the player's hole cards (action + game_state --> hole_cards). As shorthand, I refer to this kind of model as actions to hole cards, or "Act-to-HC":
 
 <a href="images/ml/act-to-hc_model.png"><img src="images/ml/act-to-hc_model.png" alt="Act-to-HC Model" width="60%"></a>
 
@@ -82,7 +82,7 @@ Using a model to predict hole cards requires thinking about the problem in a dif
 
 ### Mapping Hole Cards to Actions (HC-to-Act Model)
 
-Instead of training a model to directly predict a player's hole cards, what if we instead trained a model to play like a particular player? I trained a series of models to learn the mappings between a player's hole cards and given game state to the player's action (hole_cards + game_state --> action). As shorthand, I refer to this kind of model as hole cards to actions, or "HC-to-Act":
+Instead of training a model to directly predict a player's hole cards, what if we instead trained a model to play like a particular player? I trained a series of models to learn the mappings between a player's hole cards and a given game state to the player's action (hole_cards + game_state --> action). As shorthand, I refer to this kind of model as hole cards to actions, or "HC-to-Act":
 
 <a href="images/ml/hc-to-act_model.png"><img src="images/ml/hc-to-act_model.png" alt="HC-to-Act Model" width="60%"></a>
 
