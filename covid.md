@@ -11,7 +11,7 @@ This is a lightly-edited adaptation of an email I wrote to my poker group. I am 
 
 I am not an expert on COVID-19, but I do try to make decisions based on the best available evidence. If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more rigorous, more accessible, and/or more effectively communicated), please let me know and I will update this page!
 
-For another example of my communication style, see my [NCAA March Madness Pool Optimizer](ncaa) project.
+For other examples of my communication style, see my [Poker AI and Machine Learning Insights](ai) and [NCAA March Madness Pool Optimizer](ncaa) projects.
 
 ### Email Context
 

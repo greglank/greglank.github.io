@@ -23,6 +23,7 @@ This is a short list of my most relevant skills and certificates for data scienc
 - **Research Design**
     - [Published Social Science Research](nature)
 - **Writing and Communication**
+	- [Poker AI and Machine Learning Insights](ai)
     - [NCAA March Madness Pool Optimizer](ncaa)
     - [COVID-19: What You Can Do](covid)
 - **Public Speaking and Project Management**
