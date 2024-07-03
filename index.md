@@ -6,7 +6,7 @@ Welcome to my data science portfolio! Each project listed below contains a link 
 Short on time? Try these first:
 
 - Interactive visuals and pretty graphs: [Poker Visualization](visualization)
-- Description of a fun ML model: [Poker AI and Machine Learning Insights](ai)
+- Developing a fun ML model: [Poker AI and Machine Learning Insights](ai)
 
 ---
 
@@ -32,7 +32,7 @@ Tableau dashboard and workbook to visualize poker player strategies and statisti
 ---
   
 ## [Poker AI and Machine Learning Insights](ai)
-Works in progress that leverage machine learning and AI to derive advanced insights about poker strategy
+A set of projects that leverage machine learning and AI to derive advanced insights about poker strategy
 
 <a href="ai"><img src="images/ml-range.png" alt="Starting hands screenshot" width="60%"></a>
    
