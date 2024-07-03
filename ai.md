@@ -134,7 +134,7 @@ As part of this set of AI and machine learning projects, I am currently working 
 - Deploying these models to the cloud, where users can interact with them via a web browser
 - Using Keras/Tensorflow to create a deep learning AI "poker bot" that can mimic my own and other players' complete strategies in a full game of poker. Consistent with ethical principle #2 (never while playing), the bot will not interface with any real-world poker websites, and will only operate in its own cloud instance for learning and entertainment purposes.
 
-<a href="images/ml/robot_poker_by_theangryapple.jpg"><img src="images/ml/robot_poker_by_theangryapple.jpg" alt="Poker bots!" width="60%"></a>
+[![Poker bots](images/ml/robot_poker_by_theangryapple.jpg)](images/ml/robot_poker_by_theangryapple.jpg)
 
 *"Robot Poker" by [theangryapple](https://www.deviantart.com/theangryapple/art/Robot-Poker-296743466) [\[Creative Commons license\]](http://creativecommons.org/licenses/by-sa/3.0/)*<br>
 
