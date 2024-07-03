@@ -72,7 +72,7 @@ The Act-to-HC model is a success... but not very useful.
 
 A closer look at the grid reveals some discontinuities in the predictions, such as KK being notably less frequent than the adjacent AA and QQ:
 
-[Zoomed in portion of Act-to-HC grid showing lower frequency of KK](kk_zoom.png)
+[Zoomed in portion of Act-to-HC grid showing lower frequency of KK](images/ml/kk_zoom.png)
 
 There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely to be dealt, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but the data. The empirically observed frequencies look just like this, which means that I was just dealt KK less often in this game state due to random variance. Even knowing the hole cards for every hand I've played (about 50,000 hands per year since 2021) doesn't provide enough data to smooth out these variations.
 
@@ -122,8 +122,6 @@ In a given game state, when we ask what hole cards a player is likely holding af
 
 Bayes theorem lets us put these probabilities together and solve for the one we don't know:
 
-P(HC \| A) \* P(A) = P(A \| HC) \* P(HC)<br>
-or<br>
 P(HC \| A) = P(A \| HC) \* P(HC) / P(A)
 
 To determine the probability of a player holding a particular hole card card after taking a given action, we multiply the output of Act-to-HC model by the general probability of that hand and divide by the general probability of that action. This is what I was doing behind the scenes to translate the output of the Act-to-HC model into the orange absolute grid. Neat!
