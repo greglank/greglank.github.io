@@ -25,7 +25,7 @@ Ethically, since I play poker almost exclusively against friends, I want to take
 
 ### Ethical Principle #2: Never While Playing
 
-These AI-driven models should only be used as study tools outside the game, *never while playing*. Using outside assistance during play (whether AI, human, or otherwise) is strictly against the rules of poker and endangers the fundamental existence of the game. As someone who greatly enjoys the game of poker, I feel very strongly about this point!
+These AI-driven models should only be used as study tools outside the game, *never while playing*. Using assistance from an agent (whether machine or human) during play is strictly against the rules of poker and endangers the fundamental existence of the game. As someone who greatly enjoys the game of poker, I feel very strongly about this point!
 
 ## Project Description: Hole Card Predictor
 
@@ -75,11 +75,11 @@ A closer look at the grid reveals some discontinuities in the predictions, such 
 
 <img src="images/ml/kk_zoom.png" alt="Zoomed in portion of Act-to-HC grid showing lower frequency of KK" width="60%">
 
-There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely to be dealt, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but the data. The empirically observed frequencies look just like this, which means that I was just dealt KK less often in this game state due to random variance. Even knowing the hole cards for every hand I've played (about 50,000 hands per year since 2021) doesn't provide enough data to smooth out these variations.
+There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely to be dealt, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but with the data. The empirically observed frequencies look just like this, which means that I was just dealt KK less often in this game state due to random variance. Even knowing the hole cards for every hand I've played (about 50,000 hands per year since 2021) doesn't provide enough data to smooth out these variations.
 
 And that is the death knell for the Act-to-HC model for any data other than my own.
 
-I have full knowledge of my private hole cards, whereas the hand histories don't show other players' private hole cards except in specific circumstances, such after winning at showdown or when players choose to show their cards voluntarily, which both limits and biases their known hands. If my treasure trove of known hands isn't enough to smooth out variance, the model is doomed when tasked with predicting hole cards from data that is significantly more limited and biased.
+I have full knowledge of my private hole cards, whereas the hand histories don't show other players' private hole cards except in specific circumstances, such after winning at showdown or when players choose to show their cards voluntarily, which both limits and biases their set of known hands. If my treasure trove of known hands isn't enough to smooth out variance, the model is doomed when tasked with predicting hole cards from data that is significantly more limited and biased.
 
 Using a model to predict hole cards requires thinking about the problem in a different way.
 
@@ -101,7 +101,7 @@ We've essentially "reverse engineered" a HC-to-Act model to predict the player's
 
 [![Absolute Hole Card Frequency for HC-to-Act Model](images/ml/Absolute_Hole_Card_Frequency_for_HC-to-Act_Model.png)](Absolute_Hole_Card_Frequency_for_HC-to-Act_Model.png)
 
-Notice how much smoother this probability distribution is than the earlier Act-to-HC model (here's a link to <a href="images/ml/absolute_comparison" target="_blank">view them together</a>). For example, KK is no longer notably different than the adjacent AA and QQ. The modified HC-to-Act model provides a more robust prediction that is much less sensitive to the random variance of hole cards being dealt more or less often in particular game states.
+Notice how much smoother this probability distribution is than the earlier Act-to-HC model (here's a link to <a href="images/ml/absolute_comparison" target="_blank">view them together</a>). For example, KK is no longer notably different than the adjacent AA and QQ. This modified HC-to-Act model provides a more robust prediction that is much less sensitive to the random variance of hole cards being dealt more or less often in particular game states.
 
 To see why this is the case, here is a different visualization that is closer to what the HC-to-Act model outputs natively. This is the same HC-to-Act model prediction as above, but on a different scale. Instead of an absolute probability distribution that sums to one across all hole card hands, the following grid shows how often *each hole card hand* takes the observed action in the given game state. Red cells are close to 100%, which means that hand very often takes the observed action, whereas blue cells are close to 0%, which means that hand very rarely takes the observed action:
 
@@ -113,13 +113,13 @@ From a human readability standpoint, I think this blue-red relative visualizatio
 
 #### Bayes' Theorem Sneaks In
 
-It may seem like magic that the HC-to-Act model can be "reverse engineered" to predict hole cards, but it's not magic, it's Bayes' theorem! Bayes theorem is a way to derive a conditional probability (a probability that depends on something else happening) when you know a bunch of other probabilities.
+It may seem like magic that the HC-to-Act model can be "reverse engineered" to predict hole cards, but it's not magic, it's Bayes' theorem! Bayes' theorem is a way to derive a conditional probability (a probability that depends on something else happening) when you know a bunch of other probabilities.
 
 In a given game state, when we ask what hole cards a player is likely holding after taking a particular action, we are asking about the probability of their hole cards given the observed action, or P(HC\|A). We don't know P(HC\|A), but we do know
 
-- P(A\|HC): The probability of the player's actions given particular hole cards. This is the HC-to-Act model output given a specific hole card hand.
+- P(A\|HC): The probability of the player's action given particular hole cards. This is the HC-to-Act model output given a specific hole card hand.
 - P(HC): The probability of a particular hole card hand, generally. This is just the naive probability of being dealt that hand.
-- P(A): The probability of a particular action, generally (across all hole cards). This is just the sum of the HC-to-Act model output across all hole card hands.
+- P(A): The probability of the player's action, generally (across all hole cards). This is just the sum of the HC-to-Act model output across all hole card hands.
 
 Bayes theorem lets us put these probabilities together and solve for the one we don't know:
 
