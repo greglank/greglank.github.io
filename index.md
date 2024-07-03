@@ -7,7 +7,7 @@ Welcome to my data science portfolio! Each project listed below contains a link 
 ## [Published Social Science Research](nature)
 Peer-reviewed study that uses mixed quantitative and qualitative analysis to demonstrate that higher education can foster connectedness to nature
 
-<a href="nature"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%"></a>
+<a href="nature"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%">
   
 ---
 
