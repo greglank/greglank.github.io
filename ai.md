@@ -72,7 +72,7 @@ The Act-to-HC model is a success... but not very useful.
 
 A closer look at the grid reveals some discontinuities in the predictions, such as KK being notably less frequent than the adjacent AA and QQ:
 
-![Zoomed in portion of Act-to-HC grid showing lower frequency of KK](images/ml/kk_zoom.png)
+<img src="images/ml/kk_zoom.png" alt="Zoomed in portion of Act-to-HC grid showing lower frequency of KK" width="60%">
 
 There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely to be dealt, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but the data. The empirically observed frequencies look just like this, which means that I was just dealt KK less often in this game state due to random variance. Even knowing the hole cards for every hand I've played (about 50,000 hands per year since 2021) doesn't provide enough data to smooth out these variations.
 
@@ -116,9 +116,9 @@ It may seem like magic that the HC-to-Act model can be "reverse engineered" to p
 
 In a given game state, when we ask what hole cards a player is likely holding after taking a particular action, we are asking about the probability of their hole cards (HC) given the observed action (A), or P(HC \| A). We don't know P(HC \| A), but we do know
 
-- P(A \| HC): The probability of the player's actions given particular hole cards. This is the output of the HC-to-Act model given a specific hole card hand.
+- P(A \| HC): The probability of the player's actions given particular hole cards. This is the HC-to-Act model output given a specific hole card hand.
 - P(HC): The probability of a particular hole card hand, generally. This is just the naive probability of being dealt that hand.
-- P(A): The probability of a particular action, generally (across all hole cards). We can also determine this from the output of the HC-to-Act model.
+- P(A): The probability of a particular action, generally (across all hole cards). This is just the sum of the HC-to-Act model output across all hole card hands.
 
 Bayes theorem lets us put these probabilities together and solve for the one we don't know:
 
