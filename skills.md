@@ -11,11 +11,11 @@ This is a short list of my most relevant skills and certificates for data scienc
     - [Poker Hand History Parser and Database](parser)
 - **Data Visualization:** Tableau, matplotlib, Seaborn, Plotly/Dash
     - [Poker Visualization](visualization)
-- **Machine Learning and Deep Learning:** scikit-learn, Keras/TensorFlow
+- **Machine Learning and Deep Learning:** scikit-learn, Keras/TensorFlow, AI prompt engineering
     - [Poker AI and Machine Learning Insights](ai)
-- **Statistical and Numerical Analysis:** NumPy, SPSS, MATLAB, Octave
+- **Statistical and Numerical Analysis:** SAS, NumPy, SPSS, MATLAB, Octave
     - [Published Social Science Research](nature)
-- **Data Analysis:** Pandas, Excel, Google Sheets, NVivo
+- **Data Analysis:** Pandas, MS Office (Excel, Word, PowerPoint, Outlook), Google Sheets, NVivo
     - [Dynamic Gradebook](gradebook)
 
 ## Research and Communication Skills
@@ -40,4 +40,4 @@ This is a short list of my most relevant skills and certificates for data scienc
 
 ## The Take-Away Message
 
-I'm an experienced educator and researcher transitioning to a career in data science. I'm proficient in a range of technical skills, complemented by the ability to communicate complex ideas to non-technical audiences through writing, speaking, and presenting. For more about me, see my [About Me](about) page.
+I'm an educator and researcher transitioning to a career in data science. I'm proficient in a range of technical skills, complemented by the ability to communicate complex ideas to non-technical audiences through writing, speaking, and presenting. For more about me, see my [About Me](about) page.
