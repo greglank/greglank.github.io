@@ -13,7 +13,7 @@ This is a short list of my most relevant skills and certificates for data scienc
     - [Poker Visualization](visualization)
 - **Machine Learning and Deep Learning:** scikit-learn, Keras/TensorFlow, AI prompt engineering
     - [Poker AI and Machine Learning Insights](ai)
-- **Statistical and Numerical Analysis:** SAS, NumPy, SPSS, MATLAB, Octave
+- **Statistical and Numerical Analysis:** NumPy, SPSS, MATLAB, Octave
     - [Published Social Science Research](nature)
 - **Data Analysis:** Pandas, MS Office (Excel, Word, PowerPoint, Outlook), Google Sheets, NVivo
     - [Dynamic Gradebook](gradebook)
