@@ -4,9 +4,9 @@
 
 Tableau dashboard and workbook to visualize poker player strategies and statistics for better decision-making
 
-View this workbook live on Tableau! [Rebuy Club: Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
+View this workbook live on Tableau! [Rebuy Club: Tableau Public](https://public.tableau.com/views/RebuyClub/WelcometotheRebuyClub)
 
-<a href="https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub"><img src="images/tableau-running.png" alt="Tableau screenshot" width="60%"></a>
+<a href="https://public.tableau.com/views/RebuyClub/WelcometotheRebuyClub"><img src="images/tableau-running.png" alt="Tableau screenshot" width="60%"></a>
 
 ### Skills
 - Data visualization (Tableau)
@@ -47,4 +47,4 @@ In the upper right there is a set of interactive filters. Depending on the sheet
 
 Visualization is an effective way to ~~establish bragging rights~~ both summarize what happened in the past and provide strategic insights to inform future decision-making. This public Tableau workbook, accessible to everyone in my poker group, is a handy tool for fun and profit!
 
-Link to workbook: [Rebuy Club: Tableau Public](https://public.tableau.com/app/profile/greg4796/viz/RebuyClub/WelcometotheRebuyClub)
+Link to workbook: [Rebuy Club: Tableau Public](https://public.tableau.com/views/RebuyClub/WelcometotheRebuyClub)
