@@ -1,6 +1,6 @@
 # Skills and Certifications
 
-This is a short list of my most relevant skills and certifications for data science. Underneath each skill is a project or award that best illustrates that skill. The projects are the same as those on [Projects (Home)]("/") page; some projects are listed under more than one skill.
+This is a short list of my most relevant skills and certifications for data science. Underneath each skill is a project or award that best illustrates that skill. The projects are the same as those on [Projects (Home)](/) page; some projects are listed under more than one skill.
 
 ## Technical Skills
 
@@ -35,7 +35,7 @@ This is a short list of my most relevant skills and certifications for data scie
 
 **[AWS Certified AI Practitioner](https://www.credly.com/badges/69100231-0670-4c32-85e9-786c498a41e2/public_url)**: Validates knowledge of artificial intelligence, machine learning, and generative AI concepts and use cases
 
-<a href="https://www.credly.com/badges/69100231-0670-4c32-85e9-786c498a41e2/public_url"><img src="images/aws-ai-practitioner.png" alt="AWS Certified AI Practitioner badge"></a>
+<a href="https://www.credly.com/badges/69100231-0670-4c32-85e9-786c498a41e2/public_url"><img src="images/aws-ai-practitioner.png" alt="AWS Certified AI Practitioner badge" width="40%"></a>
 
 **[AWS Certified Machine Learning Engineer](https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/)**: Led workplace professional development training group; exam upcoming
 

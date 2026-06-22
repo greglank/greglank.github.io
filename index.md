@@ -59,4 +59,4 @@ Python program that cleans and parses poker hand histories to load into a SQLite
   
 ---
 
-Since you made it this far, I may as well point you to my [Projects Archive](archive)
+Since you made it this far, I may as well point you to my [Project Archive](archive)
