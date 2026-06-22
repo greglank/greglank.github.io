@@ -1,4 +1,4 @@
-# COVID-19: What You Can Do
+# COVID-19: A Data Scientist's Perspective
 
 *Sources updated on July 24, 2024*
 
@@ -6,16 +6,16 @@
 
 This is a lightly-edited adaptation of an email I wrote to my poker group. I am including it in my data science portfolio because it
 - Is a good example of how data can inform decision-making in all aspects of life
-- Demonstrates how I write and communicate (yes, I include headers and formatted links in my emails... at least the important ones!)
+- Demonstrates how I write and communicate (yes, I included headers and formatted links in my email!)
 - Is part of a conversation that I would like to see happening more openly and frequently
 
-I am not an expert on COVID-19, but I do try to make decisions based on the best available evidence. This is what it looks like to be data-driven in everyday life! If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more rigorous, more accessible, and/or more effectively communicated), please let me know and I will update this page!
+I am not an expert on COVID-19, but as a data scientist, I try to make decisions based on the best available evidence. This is what it looks like to be data-driven in everyday life! If the information below is misleading or incorrect, or if you have links to information that is better (newer, more thorough, more strongly established, more rigorous, more accessible, and/or more effectively communicated), please let me know and I will update this page!
 
 For other examples of my communication style, see my [Poker AI and Machine Learning Insights](ai) and [NCAA March Madness Pool Optimizer](ncaa) projects.
 
 ### Email Context
 
-In October 2023, I attended a concert in Las Vegas (U2 at the Sphere -- amazing!). I play poker regularly with an online group that uses audio/video chat via Discord while playing. A number of my poker-playing friends wanted to hear about the experience, so I wrote an email to the group talking about the concert and my poker-playing adventures.
+I attended a concert in Las Vegas. A number of my poker-playing friends wanted to hear about the experience, so I wrote an email to the group talking about the concert and my poker-playing adventures.
 
 In a follow-up email I also wrote a description of what I did behind the scenes to make the concert trip safer in the era of COVID-19. [From a sociological perspective](https://www.agjohnson.us/glad/arent-systems-just-people/), I stepped off the path of least resistance by taking COVID-19 precautions, and I needed to be vocal and visible about why.
 
@@ -27,7 +27,7 @@ My follow-up email is below, lightly edited and with some updated sources.
 
 All right, I know you all have been waiting in suspense for the Vegas Follow-Up Email!
 
-I think it's important to start shifting the social norms around COVID-19 to a more open and frank discussion of what it looks like to act responsibly while engaging in the activities that we enjoy. If I share my U2 story without sharing the activities that happened behind the scenes to make it relatively safer, then that just gives the false impression that it's not necessary to take any steps at all. So let's start that frank and open discussion!
+I think it's important to start shifting the social norms around COVID-19 to a more open and frank discussion of what it looks like to act responsibly while engaging in the activities that we enjoy. If I share my concert story without sharing the activities that happened behind the scenes to make it relatively safer, then that just gives the false impression that it's not necessary to take any steps at all. So let's start that frank and open discussion!
 
 ## TL;DR Links
 
@@ -69,14 +69,14 @@ With a communicable disease like COVID-19, everyone's behavior affects everyone 
 
 ## What You Can Do: Masking
 
-This is my favorite part! There are lots of cool things you and I can do to stop the spread of COVID-19 and make activities like going to a U2 concert a reasonable possibility. I like to think in terms of [layers of protection](https://peoplescdc.org/2022/09/12/layers-of-protection/); each action by itself is a minor improvement, but together all these actions make a formidable whole. Actions like masking!
+This is my favorite part! There are lots of cool things you and I can do to stop the spread of COVID-19 and make activities like going to a concert a reasonable possibility. I like to think in terms of [layers of protection](https://peoplescdc.org/2022/09/12/layers-of-protection/); each action by itself is a minor improvement, but together all these actions make a formidable whole. Actions like masking!
 
 Masks are great! As noted by the [Dread Pirate Roberts](https://www.youtube.com/watch?app=desktop&v=1HnvQM465zM), "it's just that they're terribly comfortable; I think everyone will be wearing them in the future." I have boxes and boxes of masks at home. I carry different sizes and shapes of masks for my students and give them one whenever they need it. Wearing a certified N95, KN95, or KF94 mask that fits your face without gaps is the key, so find what works best for you! Here are my personal favorites:
 
 #### The gold standard: [3M Aura N95](https://www.amazon.com/gp/product/B095FJ36H2)
 N95 masks (made in USA) are tested to filter at least 95% of airborne particles. The 3M Aura N95 is the gold standard, and personally fits me the best without any gaps or air leakage, which means it also doesn't fog my glasses. This is what I wore during my Vegas trip any time I was in a public indoor space, including in the airports and flights, at the concert, and in the casinos. And let me tell you, it's a huge advantage at the poker table! It makes me look mysterious (a fellow player called me [Bane](https://www.youtube.com/watch?v=rAxJ5EFu2Co), and of course I did my best impression), hides many of my stupid-obvious tells, and lets me mutter out loud about the hand and/or my idiot opponents, just like I do playing against you degenerates when I'm on mute.
 
-Here is a photo of my friend and me in our masks at the U2 concert. I'm on the left wearing an N95; he's on the right wearing a KN95:
+Here is a photo of my friend and me in our masks at the concert. I'm on the left wearing an N95; he's on the right wearing a KN95:
 
 <p><img src="images/covid/concert.jpg" alt="Photo of my friend and me wearing masks" width="60%"/><br>
 <i>Spread the love of music, not the virus!</i></p>
@@ -135,7 +135,7 @@ I love these friggin' things, and after I returned from Vegas I kept the PC fan 
 
 ## Attending the Concert... And Other Cool Things
 
-Masking and ventilation are two things you and I can do to stop the spread of the virus, and are two of the layers in the [layers of protection](https://peoplescdc.org/2022/09/12/layers-of-protection/) that can protect everyone's health. Other layers include vaccination, testing, and limiting our and others' exposure. All together, these layers are what went on behind the scenes to make attending the U2 concert relatively safer for me and everyone around me.
+Masking and ventilation are two things you and I can do to stop the spread of the virus, and are two of the layers in the [layers of protection](https://peoplescdc.org/2022/09/12/layers-of-protection/) that can protect everyone's health. Other layers include vaccination, testing, and limiting our and others' exposure. All together, these layers are what went on behind the scenes to make attending the concert relatively safer for me and everyone around me.
 
 I think it's important to foster frank and open conversations like these about COVID-19 and other public health issues so that we know what choices are available and how to make them. It's hard to keep up with the current medical and scientific research, but it's even harder to want to, and to be willing to make changes to the way we live our lives. Thanks for sticking with me for this whole conversation. I'm happy to answer whatever questions I can, or point you to the people who know much more than I do.
 
