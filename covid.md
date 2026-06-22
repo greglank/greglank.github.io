@@ -1,7 +1,5 @@
 # COVID-19: A Data Scientist's Perspective
 
-*Sources updated on July 24, 2024*
-
 ## Overview
 
 This is a lightly-edited adaptation of an email I wrote to my poker group. I am including it in my data science portfolio because it
@@ -43,6 +41,8 @@ This email is long and includes a gaggle of links. I included so many links beca
 - **Choosing an air filter for COVID-19:** Guide from the National Institute of Environmental Health Sciences: [Selection and Use of Portable Air Cleaners](https://tools.niehs.nih.gov/wetp/public/hasl_get_blob.cfm?ID=13021)
     - Easy version: A HEPA filter like the [Levoit Core 200S](https://www.amazon.com/gp/product/B08FJ678YK) (or larger)
     - Cheapo version: Build a [Corsi-Rosenthal box](https://cleanaircrew.org/box-fan-filters/)
+	
+*Sources updated on July 24, 2024*
 
 ## What Greg Teaches His Students
 
