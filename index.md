@@ -10,20 +10,6 @@ Short on time? Try these first:
 
 ---
 
-## [Published Social Science Research](nature)
-Peer-reviewed study that uses mixed quantitative and qualitative analysis to demonstrate that higher education can foster connectedness to nature
-
-<a href="nature"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%">
-  
----
-
-## [Poker Hand History Parser and Database](parser)
-Python program that cleans and parses poker hand histories to load into a SQLite database for further analysis
-  
-<a href="parser"><img src="images/poker.png" alt="Poker screenshot" width="60%"></a>
-  
----
-  
 ## [Poker Visualization](visualization)
 Tableau dashboard and workbook to visualize poker player strategies and statistics for better decision-making
 
@@ -37,15 +23,40 @@ A set of projects that leverage machine learning and AI to derive advanced insig
 <a href="ai"><img src="images/ml-range.png" alt="Starting hands screenshot" width="60%"></a>
    
 ---
-  
-## [Dynamic Gradebook](gradebook)
-28-sheet workbook using Google Sheets to collate student grades, instructor feedback, and peer feedback for automated mail merge grade reports
 
-<a href="gradebook"><img src="images/gradebook.png" alt="Gradebook screenshot" width="60%"></a>
+## [Published Social Science Research](nature)
+Peer-reviewed study that uses mixed quantitative and qualitative analysis to demonstrate that higher education can foster connectedness to nature
+
+<a href="nature"><img src="images/eer-journal.jpg" alt="Environmental Education Research journal cover" width="60%">
+  
+---
+
+## [Student Risk Model](cbe)
+Multi-stage optimization and logistic regression model to identify at-risk students
+  
+<a href="cbe"><img src="images/coming-soon.png" alt="Exciting screenshot coming soon" width="60%"></a>
+  
+---
+
+## [Faculty Prioritization Model](faculty)
+Mixed effects model to rank faculty who contribute the most to student success
+  
+<a href="faculty"><img src="images/coming-soon.png" alt="Exciting screenshot coming soon" width="60%"></a> 
 
 ---
-  
-## [NCAA March Madness Pool Optimizer](ncaa)
-Java program that picks the optimal NCAA basketball tournament bracket for a typical office pool
 
-<a href="ncaa"><img src="images/bracket-small.png" alt="NCAA bracket screenshot" width="60%"></a>
+## [bFusion Behavior Model](bfusion)
+Multi-stage factor analysis and gradient boosting model to predict student risk at multiple time scales
+  
+<a href="bfusion"><img src="images/coming-soon.png" alt="Exciting screenshot coming soon" width="60%"></a> 
+
+---
+
+## [Poker Hand History Parser and Database](parser)
+Python program that cleans and parses poker hand histories to load into a SQLite database for further analysis
+  
+<a href="parser"><img src="images/poker.png" alt="Poker screenshot" width="60%"></a>
+  
+---
+
+Since you made it this far, I may as well point you to my [Projects Archive](archive)

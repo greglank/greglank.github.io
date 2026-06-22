@@ -75,7 +75,7 @@ A closer look at the grid reveals some discontinuities in the predictions, such 
 
 <img src="images/ml/kk_zoom.png" alt="Zoomed in portion of Act-to-HC grid showing lower frequency of KK" width="60%">
 
-There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely to be dealt, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but with the data. The empirically observed frequencies look just like this, which means that I was just dealt KK less often in this game state due to random variance. Even knowing the hole cards for every hand I've played (about 50,000 hands per year since 2021) doesn't provide enough data to smooth out these variations.
+There is no reason for this; I will always raise AA, KK, and QQ first in from the cutoff, and as these pocket pairs are equally likely to be dealt, a robust model should predict these hands with equal probability. This is actually not an issue with the model, but with the data. The empirically observed frequencies look just like this, which means that I was simply dealt KK less often in this game state due to random variance. Even knowing the hole cards for every hand I've played (about 50,000 hands per year since 2021) doesn't provide enough data to smooth out these variations.
 
 And that is the death knell for the Act-to-HC model for any data other than my own.
 
