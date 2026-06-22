@@ -6,6 +6,8 @@
 
 <img src="images/gradebook.png" alt="Gradebook screenshot" width="60%">
 
+*This image is just a thumbnail. I'm not going to let you zoom in to see the grades for Malcolm Reynolds!*
+
 ### Skills
 - Data Analysis (Google Sheets and plugins)
 

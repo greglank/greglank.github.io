@@ -5,12 +5,13 @@ This is a short list of my most relevant skills and certifications for data scie
 ## Technical Skills
 
 - **Programming:** Python, R, Java
-    - Includes **programming tools** like Git, Jupyter Notebooks, and Docker
+    - Includes programming tools like Git, Jupyter Notebooks, and Docker
     - Most of the projects below demonstrate programming skills
 - **Statistical and Numerical Analysis:** Pandas, NumPy, Excel, SPSS, NVivo, MATLAB/Octave
     - [Published Social Science Research](nature)
 - **Machine Learning and Deep Learning:** scikit-learn, XGBoost, Keras/TensorFlow
     - [Poker AI and Machine Learning Insights](ai)
+	- [bFusion Behavior Model](bfusion)
 - **Cloud Computing and AWS Deployment:** AWS SageMaker, Apache Airflow
 	- [Student Risk Model](cbe)
 - **Relational Databases:** SQL (Amazon Redshift/PostgreSQL, MySQL, SQLite)
@@ -24,15 +25,15 @@ This is a short list of my most relevant skills and certifications for data scie
     - [Published Social Science Research](nature)
 - **Writing and Communication**
 	- [Poker AI and Machine Learning Insights](ai)
-    - [COVID-19: What You Can Do](covid)
+    - [COVID-19: A Data Scientist's Perspective](covid)
 - **Public Speaking and Project Management**
-    - [Harold F. Martin Graduate Assistant Outstanding Teaching Award](https://gradschool.psu.edu/graduate-school-funding/programs/gradteach/): University-level award for outstanding teaching performance
+    - [Harold F. Martin Graduate Assistant Outstanding Teaching Award](https://gradschool.psu.edu/funding/student-recognition-awards/harold-f-martin-graduate-assistant-outstanding-teaching-award): University-level award for outstanding teaching performance
 - **Intellectual Curiosity, Leadership, Service, and Character**
     - [Boettcher Foundation Scholarship](https://boettcherfoundation.org/scholarships/prospective-scholars/faqs/): Four-year full scholarship to any college or university in Colorado
 
 ## Certifications
 
-**[AWS Certified AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/)**: Validates knowledge of artificial intelligence, machine learning, and generative AI concepts and use cases
+**[AWS Certified AI Practitioner](https://www.credly.com/badges/69100231-0670-4c32-85e9-786c498a41e2/public_url)**: Validates knowledge of artificial intelligence, machine learning, and generative AI concepts and use cases
 
 <a href="https://www.credly.com/badges/69100231-0670-4c32-85e9-786c498a41e2/public_url"><img src="images/aws-ai-practitioner.png" alt="AWS Certified AI Practitioner badge"></a>
 
