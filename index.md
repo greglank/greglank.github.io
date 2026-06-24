@@ -48,7 +48,7 @@ Mixed effects model to rank faculty who contribute the most to student success
 ## [bFusion Behavior Model](bfusion)
 Multi-stage factor analysis and gradient boosting model to predict student risk at multiple time scales
   
-<a href="bfusion"><img src="images/bfusion-example-square.png" alt="bFusion Behavior Model screenshot" width="60%"></a> 
+<a href="bfusion"><img src="images/bfusion-example-square.jpg" alt="bFusion Behavior Model screenshot" width="60%"></a> 
 
 ---
 
