@@ -34,21 +34,21 @@ Peer-reviewed study that uses mixed quantitative and qualitative analysis to dem
 ## [Student Risk Model](cbe)
 Multi-stage optimization and logistic regression model to identify at-risk students
   
-<a href="cbe"><img src="images/cbe-options-square.png" alt="Exciting screenshot coming soon" width="60%"></a>
+<a href="cbe"><img src="images/cbe-options-square.png" alt="Student Risk Model screenshot" width="60%"></a>
   
 ---
 
 ## [Faculty Prioritization Model](faculty)
 Mixed effects model to rank faculty who contribute the most to student success
   
-<a href="faculty"><img src="images/faculty-performance.png" alt="Exciting screenshot coming soon" width="60%"></a> 
+<a href="faculty"><img src="images/faculty-performance.png" alt="Faculty Prioritization Model screenshot" width="60%"></a> 
 
 ---
 
 ## [bFusion Behavior Model](bfusion)
 Multi-stage factor analysis and gradient boosting model to predict student risk at multiple time scales
   
-<a href="bfusion"><img src="images/bfusion-example-square.png" alt="Exciting screenshot coming soon" width="60%"></a> 
+<a href="bfusion"><img src="images/bfusion-example-square.png" alt="bFusion Behavior Model screenshot" width="60%"></a> 
 
 ---
 
