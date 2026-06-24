@@ -6,6 +6,8 @@ Multi-stage factor analysis and gradient boosting model to predict student risk 
 
 *Model development in progress; ready for pilot program*
 
+<img src="images/bfusion-example.png" alt="bFusion Behavior Model sample student prediction" width="60%">
+
 ### Skills
 - Programming (Python, Docker)
 - Statistical and numerical analysis (Pandas, NumPy)
