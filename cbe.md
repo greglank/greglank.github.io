@@ -6,7 +6,7 @@ Multi-stage optimization and logistic regression model to identify at-risk stude
 
 *Key business outcome:* Increased student success rate by 9% while reducing advisor case load by 32% vs. previous strategy. Increased student revenue while reducing advisor costs.
 
-<img src="images/cbe-options.png" alt="Slide describing precision-recall tradeoff and F1 score of Student Risk Model" width="60%">
+[![Slide describing precision-recall tradeoff for Student Risk Model](images/cbe-options.png)](images/cbe-options.png)
 
 ### Skills
 - Programming (Python, Docker)
