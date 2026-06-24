@@ -4,7 +4,7 @@
 
 Multi-stage factor analysis and gradient boosting model to predict student risk at multiple time scales
 
-*Model development in progress; ready for pilot program*
+Model development in progress; preparing for pilot program
 
 <img src="images/bfusion-example.png" alt="bFusion Behavior Model sample student prediction" width="60%">
 

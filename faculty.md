@@ -8,6 +8,8 @@ Improved existing legacy model. Reduced initial model set-up time by 85%; reduce
 
 *Key business outcome:* Model output utilized as a major component in faculty course assignments.
 
+<img src="images/faculty-performance.png" alt="Internal performance graph for Faculty Prioritization Model" width="60%">
+
 ### Skills
 - Programming (R)
 
